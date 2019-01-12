@@ -1,18 +1,18 @@
-import { Component } from 'react';
-import ScrollToTop from './ScrollToTop';
+import { Component } from "react";
+import ScrollToTop from "./ScrollToTop";
 
 export default class SmartLink extends Component {
   render() {
     let {
       display,
-      link = display.toLowerCase().replace(/ /g, '-'),
+      link = display.toLowerCase().replace(/ /g, "-"),
       newTab = false,
-      id = '',
-      className = '',
+      id = "",
+      className = "",
       style = {}
     } = this.props;
 
-    if (!link.startsWith('/')) {
+    if (!link.startsWith("/")) {
       link = `/${link}`;
     }
 
@@ -28,13 +28,13 @@ export default class SmartLink extends Component {
             }
           }
         }}
-        target={newTab ? '_blank' : '_self'}
-        rel={newTab ? 'noopener noreferrer' : ''}
+        target={newTab ? "_blank" : "_self"}
+        rel={newTab ? "noopener noreferrer" : ""}
         id={id}
         className={className}
         style={style}
       >
-        {display}
+        {display || this.props.children}
       </a>
     );
   }

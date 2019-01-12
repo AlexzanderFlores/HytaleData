@@ -1,0 +1,9 @@
+.social-media {
+  grid-template-columns: repeat(4, auto);
+  width: 125px;
+}
+
+.social-media .fab {
+  font-size: 20px;
+  color: #fff;
+}

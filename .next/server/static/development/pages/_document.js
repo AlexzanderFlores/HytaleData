@@ -110,7 +110,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/document */ "next/document");
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "C:\\Users\\MS\\Desktop\\HytaleData\\website\\pages\\_document.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -155,256 +154,94 @@ function (_Document) {
   _createClass(MyDocument, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("html", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Head"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("html", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Head"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+        charSet: "utf-8"
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1, shrink-to-fit=no"
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "shortcut icon",
-        href: "https://cdn.hytaledata.com/favicon.ico",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
+        href: "https://cdn.hytaledata.com/favicon.ico"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "/static/common.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
+        href: "/static/common.css"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://use.fontawesome.com/releases/v5.1.0/css/all.css",
-        integrity: "sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt",
-        crossOrigin: "anonymous",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
+        href: "https://use.fontawesome.com/releases/v5.1.0/css/all.css"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
+        href: "https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "keywords",
-        content: "hytale, server analytics, network data",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 32
-        },
-        __self: this
+        content: "hytale server analytics, hytale network analytics, hytale server data, hytale network data"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "robots",
-        content: "index, follow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
+        content: "index, follow"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "author",
-        content: "Hytale Data",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
+        content: "Hytale Data"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:card",
-        content: "summary_large_image",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
+        content: "summary_large_image"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:title",
-        content: "Hytale Data - Analytics to grow your server",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
+        content: "Hytale Data - Analytics to grow your server"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:description",
-        content: "Analytics to grow your server",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
+        content: "Analytics to grow your server"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:url",
-        content: "//hytaledata.com/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
+        content: "//hytaledata.com/"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:site",
-        content: "@HytaleData",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
+        content: "@HytaleData"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "twitter:image",
-        content: "https://cdn.hytaledata.com/how_it_works.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
+        content: "https://cdn.hytaledata.com/how_it_works.png"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:image:alt",
-        content: "Hytale Data - Analytics to grow your server",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
+        content: "Hytale Data - Analytics to grow your server"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:title",
-        content: "Hytale Data - Analytics to grow your server",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
+        content: "Hytale Data - Analytics to grow your server"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:url",
-        content: "https://hytaledata.com/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
+        content: "https://hytaledata.com/"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:description",
-        content: "Analytics to grow your server",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
+        content: "Analytics to grow your server"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:image",
-        content: "https://cdn.hytaledata.com/how_it_works.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70
-        },
-        __self: this
+        content: "https://cdn.hytaledata.com/how_it_works.png"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:site_name",
-        content: "Hytale Data - Analytics to grow your server",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
+        content: "Hytale Data - Analytics to grow your server"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:locale",
-        content: "en",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
+        content: "en"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "home",
-        href: "https://hytaledata.com/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80
-        },
-        __self: this
+        href: "https://hytaledata.com/"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "canonical",
-        href: "https://hytaledata.com/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81
-        },
-        __self: this
+        href: "https://hytaledata.com/"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
         async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=UA-128565812-1",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83
-        },
-        __self: this
+        src: "https://www.googletagmanager.com/gtag/js?id=UA-128565812-1"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
         dangerouslySetInnerHTML: {
           __html: "\n                window.dataLayer = window.dataLayer || [];\n                function gtag(){dataLayer.push(arguments)};\n                gtag('js', new Date());\n                gtag('config', 'UA-128565812-1');\n              "
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
+        }
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
         id: "stripe-js",
         src: "https://js.stripe.com/v3/",
-        async: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        id: "top",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102
-        },
-        __self: this
-      })));
+        async: true
+      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        id: "top"
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], null)));
     }
   }], [{
     key: "getInitialProps",

@@ -26,6 +26,7 @@
     "next-routes": "^1.4.2",
     "node-fetch": "^2.3.0",
     "react": "^16.7.0",
+    "react-chartjs-2": "^2.7.4",
     "react-countup": "^4.0.0",
     "react-dom": "^16.7.0",
     "react-recaptcha-v3": "^1.0.2",

@@ -10,6 +10,11 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <meta charSet="utf-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          />
           <link
             rel="shortcut icon"
             href="https://cdn.hytaledata.com/favicon.ico"
@@ -18,8 +23,6 @@ export default class MyDocument extends Document {
           <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-            integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-            crossOrigin="anonymous"
           />
           <link
             rel="stylesheet"
@@ -31,7 +34,7 @@ export default class MyDocument extends Document {
           />
           <meta
             name="keywords"
-            content="hytale, server analytics, network data"
+            content="hytale server analytics, hytale network analytics, hytale server data, hytale network data"
           />
           <meta name="robots" content="index, follow" />
           <meta name="author" content="Hytale Data" />
