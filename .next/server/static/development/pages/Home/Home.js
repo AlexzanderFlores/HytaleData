@@ -189,7 +189,7 @@ function (_React$Component) {
         id: "footer-home",
         link: "/"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hytale.com/static/images/logo-h.png",
+        src: "https://cdn.hytaledata.com/logo-black.png",
         alt: "Hytale Data Logo"
       }), "Hytale Data"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "footer-title"
@@ -281,13 +281,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
@@ -303,9 +305,48 @@ function (_React$Component) {
     _classCallCheck(this, AboveTheFold);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(AboveTheFold).call(this, props));
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "getRandomData", function () {
+      var data = [];
+
+      for (var a = 0; a < 4; ++a) {
+        data.push(Math.floor(Math.random() * 400) + 300);
+      }
+
+      return data;
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "setNewData", function () {
+      _this.setState({
+        chartData: {
+          labels: ["April 21st", "April 22nd", "April 23rd", "April 24th"],
+          datasets: [{
+            label: "Revenue",
+            data: _this.getRandomData(),
+            fill: false,
+            borderColor: "#fa9d1c",
+            backgroundColor: "#fa9d1c"
+          }, {
+            label: "Average Player Count",
+            data: _this.getRandomData(),
+            fill: false,
+            borderColor: "#018acf",
+            backgroundColor: "#018acf"
+          }, {
+            label: "New Players Joined",
+            data: _this.getRandomData(),
+            fill: false,
+            borderColor: '#ee4130',
+            backgroundColor: '#ee4130'
+          }]
+        }
+      }, function () {
+        return setTimeout(_this.setNewData, 5000);
+      });
+    });
+
     _this.state = {
-      chartData: {},
-      chart: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null)
+      chartData: {}
     };
     return _this;
   }
@@ -313,59 +354,7 @@ function (_React$Component) {
   _createClass(AboveTheFold, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      var _this2 = this;
-
-      this.setState({
-        chart: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_chartjs_2__WEBPACK_IMPORTED_MODULE_1__["Line"], {
-          data: this.state.chartData,
-          options: {
-            maintainAspectRatio: true,
-            responsive: true,
-            title: {
-              text: "Hytale Server Analytics"
-            },
-            legend: {
-              position: "bottom"
-            },
-            tooltips: {
-              mode: "index",
-              intersect: false
-            },
-            hover: {
-              mode: "nearest",
-              intersect: true
-            },
-            scales: {
-              yAxes: [{
-                ticks: {
-                  beginAtZero: !this.state.chartData.labels
-                }
-              }]
-            }
-          }
-        })
-      }, function () {
-        setTimeout(function () {
-          _this2.setState({
-            chartData: {
-              labels: ["21st", "22nd", "23rd", "24th"],
-              datasets: [{
-                label: "Revenue",
-                data: [512, 702, 527, 805],
-                fill: false,
-                borderColor: "lightgreen",
-                backgroundColor: "lightgreen"
-              }, {
-                label: "Average Player Count",
-                data: [478, 518, 705, 714],
-                fill: false,
-                borderColor: "lightblue",
-                backgroundColor: "lightblue"
-              }]
-            }
-          });
-        }, 500);
-      });
+      setTimeout(this.setNewData, 500);
     }
   }, {
     key: "render",
@@ -374,11 +363,39 @@ function (_React$Component) {
         id: "above-the-fold",
         className: "center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "center"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Hytale Server Analytics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Grow and maintain your Hytale server with powerful analytics.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "intro-text",
+        className: "center-v"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Hytale Server Analytics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The tools & metrics you need to grow your Hytale server.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "chart",
         className: "center"
-      }, this.state.chart));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_chartjs_2__WEBPACK_IMPORTED_MODULE_1__["Line"], {
+        data: this.state.chartData,
+        options: {
+          maintainAspectRatio: true,
+          responsive: true,
+          title: {
+            text: "Hytale Server Analytics"
+          },
+          legend: {
+            position: "bottom"
+          },
+          tooltips: {
+            mode: "index",
+            intersect: false
+          },
+          hover: {
+            mode: "nearest",
+            intersect: true
+          },
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+          }
+        }
+      })));
     }
   }]);
 
@@ -400,15 +417,18 @@ function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Navigation_MainNavigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Navigation/MainNavigation */ "./pages/Navigation/MainNavigation.js");
-/* harmony import */ var _AboveTheFold_AboveTheFold__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AboveTheFold/AboveTheFold */ "./pages/Home/AboveTheFold/AboveTheFold.js");
-/* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Footer/Footer */ "./pages/Footer/Footer.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Navigation_MainNavigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Navigation/MainNavigation */ "./pages/Navigation/MainNavigation.js");
+/* harmony import */ var _AboveTheFold_AboveTheFold__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AboveTheFold/AboveTheFold */ "./pages/Home/AboveTheFold/AboveTheFold.js");
+/* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Footer/Footer */ "./pages/Footer/Footer.js");
+
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navigation_MainNavigation__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AboveTheFold_AboveTheFold__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Hytale Data - The tools & metrics you need to grow your Hytale server.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navigation_MainNavigation__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AboveTheFold_AboveTheFold__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
 });
 
 /***/ }),
@@ -510,7 +530,7 @@ function (_React$Component) {
         className: "center",
         link: "/"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://hytale.com/static/images/logo-h.png",
+        src: "https://cdn.hytaledata.com/logo.png",
         alt: "Hytale Data Logo"
       }), "Hytale Data"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         id: "nav-links",
@@ -778,6 +798,17 @@ function (_React$Component) {
 
 module.exports = __webpack_require__(/*! ./pages/Home/Home.js */"./pages/Home/Home.js");
 
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 

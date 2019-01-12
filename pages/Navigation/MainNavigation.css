@@ -1,8 +1,9 @@
 nav {
   grid-template-columns: 170px auto 125px;
-  background-color: #3c629c;
+  background-color: #141414;
   height: 100px;
   padding: 0 40px;
+  margin-bottom: 50px;
 }
 
 nav a {
@@ -15,7 +16,7 @@ nav a {
 }
 
 #nav-home img {
-  width: 60px;
+  width: 80px;
 }
 
 #nav-links {

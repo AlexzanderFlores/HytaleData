@@ -43,11 +43,11 @@ export default class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
-            content="Hytale Data - Analytics to grow your server"
+            content="Hytale Data - The tools &amp; metrics you need to grow your Hytale server."
           />
           <meta
             name="twitter:description"
-            content="Analytics to grow your server"
+            content="The tools &amp; metrics you need to grow your Hytale server."
           />
           <meta name="twitter:url" content="//hytaledata.com/" />
           <meta name="twitter:site" content="@HytaleData" />
@@ -57,18 +57,18 @@ export default class MyDocument extends Document {
           />
           <meta
             name="twitter:image:alt"
-            content="Hytale Data - Analytics to grow your server"
+            content="Hytale Data - The tools &amp; metrics you need to grow your Hytale server."
           />
 
           {/* Facebook */}
           <meta
             property="og:title"
-            content="Hytale Data - Analytics to grow your server"
+            content="Hytale Data - The tools &amp; metrics you need to grow your Hytale server."
           />
           <meta property="og:url" content="https://hytaledata.com/" />
           <meta
             property="og:description"
-            content="Analytics to grow your server"
+            content="The tools &amp; metrics you need to grow your Hytale server."
           />
           <meta
             property="og:image"
@@ -76,7 +76,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:site_name"
-            content="Hytale Data - Analytics to grow your server"
+            content="Hytale Data - The tools &amp; metrics you need to grow your Hytale server."
           />
           <meta property="og:locale" content="en" />
 

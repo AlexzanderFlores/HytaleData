@@ -188,10 +188,10 @@ function (_Document) {
         content: "summary_large_image"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:title",
-        content: "Hytale Data - Analytics to grow your server"
+        content: "Hytale Data - The tools & metrics you need to grow your Hytale server."
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:description",
-        content: "Analytics to grow your server"
+        content: "The tools & metrics you need to grow your Hytale server."
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:url",
         content: "//hytaledata.com/"
@@ -203,22 +203,22 @@ function (_Document) {
         content: "https://cdn.hytaledata.com/how_it_works.png"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:image:alt",
-        content: "Hytale Data - Analytics to grow your server"
+        content: "Hytale Data - The tools & metrics you need to grow your Hytale server."
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:title",
-        content: "Hytale Data - Analytics to grow your server"
+        content: "Hytale Data - The tools & metrics you need to grow your Hytale server."
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:url",
         content: "https://hytaledata.com/"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:description",
-        content: "Analytics to grow your server"
+        content: "The tools & metrics you need to grow your Hytale server."
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:image",
         content: "https://cdn.hytaledata.com/how_it_works.png"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:site_name",
-        content: "Hytale Data - Analytics to grow your server"
+        content: "Hytale Data - The tools & metrics you need to grow your Hytale server."
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:locale",
         content: "en"

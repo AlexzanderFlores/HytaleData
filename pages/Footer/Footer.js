@@ -17,7 +17,7 @@ export default class Footer extends React.Component {
         <div id="footer" className="center">
           <SmartLink id="footer-home" link="/">
             <img
-              src="https://hytale.com/static/images/logo-h.png"
+              src="https://cdn.hytaledata.com/logo-black.png"
               alt="Hytale Data Logo"
             />
             Hytale Data
