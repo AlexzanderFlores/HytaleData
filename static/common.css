@@ -47,3 +47,14 @@ ul {
 .circle {
   border-radius: 50%;
 }
+
+button {
+  background-color: #018acf;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}

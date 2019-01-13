@@ -4,10 +4,21 @@ import "./MainNavigation.css";
 
 export default class MainNavigation extends React.Component {
   state = {
-    dropDownClass: ""
+    dropDownClass: "",
+    style: {}
   };
 
   navigation = ["Solutions", "Pricing", "Login", "Signup"];
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        style: {
+          opacity: 1
+        }
+      });
+    }, 2500);
+  }
 
   onDropDownClick = () => {
     this.setState({
@@ -16,19 +27,23 @@ export default class MainNavigation extends React.Component {
   };
 
   render() {
-    const { dropDownClass } = this.state;
+    // const { dropDownClass } = this.state;
 
     return (
       <nav className="center-v">
         <SmartLink id="nav-home" className="center" link="/">
           <img
-            src="https://cdn.hytaledata.com/logo.png"
+            src="https://cdn.hytaledata.com/logo-slim.png"
             alt="Hytale Data Logo"
           />
           Hytale Data
         </SmartLink>
 
-        <ul id="nav-links" className={`center ${dropDownClass}`}>
+        <SmartLink id="beta-testing-button" link="/beta-testing">
+          <button style={this.state.style}>FREE BETA TESTING</button>
+        </SmartLink>
+
+        {/* <ul id="nav-links" className={`center ${dropDownClass}`}>
           {this.navigation.map(item => (
             <li key={item} className="center">
               <SmartLink link={`/${item.toLowerCase()}`}>{item}</SmartLink>
@@ -37,11 +52,11 @@ export default class MainNavigation extends React.Component {
           <li className="center">
             <SocialMedia classes="nav-mobile-social-media" />
           </li>
-        </ul>
+        </ul> */}
 
         <SocialMedia classes="nav-main-social-media" />
 
-        <div
+        {/* <div
           id="drop-down"
           className={dropDownClass}
           onClick={this.onDropDownClick}
@@ -49,7 +64,7 @@ export default class MainNavigation extends React.Component {
           <span />
           <span />
           <span />
-        </div>
+        </div> */}
       </nav>
     );
   }

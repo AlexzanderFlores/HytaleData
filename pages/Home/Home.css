@@ -1,0 +1,19 @@
+.planned-solution {
+  grid-template-columns: auto 400px 400px;
+  margin-top: 50px;
+  border: 1px solid red;
+}
+
+.planned-solution > * {
+  border: 1px solid blue;
+  height: 100%;
+  width: 100%;
+}
+
+.planned-solution-information {
+  max-width: 750px;
+}
+
+.planned-solution-information-text h2 {
+  margin-bottom: 15px;
+}

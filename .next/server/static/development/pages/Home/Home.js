@@ -189,41 +189,15 @@ function (_React$Component) {
         id: "footer-home",
         link: "/"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://cdn.hytaledata.com/logo-black.png",
+        src: "https://cdn.hytaledata.com/logo-slim-black.png",
         alt: "Hytale Data Logo"
-      }), "Hytale Data"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "footer-title"
-      }, "SOLUTIONS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        display: "Analytics"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        display: "Payment Gateway"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        display: "Plugins"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        display: "APIs"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        id: "footer-company"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "footer-title"
-      }, "COMPANY"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        display: "Affiliate Program"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        display: "Contact Us"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "footer-title"
-      }, "LEGAL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        display: "Terms of Service"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        display: "Privacy Policy"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        display: "Refund Policy"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), "Hytale Data"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "footer-social-media"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-title"
       }, "SOCIAL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_2__["default"], null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "copyright"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 ", this.getDate(), " Hytale Data, LLC."), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Not affiliated with", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 ", this.getDate(), " Alexzander Flores."), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Not affiliated with", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
         display: "Hytale",
         link: "//hytale.com",
         newTab: true
@@ -336,13 +310,21 @@ function (_React$Component) {
             label: "New Players Joined",
             data: _this.getRandomData(),
             fill: false,
-            borderColor: '#ee4130',
-            backgroundColor: '#ee4130'
+            borderColor: "#ee4130",
+            backgroundColor: "#ee4130"
           }]
         }
       }, function () {
-        return setTimeout(_this.setNewData, 5000);
+        return setTimeout(_this.setNewData, 10000);
       });
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "viewPlanned", function () {
+      console.log("viewPlanned");
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "request", function () {
+      console.log("request");
     });
 
     _this.state = {
@@ -365,7 +347,13 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "intro-text",
         className: "center-v"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Hytale Server Analytics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The tools & metrics you need to grow your Hytale server.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Hytale Server Analytics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "The tools & metrics you need to grow your Hytale server."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "cta-container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        onClick: this.viewPlanned
+      }, "PLANNED SOLUTIONS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        onClick: this.request
+      }, "REQUEST SOLUTION"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "chart",
         className: "center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_chartjs_2__WEBPACK_IMPORTED_MODULE_1__["Line"], {
@@ -406,6 +394,17 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./pages/Home/Home.css":
+/*!*****************************!*\
+  !*** ./pages/Home/Home.css ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./pages/Home/Home.js":
 /*!****************************!*\
   !*** ./pages/Home/Home.js ***!
@@ -421,15 +420,152 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navigation_MainNavigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Navigation/MainNavigation */ "./pages/Navigation/MainNavigation.js");
 /* harmony import */ var _AboveTheFold_AboveTheFold__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AboveTheFold/AboveTheFold */ "./pages/Home/AboveTheFold/AboveTheFold.js");
-/* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Footer/Footer */ "./pages/Footer/Footer.js");
+/* harmony import */ var _PlannedSolutions_IncomeStats__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PlannedSolutions/IncomeStats */ "./pages/Home/PlannedSolutions/IncomeStats.js");
+/* harmony import */ var _Footer_Footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Footer/Footer */ "./pages/Footer/Footer.js");
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Home.css */ "./pages/Home/Home.css");
+/* harmony import */ var _Home_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Home_css__WEBPACK_IMPORTED_MODULE_6__);
+
+
 
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Hytale Data - The tools & metrics you need to grow your Hytale server.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navigation_MainNavigation__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AboveTheFold_AboveTheFold__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Hytale Data - The tools & metrics you need to grow your Hytale server.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Navigation_MainNavigation__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AboveTheFold_AboveTheFold__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PlannedSolutions_IncomeStats__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_5__["default"], null));
 });
+
+/***/ }),
+
+/***/ "./pages/Home/PlannedSolutions/IncomeStats.js":
+/*!****************************************************!*\
+  !*** ./pages/Home/PlannedSolutions/IncomeStats.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_chartjs_2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-chartjs-2 */ "react-chartjs-2");
+/* harmony import */ var react_chartjs_2__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_chartjs_2__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _SolutionWanted_SolutionWanted__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../SolutionWanted/SolutionWanted */ "./pages/Home/SolutionWanted/SolutionWanted.js");
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "income-stats",
+    className: "center planned-solution"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center planned-solution-information"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "planned-solution-information-text"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Income Statistics"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Knowing your numbers is the first step to increasing your revenue. Income Statistics help track ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "conversion rate"), ",", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "average income per player"), ",", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "cost to acquire a paying player"), ", and more.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SolutionWanted_SolutionWanted__WEBPACK_IMPORTED_MODULE_2__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center planned-solution-graphs"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_chartjs_2__WEBPACK_IMPORTED_MODULE_1__["Pie"], {
+    data: {
+      labels: ["VIP", "VIP+", "Pets"],
+      datasets: [{
+        data: [432, 293, 789],
+        backgroundColor: ["#fa9d1c", "#018acf", "#ee4130"]
+      }]
+    },
+    options: {
+      maintainAspectRatio: false
+    },
+    height: 275
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center planned-solution-graphs"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_chartjs_2__WEBPACK_IMPORTED_MODULE_1__["Pie"], {
+    data: {
+      labels: ["VIP", "VIP+", "Pets"],
+      datasets: [{
+        data: [432, 293, 789],
+        backgroundColor: ["#fa9d1c", "#018acf", "#ee4130"]
+      }]
+    },
+    options: {
+      maintainAspectRatio: false
+    },
+    height: 275
+  })));
+});
+
+/***/ }),
+
+/***/ "./pages/Home/SolutionWanted/SolutionWanted.css":
+/*!******************************************************!*\
+  !*** ./pages/Home/SolutionWanted/SolutionWanted.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ "./pages/Home/SolutionWanted/SolutionWanted.js":
+/*!*****************************************************!*\
+  !*** ./pages/Home/SolutionWanted/SolutionWanted.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return SolutionWanted; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SolutionWanted_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SolutionWanted.css */ "./pages/Home/SolutionWanted/SolutionWanted.css");
+/* harmony import */ var _SolutionWanted_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_SolutionWanted_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var SolutionWanted =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(SolutionWanted, _React$Component);
+
+  function SolutionWanted() {
+    _classCallCheck(this, SolutionWanted);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(SolutionWanted).apply(this, arguments));
+  }
+
+  _createClass(SolutionWanted, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "solution-wanted center"
+      }, "Solution Wanted");
+    }
+  }]);
+
+  return SolutionWanted;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+
 
 /***/ }),
 
@@ -505,7 +641,8 @@ function (_React$Component) {
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(MainNavigation)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
-      dropDownClass: ""
+      dropDownClass: "",
+      style: {}
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "navigation", ["Solutions", "Pricing", "Login", "Signup"]);
@@ -520,9 +657,22 @@ function (_React$Component) {
   }
 
   _createClass(MainNavigation, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      setTimeout(function () {
+        _this2.setState({
+          style: {
+            opacity: 1
+          }
+        });
+      }, 2500);
+    }
+  }, {
     key: "render",
     value: function render() {
-      var dropDownClass = this.state.dropDownClass;
+      // const { dropDownClass } = this.state;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
         className: "center-v"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -530,29 +680,16 @@ function (_React$Component) {
         className: "center",
         link: "/"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "https://cdn.hytaledata.com/logo.png",
+        src: "https://cdn.hytaledata.com/logo-slim.png",
         alt: "Hytale Data Logo"
-      }), "Hytale Data"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        id: "nav-links",
-        className: "center ".concat(dropDownClass)
-      }, this.navigation.map(function (item) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-          key: item,
-          className: "center"
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-          link: "/".concat(item.toLowerCase())
-        }, item));
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "center"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        classes: "nav-mobile-social-media"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      }), "Hytale Data"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        id: "beta-testing-button",
+        link: "/beta-testing"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        style: this.state.style
+      }, "FREE BETA TESTING")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_2__["default"], {
         classes: "nav-main-social-media"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        id: "drop-down",
-        className: dropDownClass,
-        onClick: this.onDropDownClick
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null)));
+      }));
     }
   }]);
 

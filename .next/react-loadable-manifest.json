@@ -7,44 +7,10 @@
       "publicPath": "static/chunks/0.js"
     }
   ],
-  "./SocialMedia.css": [
+  "./Footer.css": [
     {
-      "id": "./pages/SocialMedia/SocialMedia.css",
-      "name": "./pages/SocialMedia/SocialMedia.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "undefined": [
-    {
-      "id": 4,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 5,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 6,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 7,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./MainNavigation.css": [
-    {
-      "id": "./pages/Navigation/MainNavigation.css",
-      "name": "./pages/Navigation/MainNavigation.css",
+      "id": "./pages/Footer/Footer.css",
+      "name": "./pages/Footer/Footer.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -57,10 +23,72 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "./Footer.css": [
+  "./Home.css": [
     {
-      "id": "./pages/Footer/Footer.css",
-      "name": "./pages/Footer/Footer.css",
+      "id": "./pages/Home/Home.css",
+      "name": "./pages/Home/Home.css",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./SolutionWanted.css": [
+    {
+      "id": "./pages/Home/SolutionWanted/SolutionWanted.css",
+      "name": "./pages/Home/SolutionWanted/SolutionWanted.css",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./MainNavigation.css": [
+    {
+      "id": "./pages/Navigation/MainNavigation.css",
+      "name": "./pages/Navigation/MainNavigation.css",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "undefined": [
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 5,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./SocialMedia.css": [
+    {
+      "id": "./pages/SocialMedia/SocialMedia.css",
+      "name": "./pages/SocialMedia/SocialMedia.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

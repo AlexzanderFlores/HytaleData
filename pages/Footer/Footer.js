@@ -17,13 +17,13 @@ export default class Footer extends React.Component {
         <div id="footer" className="center">
           <SmartLink id="footer-home" link="/">
             <img
-              src="https://cdn.hytaledata.com/logo-black.png"
+              src="https://cdn.hytaledata.com/logo-slim-black.png"
               alt="Hytale Data Logo"
             />
             Hytale Data
           </SmartLink>
 
-          <ul>
+          {/* <ul>
             <li className="footer-title">SOLUTIONS</li>
             <li>
               <SmartLink display="Analytics" />
@@ -66,7 +66,7 @@ export default class Footer extends React.Component {
             <li>
               <SmartLink display="Refund Policy" />
             </li>
-          </ul>
+          </ul> */}
 
           <div id="footer-social-media">
             <div className="footer-title">SOCIAL</div>
@@ -75,7 +75,7 @@ export default class Footer extends React.Component {
         </div>
 
         <div id="copyright">
-          <span>&copy; {this.getDate()} Hytale Data, LLC.</span>{" "}
+          <span>&copy; {this.getDate()} Alexzander Flores.</span>{" "}
           <span>
             Not affiliated with{" "}
             <SmartLink display="Hytale" link="//hytale.com" newTab={true} /> or{" "}

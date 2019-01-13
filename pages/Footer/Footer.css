@@ -6,7 +6,7 @@ footer {
 
 #footer {
   width: 100%;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 0 40px;
 }
 
@@ -23,7 +23,7 @@ footer {
 }
 
 #footer-home {
-  grid-template-columns: 70px 100px;
+  grid-template-columns: 80px 100px;
   width: 170px;
   justify-self: start;
 }
@@ -46,18 +46,19 @@ footer {
 }
 
 #footer .fab {
-  color: #000 !important;
+  color: #000e22 !important;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   footer {
-    height: 725px;
+    /* height: 725px; */
+    height: 300px;
     padding: 0 10px;
   }
 
   #footer {
     grid-template-columns: none;
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
     grid-row-gap: 30px;
   }
 
