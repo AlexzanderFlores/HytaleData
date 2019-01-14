@@ -1,19 +1,79 @@
-.planned-solution {
-  grid-template-columns: auto 400px 400px;
-  margin-top: 50px;
-  border: 1px solid red;
+.planned-solution-container {
+  margin-top: 125px;
+  padding: 0 30px;
 }
 
-.planned-solution > * {
-  border: 1px solid blue;
-  height: 100%;
+.planned-solution {
+  grid-template-columns: repeat(2, 699px);
+  max-width: 1400px;
   width: 100%;
 }
 
-.planned-solution-information {
-  max-width: 750px;
+.planned-solution > * {
+  height: 350px;
+  max-height: 350px;
+  width: 100%;
+  max-width: 100%;
 }
 
-.planned-solution-information-text h2 {
+.planned-solution-information {
+  height: auto;
+  padding-right: 20px;
+}
+
+.planned-solution-information h2 {
   margin-bottom: 15px;
+}
+
+.planned-solution-graphs {
+  justify-self: right;
+}
+
+@media screen and (max-width: 1470px) {
+  .planned-solution {
+    grid-template-columns: repeat(2, 499px);
+    max-width: 1000px;
+  }
+}
+
+@media screen and (min-width: 1081px) {
+  #ab-testing .planned-solution-information div {
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .planned-solution-container {
+    padding: 0;
+  }
+
+  .planned-solution {
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: 30px;
+    width: 99%;
+    max-width: 99%;
+  }
+
+  .planned-solution > * {
+    height: auto;
+    max-height: auto;
+  }
+
+  .planned-solution-information {
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  #game-stats {
+    grid-template-areas: "game-info" "game-graph";
+  }
+
+  #game-stats .planned-solution-information {
+    grid-area: game-info;
+  }
+
+  #game-stats .planned-solution-graphs {
+    grid-area: game-graph;
+  }
 }

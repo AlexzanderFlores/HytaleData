@@ -57,4 +57,9 @@ button {
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0c6a99;
 }

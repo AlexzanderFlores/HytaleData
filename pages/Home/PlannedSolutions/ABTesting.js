@@ -1,9 +1,10 @@
-import { Line } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import LearnMore from "../LearnMore/LearnMore";
 
 export default class IncomeStats extends React.Component {
   state = {
-    data: [[]]
+    A: [],
+    B: []
   };
 
   componentDidMount() {
@@ -13,7 +14,8 @@ export default class IncomeStats extends React.Component {
   setNewData = () => {
     this.setState(
       {
-        data: [this.getRandomData(3, 0.5, 6), this.getRandomData(3, 0.5, 6)]
+        A: this.getRandomData(4, 100, 1000),
+        B: this.getRandomData(4, 100, 1000)
       },
       () => setTimeout(this.setNewData, 10000)
     );
@@ -30,40 +32,39 @@ export default class IncomeStats extends React.Component {
   render() {
     return (
       <div className="center planned-solution-container">
-        <div id="income-stats" className="center planned-solution">
+        <div id="ab-testing" className="center planned-solution">
           <div className="planned-solution-information">
-            <h2>Income Statistics</h2>
+            <h2>A/B Testing</h2>
             <div>
-              Knowing your numbers is the first step to increasing your revenue.
-              Income Statistics help track <strong>conversion rate</strong>,{" "}
-              <strong>average income per player</strong>, and more.
+              Test out different wordings and colors on alerts, MOTDs, and more
+              with A/B testing. Provide multiple messages to split test and see
+              how players react to them. Use this to continuously optimize the
+              amount of players clicking on Voting or Shop links.
             </div>
-            <LearnMore solution="income-statistics" />
+            <LearnMore solution="ab-testing" />
           </div>
 
           <div className="center planned-solution-graphs">
-            <Line
+            <Bar
               data={{
-                labels: ["April", "May", "June"],
+                labels: ["April 21st", "April 22nd", "April 23rd"],
                 datasets: [
                   {
-                    label: "Conversion Rate",
-                    data: this.state.data[0],
-                    fill: false,
+                    label: "Vote Alert A",
+                    data: this.state.A,
                     borderColor: "#018acf",
                     backgroundColor: "#018acf"
                   },
                   {
-                    label: "Churn Rate",
-                    data: this.state.data[1],
-                    fill: false,
+                    label: "Vote Alert B",
+                    data: this.state.B,
                     borderColor: "#ee4130",
                     backgroundColor: "#ee4130"
                   }
                 ]
               }}
               options={{
-                maintainAspectRatio: false,
+                maintainAspectRatio: true,
                 responsive: true,
                 legend: {
                   position: "bottom"
@@ -81,7 +82,7 @@ export default class IncomeStats extends React.Component {
                     {
                       scaleLabel: {
                         display: true,
-                        labelString: "Percentage",
+                        labelString: "Website Clicks",
                         fontSize: 16
                       },
                       ticks: {

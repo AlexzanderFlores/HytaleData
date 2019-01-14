@@ -9,51 +9,70 @@ export default class AboveTheFold extends React.Component {
       chartData: {}
     };
   }
+  amount = 6;
+  index = [0, this.amount / 3, (this.amount / 3) * 2];
+  labels = [];
+  borderWidth = 7;
 
   componentDidMount() {
-    setTimeout(this.setNewData, 500);
-  }
-
-  getRandomData = () => {
-    const data = [];
-    for (let a = 0; a < 4; ++a) {
-      data.push(Math.floor(Math.random() * 400) + 300);
+    for (let a = 0; a < this.amount; ++a) {
+      this.labels.push("");
     }
-    return data;
-  };
+
+    this.setNewData();
+  }
 
   setNewData = () => {
     this.setState(
       {
         chartData: {
-          labels: ["April 21st", "April 22nd", "April 23rd", "April 24th"],
+          labels: this.labels,
           datasets: [
             {
-              label: "Revenue",
-              data: this.getRandomData(),
+              label: "0",
+              data: this.getRandomData(0),
               fill: false,
-              borderColor: "#fa9d1c",
-              backgroundColor: "#fa9d1c"
+              borderWidth: this.borderWidth,
+              borderColor: "#fa9d1c"
             },
             {
-              label: "Average Player Count",
-              data: this.getRandomData(),
+              label: "1",
+              data: this.getRandomData(1),
               fill: false,
-              borderColor: "#018acf",
-              backgroundColor: "#018acf"
+              borderWidth: this.borderWidth,
+              borderColor: "#018acf"
             },
             {
-              label: "New Players Joined",
-              data: this.getRandomData(),
+              label: "2",
+              data: this.getRandomData(2),
               fill: false,
-              borderColor: "#ee4130",
-              backgroundColor: "#ee4130"
+              borderWidth: this.borderWidth,
+              borderColor: "#ee4130"
             }
           ]
         }
       },
-      () => setTimeout(this.setNewData, 10000)
+      () => setTimeout(this.setNewData, 150)
     );
+  };
+
+  getRandomData = set => {
+    const data = [];
+    let index = this.index[set];
+    for (let a = 0; a < this.amount; ++a) {
+      let value = 1;
+      if (a === index) {
+        value = 5;
+      } else if (a === index - 1 || a === index + 1) {
+        value = 3;
+      }
+      data.push(value);
+    }
+    if (++index >= this.amount) {
+      index = 0;
+    }
+    this.index[set] = index;
+    return data;
   };
 
   viewPlanned = () => {
@@ -66,47 +85,68 @@ export default class AboveTheFold extends React.Component {
 
   render() {
     return (
-      <div id="above-the-fold" className="center">
-        <div id="intro-text" className="center-v">
-          <h1>Hytale Server Analytics</h1>
-          <h2>The tools &amp; metrics you need to grow your Hytale server.</h2>
-          <div id="cta-container">
-            <button onClick={this.viewPlanned}>PLANNED SOLUTIONS</button>
-            <button onClick={this.request}>REQUEST SOLUTION</button>
-          </div>
-        </div>
-
-        <div id="chart" className="center">
-          <Line
-            data={this.state.chartData}
-            options={{
-              maintainAspectRatio: true,
-              responsive: true,
-              title: {
-                text: "Hytale Server Analytics"
-              },
-              legend: {
-                position: "bottom"
-              },
-              tooltips: {
-                mode: "index",
-                intersect: false
-              },
-              hover: {
-                mode: "nearest",
-                intersect: true
-              },
-              scales: {
-                yAxes: [
-                  {
-                    ticks: {
-                      beginAtZero: true
-                    }
+      <div id="above-the-fold-container" className="center">
+        <div id="above-the-fold" className="center-v">
+          <div id="chart" className="center-v">
+            <Line
+              data={this.state.chartData}
+              options={{
+                maintainAspectRatio: false,
+                responsive: true,
+                legend: {
+                  display: false
+                },
+                tooltips: {
+                  enabled: false
+                },
+                elements: {
+                  point: {
+                    radius: 0
                   }
-                ]
-              }
-            }}
-          />
+                },
+                animation: {
+                  ease: "easeInOutBounce"
+                },
+                scales: {
+                  xAxes: [
+                    {
+                      gridLines: {
+                        display: false,
+                        drawBorder: false
+                      },
+                      ticks: {
+                        display: false
+                      }
+                    }
+                  ],
+                  yAxes: [
+                    {
+                      gridLines: {
+                        display: false,
+                        drawBorder: false
+                      },
+                      ticks: {
+                        display: false
+                      }
+                    }
+                  ]
+                }
+              }}
+            />
+          </div>
+
+          <div id="gradient" />
+
+          <div id="intro-text" className="center">
+            <h1>Hytale Server Analytics</h1>
+            <h2>
+              The tools &amp; metrics you need to grow your Hytale server.
+            </h2>
+            <div id="cta-container">
+              <button onClick={this.viewPlanned}>PLANNED SOLUTIONS</button>
+              <button onClick={this.request}>REQUEST SOLUTION</button>
+            </div>
+          </div>
         </div>
       </div>
     );

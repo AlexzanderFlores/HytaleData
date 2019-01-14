@@ -1,15 +1,26 @@
+#above-the-fold-container {
+  height: 300px;
+  margin: 150px 0 !important;
+  padding: 0 30px;
+}
+
 #above-the-fold {
-  margin-top: 150px !important;
-  padding: 30px;
-  grid-template-columns: 1fr 1fr;
+  position: relative;
+  max-width: 1400px;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #above-the-fold > * {
   width: 100%;
+  position: absolute;
 }
 
 #intro-text {
   max-width: 575px;
+  z-index: 1;
+  justify-self: center;
 }
 
 #intro-text h1 {
@@ -28,14 +39,34 @@
   margin-right: 20px;
 }
 
+#gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 1)
+  );
+  height: 50%;
+}
+
 #chart {
-  height: 100%;
-  max-width: 800px;
+  height: 50%;
 }
 
 /* When navigation gets taller */
 @media screen and (max-width: 680px) {
   #above-the-fold {
-    margin-top: 250px !important;
+    margin-top: 300px !important;
   }
 }

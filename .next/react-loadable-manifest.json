@@ -31,10 +31,10 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "./SolutionWanted.css": [
+  "./LearnMore.css": [
     {
-      "id": "./pages/Home/SolutionWanted/SolutionWanted.css",
-      "name": "./pages/Home/SolutionWanted/SolutionWanted.css",
+      "id": "./pages/Home/LearnMore/LearnMore.css",
+      "name": "./pages/Home/LearnMore/LearnMore.css",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
