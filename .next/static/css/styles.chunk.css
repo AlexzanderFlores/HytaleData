@@ -5,17 +5,30 @@
 
 .social-media .fab {
   font-size: 20px;
-  color: #fff;
+  color: #000e22;
+}
+
+.fa-discord:hover {
+  color: #7289da;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #3f729b;
+}
+
+.fa-youtube:hover {
+  color: #f00;
 }
 
 nav {
-  position: fixed;
-  background-color: #141414;
-  height: 100px;
+  background-color: #fff;
+  height: 120px;
   width: 100%;
-  top: 0;
   padding: 0 40px;
-  z-index: 2;
 }
 
 #nav {
@@ -24,10 +37,6 @@ nav {
   height: 100%;
   width: 100%;
   margin: 0 auto;
-}
-
-nav a {
-  color: #fff;
 }
 
 #nav-home {
@@ -91,84 +100,6 @@ nav .nav-mobile-social-media {
   }
 }
 
-#above-the-fold-container {
-  height: 300px;
-  margin: 150px 0 !important;
-  padding: 0 30px;
-}
-
-#above-the-fold {
-  position: relative;
-  max-width: 1400px;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-}
-
-#above-the-fold > * {
-  width: 100%;
-  position: absolute;
-}
-
-#intro-text {
-  max-width: 575px;
-  z-index: 1;
-  justify-self: center;
-}
-
-#intro-text h1 {
-  font-size: 2.5rem;
-}
-
-#intro-text h2 {
-  font-size: 1.25rem;
-}
-
-#cta-container {
-  margin-top: 25px;
-}
-
-#cta-container button {
-  margin-right: 20px;
-}
-
-#gradient {
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 1)
-  );
-  height: 50%;
-}
-
-#chart {
-  height: 50%;
-}
-
-/* When navigation gets taller */
-@media screen and (max-width: 680px) {
-  #above-the-fold {
-    margin-top: 300px !important;
-  }
-}
-
-.learn-more {
-  margin-top: 15px;
-  text-align: center;
-}
-
 footer {
   height: 200px;
   width: 100%;
@@ -217,10 +148,6 @@ footer {
   align-items: start;
 }
 
-#footer .fab {
-  color: #000e22 !important;
-}
-
 @media screen and (max-width: 600px) {
   footer {
     /* height: 725px; */
@@ -247,84 +174,95 @@ footer {
   }
 }
 
-.planned-solution-container {
-  margin-top: 125px;
-  padding: 0 30px;
+.solution {
+  display: inline-block;
+  height: 230px;
+  width: 400px;
+  margin: 30px 15px;
+  padding: 0 10px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition-duration: 0.2s;
 }
 
-.planned-solution {
-  grid-template-columns: repeat(2, 699px);
+.solution-data {
+  grid-template-rows: 30px auto;
+  height: 100%;
+  position: relative;
+}
+
+.solution-name {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.solution-description {
+  padding-top: 20px;
+}
+
+.solution-social-media {
+  display: flex;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+}
+
+.solution-social-media .social-media {
+  margin-left: 3px;
+  margin-top: 3px;
+  width: 30px;
+}
+
+.solution-rating {
+  position: absolute;
+  display: flex;
+  bottom: 5px;
+  right: 0;
+}
+
+.solution-rating .far {
+  margin-right: 2px;
+}
+
+.solution-rating-up,
+.solution-rating-down {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.solution-rating-up {
+  margin-right: 10px;
+}
+
+.solution-rating-up,
+.solution-rating-up * {
+  color: #018acf;
+}
+
+.solution-rating-down,
+.solution-rating-down * {
+  color: #ee4130;
+}
+
+#planned-solutions-container {
+  margin-top: 50px;
+}
+
+#planned-solutions {
   max-width: 1400px;
-  width: 100%;
 }
 
-.planned-solution > * {
-  height: 350px;
-  max-height: 350px;
-  width: 100%;
-  max-width: 100%;
+#planned-solutions-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
-.planned-solution-information {
-  height: auto;
-  padding-right: 20px;
-}
-
-.planned-solution-information h2 {
-  margin-bottom: 15px;
-}
-
-.planned-solution-graphs {
-  justify-self: right;
-}
-
-@media screen and (max-width: 1470px) {
-  .planned-solution {
-    grid-template-columns: repeat(2, 499px);
-    max-width: 1000px;
-  }
-}
-
-@media screen and (min-width: 1081px) {
-  #ab-testing .planned-solution-information div {
-    padding-right: 50px;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  .planned-solution-container {
-    padding: 0;
-  }
-
-  .planned-solution {
-    grid-template-columns: none;
-    grid-template-rows: repeat(2, auto);
-    grid-row-gap: 30px;
-    width: 99%;
-    max-width: 99%;
-  }
-
-  .planned-solution > * {
-    height: auto;
-    max-height: auto;
-  }
-
-  .planned-solution-information {
-    text-align: center;
-    padding: 0 10px;
-  }
-
-  #game-stats {
-    grid-template-areas: "game-info" "game-graph";
-  }
-
-  #game-stats .planned-solution-information {
-    grid-area: game-info;
-  }
-
-  #game-stats .planned-solution-graphs {
-    grid-area: game-graph;
-  }
+#solution-list {
+  display: inline-block;
+  text-align: center;
 }
 
 

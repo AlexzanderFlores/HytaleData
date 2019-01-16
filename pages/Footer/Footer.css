@@ -46,10 +46,6 @@ footer {
   align-items: start;
 }
 
-#footer .fab {
-  color: #000e22 !important;
-}
-
 @media screen and (max-width: 600px) {
   footer {
     /* height: 725px; */

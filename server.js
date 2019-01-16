@@ -2,6 +2,7 @@ const { parse } = require("url");
 const express = require("express");
 const session = require("express-session");
 const bodyParser = require("body-parser");
+const rp = require("request-promise");
 const uuid = require("uuid/v4");
 const next = require("next");
 
@@ -11,7 +12,18 @@ const app = next({ dev });
 
 const targets = {
   "/": "/Home/Home",
-  "/index": "/Home/Home"
+  "/index": "/Home/Home",
+  "/beta-testing": "/BetaTesting/BetaTesting",
+  "/planned-solutions": "/PlannedSolutions/PlannedSolutions"
+};
+
+const getIp = req => {
+  let ip = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
+  if (ip === "::1") {
+    ip = "162.202.163.77";
+  }
+
+  return ip;
 };
 
 app.prepare().then(() => {
@@ -31,6 +43,50 @@ app.prepare().then(() => {
       }
     })
   );
+
+  server.get("/recaptcha", async (req, res) => {
+    const ip = getIp(req);
+
+    let uri = `https://www.google.com/recaptcha/api/siteverify`;
+    uri += "?secret=6Ld31IkUAAAAALhC46_yGSsydLWnppsvUPtJNt9g";
+    uri += `&response=${req.query.response}`;
+    uri += `&remoteip=${ip}`;
+
+    const results = await rp.post(uri).then(data => JSON.parse(data));
+
+    req.session.secure = results.success;
+    res.send(req.session.secure);
+  });
+
+  server.post("/email-subscribe", async (req, res) => {
+    if (req.session.secure) {
+      const ip = getIp(req);
+      const { email } = req.query;
+      const { body } = req;
+
+      let uri = `https://vcz8ncghoc.execute-api.us-east-1.amazonaws.com/dev/email-subscribe?`;
+      uri += `email=${email}`;
+      uri += `&ip=${ip}`;
+
+      await rp({
+        uri,
+        method: "POST",
+        body,
+        json: true
+      }).catch(err => {
+        console.log(err.error);
+      });
+
+      res.status(200).send({
+        message:
+          "Thank you for signing up! You will be notified when beta testing is live. Follow our social media below for frequent updates or to get in contact!"
+      });
+    } else {
+      res.status(400).send({
+        message: "Recaptcha check failed!"
+      });
+    }
+  });
 
   server.get("*", (req, res) => {
     const parsedUrl = parse(req.url, true);

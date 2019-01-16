@@ -5,5 +5,21 @@
 
 .social-media .fab {
   font-size: 20px;
-  color: #fff;
+  color: #000e22;
+}
+
+.fa-discord:hover {
+  color: #7289da;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #3f729b;
+}
+
+.fa-youtube:hover {
+  color: #f00;
 }

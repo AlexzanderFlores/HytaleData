@@ -1,4 +1,5 @@
 import { Line } from "react-chartjs-2";
+import SmartLink from "../../SmartLink";
 import "./AboveTheFold.css";
 
 export default class AboveTheFold extends React.Component {
@@ -143,8 +144,12 @@ export default class AboveTheFold extends React.Component {
               The tools &amp; metrics you need to grow your Hytale server.
             </h2>
             <div id="cta-container">
-              <button onClick={this.viewPlanned}>PLANNED SOLUTIONS</button>
-              <button onClick={this.request}>REQUEST SOLUTION</button>
+              <SmartLink link="/planned-solutions">
+                <button onClick={this.viewPlanned}>PLANNED SOLUTIONS</button>
+              </SmartLink>
+              <SmartLink link="/request-solution">
+                <button onClick={this.request}>REQUEST SOLUTION</button>
+              </SmartLink>
             </div>
           </div>
         </div>

@@ -1,0 +1,143 @@
+#beta-testing-container {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#beta-testing {
+  max-width: 1400px;
+  padding: 0 20px;
+}
+
+#beta-testing-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#features {
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  margin-bottom: 20px;
+}
+
+#features .Checkbox {
+  margin-top: 3px;
+}
+
+#beta-testing .feature {
+  display: flex;
+  align-items: center;
+}
+
+#beta-testing form {
+  margin-top: 50px;
+  width: 100%;
+}
+
+#beta-testing form div:not(.Checkbox) {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#beta-testing form div label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#beta-testing form .Checkbox label {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#beta-testing form div input {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+#beta-testing .fa-question-circle {
+  margin-left: 5px;
+  position: relative;
+}
+
+#beta-testing .more-info {
+  display: none;
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  left: -150px;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 2;
+  text-align: center;
+  padding: 0 7px;
+  box-shadow: 0px 10px 52px 6px rgba(0, 0, 0, 0.16);
+}
+
+#beta-testing .fa-question-circle:hover .more-info {
+  display: grid !important;
+}
+
+#beta-testing .more-info a {
+  text-decoration: underline;
+  color: #0c6a99;
+}
+
+#other {
+  display: grid;
+  grid-template-columns: 75px auto;
+}
+
+#project-type div {
+  margin-top: 10px;
+}
+
+#legal-agree {
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#legal-agree a {
+  text-decoration: underline;
+}
+
+#beta-testing .submit-button {
+  margin: 10px 0;
+}
+
+#email-sub-result {
+  text-align: center;
+  max-width: 700px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  #beta-testing {
+    width: 100%;
+  }
+
+  #beta-testing .fa-question-circle {
+    position: static !important;
+  }
+
+  #beta-testing .more-info {
+    left: 5px;
+    right: 5px;
+    width: 90%;
+  }
+
+  #features {
+    grid-template-columns: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #beta-testing label {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #beta-testing label {
+    font-size: 12px !important;
+  }
+}

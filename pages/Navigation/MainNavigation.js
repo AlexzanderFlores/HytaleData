@@ -23,7 +23,7 @@ export default class MainNavigation extends React.Component {
         <div id="nav" className="center-v">
           <SmartLink id="nav-home" className="center" link="/">
             <img
-              src="https://cdn.hytaledata.com/logo-slim.png"
+              src="https://cdn.hytaledata.com/logo-slim-black.png"
               alt="Hytale Data Logo"
             />
             Hytale Data

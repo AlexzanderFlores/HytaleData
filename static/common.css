@@ -60,6 +60,32 @@ button {
   outline: none;
 }
 
+input,
+select,
+textarea {
+  width: 345px;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #dce0e6;
+  outline: none;
+  resize: none;
+}
+
 button:hover {
   background-color: #0c6a99;
+}
+
+.required {
+  color: #f00;
+  margin-left: 2px;
+}
+
+.grecaptcha-badge {
+  display: none !important;
+}
+
+.recaptcha-disclaimer a {
+  margin: 0 3px;
+  text-decoration: underline !important;
 }

@@ -229,6 +229,8 @@ function (_Document) {
         rel: "canonical",
         href: "https://hytaledata.com/"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
+        src: "https://www.google.com/recaptcha/api.js?render=6Ld31IkUAAAAAN--L8Z5eYfuQ3vjUZI4DgqSR0dY"
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
         async: true,
         src: "https://www.googletagmanager.com/gtag/js?id=UA-128565812-1"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {

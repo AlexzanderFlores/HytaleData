@@ -1,6 +1,6 @@
 #above-the-fold-container {
   height: 300px;
-  margin: 150px 0 !important;
+  margin: 50px 0 !important;
   padding: 0 30px;
 }
 
@@ -64,9 +64,28 @@
   height: 50%;
 }
 
-/* When navigation gets taller */
+@media screen and (max-width: 800px) {
+  #above-the-fold-container {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 680px) {
-  #above-the-fold {
-    margin-top: 300px !important;
+  #intro-text {
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  #intro-text h1 {
+    font-size: 1.5rem;
+  }
+
+  #intro-text h2 {
+    font-size: 0.75rem;
+  }
+
+  #cta-container {
+    display: grid;
+    grid-row-gap: 10px;
   }
 }

@@ -1,27 +1,26 @@
 import Head from "next/head";
-import MainNavigation from "../Navigation/MainNavigation";
+import NavFooter from "../NavFooter";
 import AboveTheFold from "./AboveTheFold/AboveTheFold";
 import IncomeStats from "./PlannedSolutions/IncomeStats";
 import GameStats from "./PlannedSolutions/GameStats";
 import ABTesting from "./PlannedSolutions/ABTesting";
-import Footer from "../Footer/Footer";
+import BetaTesting from "../BetaTesting/BetaTesting";
 import "./Home.css";
 
 export default () => (
-  <>
+  <NavFooter>
     <Head>
       <title>
         Hytale Data - The tools &amp; metrics you need to grow your Hytale
         server.
       </title>
     </Head>
-    <MainNavigation />
     <div id="content">
       <AboveTheFold />
       <IncomeStats />
       <GameStats />
       <ABTesting />
+      <BetaTesting noNav={true} />
     </div>
-    <Footer />
-  </>
+  </NavFooter>
 );

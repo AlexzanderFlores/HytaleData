@@ -1,11 +1,8 @@
 nav {
-  position: fixed;
-  background-color: #141414;
-  height: 100px;
+  background-color: #fff;
+  height: 120px;
   width: 100%;
-  top: 0;
   padding: 0 40px;
-  z-index: 2;
 }
 
 #nav {
@@ -14,10 +11,6 @@ nav {
   height: 100%;
   width: 100%;
   margin: 0 auto;
-}
-
-nav a {
-  color: #fff;
 }
 
 #nav-home {

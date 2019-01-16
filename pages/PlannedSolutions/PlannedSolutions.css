@@ -1,0 +1,18 @@
+#planned-solutions-container {
+  margin-top: 50px;
+}
+
+#planned-solutions {
+  max-width: 1400px;
+}
+
+#planned-solutions-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#solution-list {
+  display: inline-block;
+  text-align: center;
+}

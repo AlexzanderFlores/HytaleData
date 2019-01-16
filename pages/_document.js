@@ -83,6 +83,7 @@ export default class MyDocument extends Document {
           <link rel="home" href="https://hytaledata.com/" />
           <link rel="canonical" href="https://hytaledata.com/" />
 
+          <script src="https://www.google.com/recaptcha/api.js?render=6Ld31IkUAAAAAN--L8Z5eYfuQ3vjUZI4DgqSR0dY" />
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=UA-128565812-1`}

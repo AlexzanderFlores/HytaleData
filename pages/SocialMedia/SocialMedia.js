@@ -13,18 +13,26 @@ export default class SocialMedia extends React.Component {
   ];
 
   render() {
+    const { only, classes } = this.props;
+
     return (
-      <ul className={`center social-media ${this.props.classes || ""}`}>
-        {this.platforms.map(platform => (
-          <li key={platform.name}>
-            <SmartLink
-              link={platform.url || `//${platform.name}.com/HytaleData`}
-              newTab={true}
-            >
-              <i className={`fab fa-${platform.name}`} />
-            </SmartLink>
-          </li>
-        ))}
+      <ul className={`center social-media ${classes || ""}`}>
+        {this.platforms.map(platform => {
+          if (only && platform.name !== only) {
+            return;
+          }
+
+          return (
+            <li key={platform.name}>
+              <SmartLink
+                link={platform.url || `//${platform.name}.com/HytaleData`}
+                newTab={true}
+              >
+                <i className={`fab fa-${platform.name}`} />
+              </SmartLink>
+            </li>
+          );
+        })}
       </ul>
     );
   }
