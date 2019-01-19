@@ -1,0 +1,8 @@
+.recaptcha-disclaimer {
+  text-align: center;
+}
+
+.recaptcha-disclaimer a {
+  margin: 0 3px;
+  text-decoration: underline !important;
+}

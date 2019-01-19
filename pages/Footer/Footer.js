@@ -23,66 +23,42 @@ export default class Footer extends React.Component {
             Hytale Data
           </SmartLink>
 
-          {/* <ul>
-            <li className="footer-title">SOLUTIONS</li>
-            <li>
-              <SmartLink display="Analytics" />
-            </li>
-
-            <li>
-              <SmartLink display="Payment Gateway" />
-            </li>
-
-            <li>
-              <SmartLink display="Plugins" />
-            </li>
-
-            <li>
-              <SmartLink display="APIs" />
-            </li>
-          </ul>
-
-          <ul id="footer-company">
-            <li className="footer-title">COMPANY</li>
-            <li>
-              <SmartLink display="Affiliate Program" />
-            </li>
-
-            <li>
-              <SmartLink display="Contact Us" />
-            </li>
-          </ul>
-
           <ul>
             <li className="footer-title">LEGAL</li>
             <li>
-              <SmartLink display="Terms of Service" />
+              <SmartLink
+                display="Terms of Service"
+                link="/legal#terms-of-service"
+              />
             </li>
 
             <li>
-              <SmartLink display="Privacy Policy" />
+              <SmartLink
+                display="Privacy Policy"
+                link="/legal#privacy-policy"
+              />
             </li>
 
             <li>
-              <SmartLink display="Refund Policy" />
+              <SmartLink display="Refund Policy" link="/legal#refund-policy" />
             </li>
-          </ul> */}
+          </ul>
 
           <div id="footer-social-media">
             <div className="footer-title">SOCIAL</div>
-            <SocialMedia />
+            <SocialMedia source="footer" />
           </div>
         </div>
 
         <div id="copyright">
-          <span>&copy; {this.getDate()} Alexzander Flores.</span>{" "}
+          <span>&copy; {this.getDate()} Hytale Data.</span>{" "}
           <span>
             Not affiliated with{" "}
-            <SmartLink display="Hytale" link="//hytale.com" newTab={true} /> or{" "}
+            <SmartLink display="Hytale" link="//hytale.com" newTab /> or{" "}
             <SmartLink
               display="Hypixel Studios"
               link="//hypixelstudios.com"
-              newTab={true}
+              newTab
             />
             .
           </span>

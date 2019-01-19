@@ -5939,10 +5939,6 @@ __webpack_require__.r(__webpack_exports__);
 }, {
   name: "Affiliate / Referral Program",
   description: "Earn monthly commissions for each server owner you send to Hytale Data. Great to increase the lifetime value of your customers if you own a server list, hosting company, or any other similar website who's customer is a server owner."
-}, {
-  name: "Request a Feature",
-  description: "Test",
-  request: true
 }];
 features.forEach(function (feature, index) {
   features[index].id = feature.name.replace(/[-,&%()']/g, "").replace(/[ /]/g, "-").replace(/--/g, "-").replace(/--/g, "-").toLowerCase();
@@ -6057,13 +6053,26 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: "https://cdn.hytaledata.com/logo-slim-black.png",
         alt: "Hytale Data Logo"
-      }), "Hytale Data"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }), "Hytale Data"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "footer-title"
+      }, "LEGAL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        display: "Terms of Service",
+        link: "/legal#terms-of-service"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        display: "Privacy Policy",
+        link: "/legal#privacy-policy"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        display: "Refund Policy",
+        link: "/legal#refund-policy"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "footer-social-media"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-title"
-      }, "SOCIAL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_2__["default"], null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "SOCIAL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        source: "footer"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "copyright"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 ", this.getDate(), " Alexzander Flores."), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Not affiliated with", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\xA9 ", this.getDate(), " Hytale Data."), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Not affiliated with", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
         display: "Hytale",
         link: "//hytale.com",
         newTab: true
@@ -6220,7 +6229,7 @@ function (_React$Component) {
             opacity: 1
           }
         });
-      }, 2500);
+      }, 750);
     }
   }, {
     key: "render",
@@ -6243,6 +6252,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         style: this.state.style
       }, "FREE BETA TESTING")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        source: "navigation",
         classes: "nav-main-social-media"
       })));
     }
@@ -6307,15 +6317,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
@@ -6329,32 +6337,14 @@ function (_React$Component) {
   _inherits(PlannedSolutions, _React$Component);
 
   function PlannedSolutions() {
-    var _getPrototypeOf2;
-
-    var _this;
-
     _classCallCheck(this, PlannedSolutions);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(PlannedSolutions)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
-      ratings: {}
-    });
-
-    return _this;
+    return _possibleConstructorReturn(this, _getPrototypeOf(PlannedSolutions).apply(this, arguments));
   }
 
   _createClass(PlannedSolutions, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {}
-  }, {
     key: "render",
     value: function render() {
-      var ratings = this.state.ratings;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavFooter__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Hytale Data - Planned Solutions")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "planned-solutions-container",
         className: "center"
@@ -6368,8 +6358,7 @@ function (_React$Component) {
         id: "solution-list"
       }, _Features__WEBPACK_IMPORTED_MODULE_4__["default"].map(function (solution) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Solution_Solution__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({
-          key: solution.id,
-          ratings: ratings[solution.id]
+          key: solution.id
         }, solution));
       })))));
     }
@@ -6428,13 +6417,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
@@ -6445,48 +6436,80 @@ function (_React$Component) {
   _inherits(Solution, _React$Component);
 
   function Solution() {
+    var _getPrototypeOf2;
+
+    var _this;
+
     _classCallCheck(this, Solution);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Solution).apply(this, arguments));
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Solution)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
+      selected: false
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "toggleSelected", function (callback) {
+      return _this.setState({
+        selected: !_this.state.selected
+      }, callback);
+    });
+
+    return _this;
   }
 
   _createClass(Solution, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      var query = window.location.search;
+      var values = new URLSearchParams(query);
+      var solution = values.get("s");
+
+      if (solution && solution === this.props.id) {
+        var element = document.getElementById("solution-".concat(solution));
+
+        if (element) {
+          element.scrollIntoView({
+            behavior: "smooth"
+          });
+        }
+
+        this.toggleSelected(function () {
+          return setTimeout(_this2.toggleSelected, 1000);
+        });
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
+      var selected = this.state.selected;
       var _this$props = this.props,
           id = _this$props.id,
           name = _this$props.name,
-          description = _this$props.description,
-          _this$props$ratings = _this$props.ratings,
-          ratings = _this$props$ratings === void 0 ? {
-        up: 0,
-        down: 0
-      } : _this$props$ratings,
-          request = _this$props.request;
+          description = _this$props.description;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "solution-".concat(id),
-        className: "solution"
+        className: "solution",
+        style: selected ? {
+          border: "2px solid #ee4130"
+        } : {}
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "solution-data center-h"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "center solution-name"
       }, name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "center-h solution-description"
-      }, description), request ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "solution-social-media"
       }, "Questions? ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SocialMedia_SocialMedia__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        only: "discord"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "solution-rating"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "solution-rating-up"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        className: "far fa-thumbs-up"
-      }), ratings.up), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "solution-rating-down"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-        className: "far fa-thumbs-down"
-      }), ratings.down)))));
+        only: "discord",
+        source: "solutions-".concat(id)
+      }))));
     }
   }]);
 
@@ -6616,11 +6639,16 @@ function (_Component) {
           id = _this$props$id === void 0 ? "" : _this$props$id,
           _this$props$className = _this$props.className,
           className = _this$props$className === void 0 ? "" : _this$props$className,
+          underline = _this$props.underline,
           _this$props$style = _this$props.style,
           style = _this$props$style === void 0 ? {} : _this$props$style;
 
       if (!link.startsWith("/")) {
         link = "/".concat(link);
+      }
+
+      if (underline) {
+        style.textDecoration = "underline";
       }
 
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -6728,17 +6756,7 @@ function (_React$Component) {
 
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(SocialMedia)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "platforms", [{
-      name: "discord",
-      url: "//discord.gg/UGADfhu"
-    }, {
-      name: "twitter"
-    }, {
-      name: "instagram"
-    }, {
-      name: "youtube",
-      url: "//www.youtube.com/channel/UCDedgLAW1v4AYMllKUKzw2w"
-    }]);
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "platforms", ["discord", "twitter", "instagram", "youtube"]);
 
     return _this;
   }
@@ -6748,21 +6766,22 @@ function (_React$Component) {
     value: function render() {
       var _this$props = this.props,
           only = _this$props.only,
-          classes = _this$props.classes;
+          classes = _this$props.classes,
+          source = _this$props.source;
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "center social-media ".concat(classes || "")
       }, this.platforms.map(function (platform) {
-        if (only && platform.name !== only) {
+        if (only && platform !== only) {
           return;
         }
 
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-          key: platform.name
+          key: platform
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-          link: platform.url || "//".concat(platform.name, ".com/HytaleData"),
+          link: "/sm/".concat(platform, "?s=").concat(source),
           newTab: true
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-          className: "fab fa-".concat(platform.name)
+          className: "fab fa-".concat(platform)
         })));
       }));
     }
@@ -6794,7 +6813,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 14:
 /*!**********************************************************!*\
   !*** multi ./pages/PlannedSolutions/PlannedSolutions.js ***!
   \**********************************************************/
@@ -6819,5 +6838,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
+},[[14,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=PlannedSolutions.js.map

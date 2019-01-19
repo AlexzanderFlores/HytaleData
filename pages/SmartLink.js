@@ -9,11 +9,16 @@ export default class SmartLink extends Component {
       newTab = false,
       id = "",
       className = "",
+      underline,
       style = {}
     } = this.props;
 
     if (!link.startsWith("/")) {
       link = `/${link}`;
+    }
+
+    if (underline) {
+      style.textDecoration = "underline";
     }
 
     return (

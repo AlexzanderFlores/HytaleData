@@ -41,7 +41,7 @@ export default class IncomeStats extends React.Component {
               how players react to them. Use this to continuously optimize the
               amount of players clicking on Voting or Shop links.
             </div>
-            <LearnMore solution="ab-testing" />
+            <LearnMore solution="a-b-testing" />
           </div>
 
           <div className="center planned-solution-graphs">

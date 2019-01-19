@@ -11,7 +11,7 @@
 }
 
 .solution-data {
-  grid-template-rows: 30px auto;
+  grid-template-rows: 30px auto 30px;
   height: 100%;
   position: relative;
 }
@@ -28,44 +28,9 @@
 
 .solution-social-media {
   display: flex;
-  position: absolute;
-  bottom: 5px;
-  left: 0;
 }
 
 .solution-social-media .social-media {
   margin-left: 3px;
-  margin-top: 3px;
   width: 30px;
-}
-
-.solution-rating {
-  position: absolute;
-  display: flex;
-  bottom: 5px;
-  right: 0;
-}
-
-.solution-rating .far {
-  margin-right: 2px;
-}
-
-.solution-rating-up,
-.solution-rating-down {
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-.solution-rating-up {
-  margin-right: 10px;
-}
-
-.solution-rating-up,
-.solution-rating-up * {
-  color: #018acf;
-}
-
-.solution-rating-down,
-.solution-rating-down * {
-  color: #ee4130;
 }

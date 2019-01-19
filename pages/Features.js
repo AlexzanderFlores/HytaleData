@@ -58,11 +58,6 @@ const features = [
     name: "Affiliate / Referral Program",
     description:
       "Earn monthly commissions for each server owner you send to Hytale Data. Great to increase the lifetime value of your customers if you own a server list, hosting company, or any other similar website who's customer is a server owner."
-  },
-  {
-    name: "Request a Feature",
-    description: "Test",
-    request: true
   }
 ];
 

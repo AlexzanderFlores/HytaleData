@@ -81,11 +81,10 @@ button:hover {
   margin-left: 2px;
 }
 
-.grecaptcha-badge {
-  display: none !important;
+.underline {
+  text-decoration: underline;
 }
 
-.recaptcha-disclaimer a {
-  margin: 0 3px;
-  text-decoration: underline !important;
+.grecaptcha-badge {
+  display: none !important;
 }

@@ -63,10 +63,10 @@ export default class GameStats extends React.Component {
               <br />
               <br />
               Have a complex game with a lot of data points? Our powerful{" "}
-              <SmartLink display="API" newTab={true} /> lets you control what
-              data you collect and display in your dashboard.
+              <SmartLink display="API" newTab /> lets you control what data you
+              collect and display in your dashboard.
             </div>
-            <LearnMore solution="game-statistics" />
+            <LearnMore solution="game-play-stats" />
           </div>
         </div>
       </div>

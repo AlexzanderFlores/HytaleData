@@ -3,14 +3,13 @@ import NavFooter from "../NavFooter";
 import Checkbox from "../Checkbox/Checkbox";
 import features from "../Features";
 import UserPool from "../UserPool";
-import "./BetaTesting.css";
 import SmartLink from "../SmartLink";
+import Recaptcha from "../Recaptcha/Recaptcha";
+import "./BetaTesting.css";
 
 export default class BetaTesting extends React.Component {
   constructor(props) {
     super(props);
-
-    this.siteKey = "6Ld31IkUAAAAAN--L8Z5eYfuQ3vjUZI4DgqSR0dY";
 
     this.projects = [
       {
@@ -41,14 +40,6 @@ export default class BetaTesting extends React.Component {
     features.forEach(feature => (defaultState[feature.id] = false));
     this.projects.forEach(project => (defaultState[project.name] = false));
     this.state = defaultState;
-  }
-
-  componentDidMount() {
-    window.grecaptcha.ready(() => {
-      window.grecaptcha
-        .execute(this.siteKey, { action: "email_subscribe" })
-        .then(response => fetch(`/recaptcha?response=${response}`));
-    });
   }
 
   onToggle = event => {
@@ -162,24 +153,10 @@ export default class BetaTesting extends React.Component {
               <div id="features-container" className="center-v">
                 <label>Which features are you interested in?</label>
                 <div id="features" className="center-v">
-                  {features.map((feature, index) => {
+                  {features.map(feature => {
                     const { id } = feature;
 
-                    return index === features.length - 1 ? (
-                      <span key={id} className="feature">
-                        <Checkbox
-                          id={id}
-                          handler={this.onToggle}
-                          checked={false}
-                        >
-                          <SmartLink
-                            display={feature.name}
-                            link="feature-request"
-                            newTab={true}
-                          />
-                        </Checkbox>
-                      </span>
-                    ) : (
+                    return (
                       <span key={id} className="feature">
                         <Checkbox
                           id={id}
@@ -195,7 +172,7 @@ export default class BetaTesting extends React.Component {
                             features you want.
                             <SmartLink
                               link={`/planned-solutions?s=${id}`}
-                              newTab={true}
+                              newTab
                             >
                               Learn More about this Feature
                             </SmartLink>
@@ -241,23 +218,7 @@ export default class BetaTesting extends React.Component {
 
               <div className="center">
                 <span id="legal-agree">
-                  <div className="recaptcha-disclaimer">
-                    <span>
-                      This site is protected by reCAPTCHA and the Google
-                    </span>
-                    <SmartLink
-                      display="Privacy Policy"
-                      link="https://policies.google.com/privacy"
-                      newTab={true}
-                    />
-                    <span>and</span>
-                    <SmartLink
-                      display="Terms of Service"
-                      link="https://policies.google.com/terms"
-                      newTab={true}
-                    />
-                    <span>apply.</span>
-                  </div>
+                  <Recaptcha action="beta_signup" />
                   By signing up you agree to the Hytale Data{" "}
                   <SmartLink display="terms of service" /> and{" "}
                   <SmartLink display="privacy policy" />.

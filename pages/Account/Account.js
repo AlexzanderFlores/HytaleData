@@ -1,6 +1,5 @@
 import Cookies from "universal-cookie";
 import UserPool from "../UserPool";
-import "./Account.css";
 
 const AccountContext = React.createContext();
 

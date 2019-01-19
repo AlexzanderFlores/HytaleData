@@ -38,7 +38,7 @@ export default class IncomeStats extends React.Component {
               Income Statistics help track <strong>conversion rate</strong>,{" "}
               <strong>average income per player</strong>, and more.
             </div>
-            <LearnMore solution="income-statistics" />
+            <LearnMore solution="income-stats" />
           </div>
 
           <div className="center planned-solution-graphs">

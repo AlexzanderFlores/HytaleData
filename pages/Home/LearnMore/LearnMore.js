@@ -9,10 +9,7 @@ export default class LearnMore extends React.Component {
   render() {
     return (
       <div className="learn-more">
-        <SmartLink
-          link={`/beta-testing?s=${this.props.solution}`}
-          newTab={true}
-        >
+        <SmartLink link={`/planned-solutions?s=${this.props.solution}`} newTab>
           <button>LEARN MORE</button>
         </SmartLink>
       </div>

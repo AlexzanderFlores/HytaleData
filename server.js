@@ -14,7 +14,8 @@ const targets = {
   "/": "/Home/Home",
   "/index": "/Home/Home",
   "/beta-testing": "/BetaTesting/BetaTesting",
-  "/planned-solutions": "/PlannedSolutions/PlannedSolutions"
+  "/planned-solutions": "/PlannedSolutions/PlannedSolutions",
+  "/legal": "/Legal/Legal"
 };
 
 const getIp = req => {
@@ -55,16 +56,18 @@ app.prepare().then(() => {
     const results = await rp.post(uri).then(data => JSON.parse(data));
 
     req.session.secure = results.success;
+    req.session.action = results.action;
     res.send(req.session.secure);
   });
 
   server.post("/email-subscribe", async (req, res) => {
-    if (req.session.secure) {
+    if (req.session.secure && req.session.action === "beta_signup") {
       const ip = getIp(req);
       const { email } = req.query;
       const { body } = req;
 
-      let uri = `https://vcz8ncghoc.execute-api.us-east-1.amazonaws.com/dev/email-subscribe?`;
+      let uri =
+        "https://vcz8ncghoc.execute-api.us-east-1.amazonaws.com/dev/email-subscribe?";
       uri += `email=${email}`;
       uri += `&ip=${ip}`;
 
@@ -86,6 +89,38 @@ app.prepare().then(() => {
         message: "Recaptcha check failed!"
       });
     }
+  });
+
+  const validPlatforms = ["discord", "twitter", "instagram", "youtube"];
+
+  server.get("/sm/:platform", async (req, res) => {
+    let { platform } = req.params;
+    let { s: source } = req.query;
+
+    if (platform) {
+      platform = platform.toLowerCase();
+    }
+
+    if (source) {
+      source = source.toLowerCase();
+    }
+
+    if (platform && validPlatforms.includes(platform) && source) {
+      source = `-${source.toLowerCase()}`;
+      let uri =
+        "https://vcz8ncghoc.execute-api.us-east-1.amazonaws.com/dev/social-media-track?";
+      uri += `platform=${platform}${source}`;
+      rp.post(uri);
+    }
+
+    let url = `https://${platform}.com/HytaleData`;
+    if (platform === "youtube") {
+      url = "https://www.youtube.com/channel/UCDedgLAW1v4AYMllKUKzw2w";
+    } else if (platform === "discord") {
+      url = "https://discord.gg/UGADfhu";
+    }
+
+    res.redirect(url);
   });
 
   server.get("*", (req, res) => {

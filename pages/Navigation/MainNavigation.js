@@ -14,7 +14,7 @@ export default class MainNavigation extends React.Component {
           opacity: 1
         }
       });
-    }, 2500);
+    }, 750);
   }
 
   render() {
@@ -33,7 +33,7 @@ export default class MainNavigation extends React.Component {
             <button style={this.state.style}>FREE BETA TESTING</button>
           </SmartLink>
 
-          <SocialMedia classes="nav-main-social-media" />
+          <SocialMedia source="navigation" classes="nav-main-social-media" />
         </div>
       </nav>
     );

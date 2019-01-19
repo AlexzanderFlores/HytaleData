@@ -2,42 +2,45 @@ import SocialMedia from "../../SocialMedia/SocialMedia";
 import "./Solution.css";
 
 export default class Solution extends React.Component {
+  state = {
+    selected: false
+  };
+
+  componentDidMount() {
+    const query = window.location.search;
+    const values = new URLSearchParams(query);
+    const solution = values.get("s");
+
+    if (solution && solution === this.props.id) {
+      const element = document.getElementById(`solution-${solution}`);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+      this.toggleSelected(() => setTimeout(this.toggleSelected, 1000));
+    }
+  }
+
+  toggleSelected = callback =>
+    this.setState({ selected: !this.state.selected }, callback);
+
   render() {
-    const {
-      id,
-      name,
-      description,
-      ratings = { up: 0, down: 0 },
-      request
-    } = this.props;
+    const { selected } = this.state;
+    const { id, name, description } = this.props;
 
     return (
-      <div id={`solution-${id}`} className="solution">
+      <div
+        id={`solution-${id}`}
+        className="solution"
+        style={selected ? { border: "2px solid #ee4130" } : {}}
+      >
         <div className="solution-data center-h">
           <div className="center solution-name">{name}</div>
 
           <div className="center-h solution-description">{description}</div>
 
-          {request ? (
-            <></>
-          ) : (
-            <>
-              <div className="solution-social-media">
-                Questions? <SocialMedia only="discord" />
-              </div>
-
-              <div className="solution-rating">
-                <div className="solution-rating-up">
-                  <i className="far fa-thumbs-up" />
-                  {ratings.up}
-                </div>
-                <div className="solution-rating-down">
-                  <i className="far fa-thumbs-down" />
-                  {ratings.down}
-                </div>
-              </div>
-            </>
-          )}
+          <div className="solution-social-media">
+            Questions? <SocialMedia only="discord" source={`solutions-${id}`} />
+          </div>
         </div>
       </div>
     );

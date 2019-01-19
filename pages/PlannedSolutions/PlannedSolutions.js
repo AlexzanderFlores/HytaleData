@@ -5,15 +5,7 @@ import features from "../Features";
 import "./PlannedSolutions.css";
 
 export default class PlannedSolutions extends React.Component {
-  state = {
-    ratings: {}
-  };
-
-  componentDidMount() {}
-
   render() {
-    const { ratings } = this.state;
-
     return (
       <NavFooter>
         <Head>
@@ -28,11 +20,7 @@ export default class PlannedSolutions extends React.Component {
 
             <div id="solution-list">
               {features.map(solution => (
-                <Solution
-                  key={solution.id}
-                  ratings={ratings[solution.id]}
-                  {...solution}
-                />
+                <Solution key={solution.id} {...solution} />
               ))}
             </div>
           </div>
