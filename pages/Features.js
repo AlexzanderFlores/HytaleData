@@ -1,6 +1,6 @@
 const features = [
   {
-    name: "Income Stats",
+    name: "Income Data",
     description:
       "Understanding your conversion rate, average income per player, cost to acquire a player, and other similar stats is critical to making your server more profitable. Our solution helps you track and manage your revenue in a single dashboard."
   },

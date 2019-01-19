@@ -60,7 +60,7 @@ button {
   outline: none;
 }
 
-input,
+input:not([type="checkbox"]),
 select,
 textarea {
   width: 345px;

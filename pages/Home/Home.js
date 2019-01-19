@@ -20,7 +20,7 @@ export default () => (
       <IncomeStats />
       <GameStats />
       <ABTesting />
-      <BetaTesting noNav={true} />
+      <BetaTesting noNav />
     </div>
   </NavFooter>
 );

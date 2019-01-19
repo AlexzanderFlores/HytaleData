@@ -43,7 +43,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
-            content="Hytale Data - The tools &amp; metrics you need to grow your Hytale server."
+            content="Hytale Server Analytics by HytaleData.com - The tools &amp; metrics you need to grow your Hytale server."
           />
           <meta
             name="twitter:description"
@@ -57,13 +57,13 @@ export default class MyDocument extends Document {
           />
           <meta
             name="twitter:image:alt"
-            content="Hytale Data - The tools &amp; metrics you need to grow your Hytale server."
+            content="Hytale Server Analytics by HytaleData.com - The tools &amp; metrics you need to grow your Hytale server."
           />
 
           {/* Facebook */}
           <meta
             property="og:title"
-            content="Hytale Data - The tools &amp; metrics you need to grow your Hytale server."
+            content="Hytale Server Analytics by HytaleData.com - The tools &amp; metrics you need to grow your Hytale server."
           />
           <meta property="og:url" content="https://hytaledata.com/" />
           <meta
@@ -76,12 +76,22 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:site_name"
-            content="Hytale Data - The tools &amp; metrics you need to grow your Hytale server."
+            content="Hytale Server Analytics by HytaleData.com - The tools &amp; metrics you need to grow your Hytale server."
           />
           <meta property="og:locale" content="en" />
 
           <link rel="home" href="https://hytaledata.com/" />
           <link rel="canonical" href="https://hytaledata.com/" />
+
+          <meta
+            name="description"
+            content="Hytale Server Analytics by HytaleData.com - The tools &amp; metrics you need to grow your Hytale server."
+          />
+
+          <meta
+            name="google-site-verification"
+            content="37MQXKPWuUlnpWcOO6yh_OMs7ghSyTd2qx-s-lQNAik"
+          />
 
           <script src="https://www.google.com/recaptcha/api.js?render=6Ld31IkUAAAAAN--L8Z5eYfuQ3vjUZI4DgqSR0dY" />
           <script

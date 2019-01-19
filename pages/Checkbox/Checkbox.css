@@ -1,78 +1,10 @@
-.checkbox-input {
-  user-select: none;
-  cursor: pointer;
+.checkbox {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 20px auto 20px;
 }
 
-.checkbox-input span {
-  display: inline-block;
-  vertical-align: middle;
-  transform: translate3d(0, 0, 0);
-}
-
-.checkbox-input span:first-child {
-  position: relative;
-  width: 18px;
-  height: 18px;
-  border-radius: 3px;
-  transform: scale(1);
-  vertical-align: middle;
-  border: 1px solid #9098a9;
-  transition: all 0.2s ease;
-}
-
-.checkbox-input span:first-child svg {
-  position: absolute;
-  top: 3px;
-  left: 2px;
-  fill: none;
-  stroke: #fff;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-dasharray: 16px;
-  stroke-dashoffset: 16px;
-  transition: all 0.3s ease;
-  transition-delay: 0.1s;
-  transform: translate3d(0, 0, 0);
-}
-
-.checkbox-input span:first-child:before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: #018acf;
-  display: block;
-  transform: scale(0);
-  opacity: 1;
-  border-radius: 50%;
-}
-
-.checkbox-input span:last-child {
-  padding-left: 5px;
-}
-
-.checkbox-input:hover span:first-child {
-  border-color: #018acf;
-}
-
-.checkbox:checked + .checkbox-input span:first-child {
-  background: #018acf;
-  border-color: #018acf;
-  animation: wave 0.4s ease;
-}
-
-.checkbox:checked + .checkbox-input span:first-child svg {
-  stroke-dashoffset: 0;
-}
-
-.checkbox:checked + .checkbox-input span:first-child:before {
-  transform: scale(3.5);
-  opacity: 0;
-  transition: all 0.6s ease;
-}
-
-@keyframes wave {
-  50% {
-    transform: scale(0.9);
-  }
+.checkbox input {
+  height: 17px;
+  width: 17px;
 }

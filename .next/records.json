@@ -1,73 +1,4 @@
 {
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Home/Home.css": [
     {
       "modules": {
@@ -137,11 +68,11 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -160,11 +91,11 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -188,6 +119,29 @@
       "modules": {
         "byIdentifier": {
           "node_modules/css-loader/index.js??ref--5-1!pages/Recaptcha/Recaptcha.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -234,6 +188,52 @@
       "modules": {
         "byIdentifier": {
           "node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -1539,30 +1539,78 @@
       "commons": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Account\\Account.js": 4,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\API.js": 5,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\BetaTesting\\BetaTesting.js": 6,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Checkbox\\Checkbox.js": 7,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Features.js": 8,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Footer\\Footer.js": 9,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Home\\AboveTheFold\\AboveTheFold.js": 10,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Home\\Home.js": 11,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Home\\LearnMore\\LearnMore.js": 12,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Home\\PlannedSolutions\\ABTesting.js": 13,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Home\\PlannedSolutions\\GameStats.js": 14,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Home\\PlannedSolutions\\IncomeStats.js": 15,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Legal\\Legal.js": 16,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\NavFooter.js": 17,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Navigation\\MainNavigation.js": 18,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\PlannedSolutions\\PlannedSolutions.js": 19,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\PlannedSolutions\\Solution\\Solution.js": 20,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\Recaptcha\\Recaptcha.js": 21,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\ScrollToTop.js": 22,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\SmartLink.js": 23,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\SocialMedia\\SocialMedia.js": 24,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\UserPool.js": 25,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\_app.js": 26,
-      "static\\RBLJ696zaQVE5tNdrShsy\\pages\\_error.js": 27
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Account\\Account.js": 4,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\API.js": 5,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\BetaTesting\\BetaTesting.js": 6,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Checkbox\\Checkbox.js": 7,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Features.js": 8,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Footer\\Footer.js": 9,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Home\\AboveTheFold\\AboveTheFold.js": 10,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Home\\Home.js": 11,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Home\\LearnMore\\LearnMore.js": 12,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Home\\PlannedSolutions\\ABTesting.js": 13,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Home\\PlannedSolutions\\GameStats.js": 14,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Home\\PlannedSolutions\\IncomeStats.js": 15,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Legal\\Legal.js": 16,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\NavFooter.js": 17,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Navigation\\MainNavigation.js": 18,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\PlannedSolutions\\PlannedSolutions.js": 19,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\PlannedSolutions\\Solution\\Solution.js": 20,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\Recaptcha\\Recaptcha.js": 21,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\ScrollToTop.js": 22,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\SmartLink.js": 23,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\SocialMedia\\SocialMedia.js": 24,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\UserPool.js": 25,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\_app.js": 26,
+      "static\\51IdKSGg2744Cd~WxgCDX\\pages\\_error.js": 27,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Account\\Account.js": 28,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\API.js": 29,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\BetaTesting\\BetaTesting.js": 30,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Checkbox\\Checkbox.js": 31,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Features.js": 32,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Footer\\Footer.js": 33,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Home\\AboveTheFold\\AboveTheFold.js": 34,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Home\\Home.js": 35,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Home\\LearnMore\\LearnMore.js": 36,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Home\\PlannedSolutions\\ABTesting.js": 37,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Home\\PlannedSolutions\\GameStats.js": 38,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Home\\PlannedSolutions\\IncomeStats.js": 39,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Legal\\Legal.js": 40,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\NavFooter.js": 41,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Navigation\\MainNavigation.js": 42,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\PlannedSolutions\\PlannedSolutions.js": 43,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\PlannedSolutions\\Solution\\Solution.js": 44,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\Recaptcha\\Recaptcha.js": 45,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\ScrollToTop.js": 46,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\SmartLink.js": 47,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\SocialMedia\\SocialMedia.js": 48,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\UserPool.js": 49,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\_app.js": 50,
+      "static\\rxmwU40W~9xiOGOG_bR2j\\pages\\_error.js": 51,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Account\\Account.js": 4,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\API.js": 5,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\BetaTesting\\BetaTesting.js": 6,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Checkbox\\Checkbox.js": 7,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Features.js": 8,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Footer\\Footer.js": 9,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Home\\AboveTheFold\\AboveTheFold.js": 10,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Home\\Home.js": 11,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Home\\LearnMore\\LearnMore.js": 12,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Home\\PlannedSolutions\\ABTesting.js": 13,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Home\\PlannedSolutions\\GameStats.js": 14,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Home\\PlannedSolutions\\IncomeStats.js": 15,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Legal\\Legal.js": 16,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\NavFooter.js": 17,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Navigation\\MainNavigation.js": 18,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\PlannedSolutions\\PlannedSolutions.js": 19,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\PlannedSolutions\\Solution\\Solution.js": 20,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\Recaptcha\\Recaptcha.js": 21,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\ScrollToTop.js": 22,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\SmartLink.js": 23,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\SocialMedia\\SocialMedia.js": 24,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\UserPool.js": 25,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\_app.js": 26,
+      "static\\8CKkGaBL34Gt56uPwUJzk\\pages\\_error.js": 27
     },
     "bySource": {},
     "usedIds": [

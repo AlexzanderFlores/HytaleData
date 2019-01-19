@@ -19,7 +19,7 @@
   margin-bottom: 20px;
 }
 
-#features .Checkbox {
+#features .checkbox {
   margin-top: 3px;
 }
 
@@ -33,7 +33,7 @@
   width: 100%;
 }
 
-#beta-testing form div:not(.Checkbox) {
+#beta-testing form div:not(.checkbox) {
   width: 100%;
   margin-bottom: 20px;
 }
@@ -43,7 +43,7 @@
   font-size: 20px;
 }
 
-#beta-testing form .Checkbox label {
+#beta-testing form .checkbox label {
   font-weight: normal;
   font-size: 16px;
 }

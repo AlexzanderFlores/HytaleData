@@ -114,7 +114,10 @@ export default class BetaTesting extends React.Component {
     return (
       <NavFooter noNav={this.props.noNav}>
         <Head>
-          <title>Hytale Data Beta Testing</title>
+          <title>
+            Hytale Data - The tools &amp; metrics you need to grow your Hytale
+            server.
+          </title>
         </Head>
 
         <div id="beta-testing-container" className="center">
@@ -164,20 +167,20 @@ export default class BetaTesting extends React.Component {
                           checked={this.state[id]}
                         >
                           {feature.name}
-                        </Checkbox>
 
-                        <span className="fa fa-question-circle">
-                          <span className="center more-info">
-                            Checking this box will help us prioritize the
-                            features you want.
-                            <SmartLink
-                              link={`/planned-solutions?s=${id}`}
-                              newTab
-                            >
-                              Learn More about this Feature
-                            </SmartLink>
+                          <span className="fa fa-question-circle">
+                            <span className="center more-info">
+                              Checking this box will help us prioritize the
+                              features you want.
+                              <SmartLink
+                                link={`/planned-solutions?s=${id}`}
+                                newTab
+                              >
+                                Learn More about this Feature
+                              </SmartLink>
+                            </span>
                           </span>
-                        </span>
+                        </Checkbox>
                       </span>
                     );
                   })}

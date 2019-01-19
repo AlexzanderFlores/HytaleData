@@ -52267,14 +52267,14 @@ function (_React$Component) {
           id: id,
           handler: _this2.onToggle,
           checked: _this2.state[id]
-        }, feature.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        }, feature.name, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
           className: "fa fa-question-circle"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
           className: "center more-info"
         }, "Checking this box will help us prioritize the features you want.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SmartLink__WEBPACK_IMPORTED_MODULE_6__["default"], {
           link: "/planned-solutions?s=".concat(id),
           newTab: true
-        }, "Learn More about this Feature"))));
+        }, "Learn More about this Feature")))));
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "project-type",
         className: "center-v"
@@ -52394,35 +52394,22 @@ function (_Component) {
   _createClass(Checkbox, [{
     key: "render",
     value: function render() {
-      var handler = this.props.handler ? this.props.handler : null;
+      var handler = this.props.handler || null;
       var classes = this.props.classes ? this.props.classes + " checkbox" : "checkbox";
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: this.props.cbId,
-        className: "Checkbox",
+        className: "checkbox",
         title: this.props.title
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         type: "checkbox",
         id: this.props.id,
         name: this.props.id,
         className: classes,
-        style: {
-          display: "none"
-        },
         onChange: handler,
-        checked: this.props.checked,
-        display: this.props.children
+        checked: this.props.checked
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
-        htmlFor: this.props.id,
-        className: "checkbox-input"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, this.props.svg || react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-        width: "12px",
-        height: "10px",
-        viewBox: "0 0 12 10"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("polyline", {
-        points: "1.5 6 4.5 9 10.5 1"
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "checkbox-label"
-      }, this.props.children)));
+        htmlFor: this.props.id
+      }, this.props.children));
     }
   }]);
 
@@ -52462,7 +52449,7 @@ function (_Component) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {var features = [{
-  name: "Income Stats",
+  name: "Income Data",
   description: "Understanding your conversion rate, average income per player, cost to acquire a player, and other similar stats is critical to making your server more profitable. Our solution helps you track and manage your revenue in a single dashboard."
 }, {
   name: "Game Play Stats",
@@ -52638,7 +52625,7 @@ function (_React$Component) {
         display: "Hypixel Studios",
         link: "//hypixelstudios.com",
         newTab: true
-      }), ".")));
+      }), ". Hytale and Hytale images are trademarked property of Hypixel Studios.")));
     }
   }]);
 

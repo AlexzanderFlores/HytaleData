@@ -60,7 +60,8 @@ export default class Footer extends React.Component {
               link="//hypixelstudios.com"
               newTab
             />
-            .
+            . Hytale and Hytale images are trademarked property of Hypixel
+            Studios.
           </span>
         </div>
       </footer>

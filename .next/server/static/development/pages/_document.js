@@ -228,6 +228,9 @@ function (_Document) {
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "canonical",
         href: "https://hytaledata.com/"
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+        name: "google-site-verification",
+        content: "37MQXKPWuUlnpWcOO6yh_OMs7ghSyTd2qx-s-lQNAik"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
         src: "https://www.google.com/recaptcha/api.js?render=6Ld31IkUAAAAAN--L8Z5eYfuQ3vjUZI4DgqSR0dY"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
