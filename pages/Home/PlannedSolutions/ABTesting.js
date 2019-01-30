@@ -1,5 +1,6 @@
 import { Bar } from "react-chartjs-2";
 import LearnMore from "../LearnMore/LearnMore";
+import SmartLink from "../../SmartLink";
 
 export default class IncomeStats extends React.Component {
   state = {
@@ -31,7 +32,10 @@ export default class IncomeStats extends React.Component {
 
   render() {
     return (
-      <div className="center planned-solution-container">
+      <div
+        id="ab-testing-container"
+        className="center planned-solution-container"
+      >
         <div id="ab-testing" className="center planned-solution">
           <div className="planned-solution-information">
             <h2>A/B Testing</h2>
@@ -39,7 +43,7 @@ export default class IncomeStats extends React.Component {
               Test out different wordings and colors on alerts, MOTDs, and more
               with A/B testing. Provide multiple messages to split test and see
               how players react to them. Use this to continuously optimize the
-              amount of players clicking on Voting or Shop links.
+              amount of clicks on your Shop link.
             </div>
             <LearnMore solution="a-b-testing" />
           </div>
@@ -50,13 +54,13 @@ export default class IncomeStats extends React.Component {
                 labels: ["April 21st", "April 22nd", "April 23rd"],
                 datasets: [
                   {
-                    label: "Vote Alert A",
+                    label: "Sale Alert A",
                     data: this.state.A,
                     borderColor: "#018acf",
                     backgroundColor: "#018acf"
                   },
                   {
-                    label: "Vote Alert B",
+                    label: "Sale Alert B",
                     data: this.state.B,
                     borderColor: "#ee4130",
                     backgroundColor: "#ee4130"
@@ -64,7 +68,7 @@ export default class IncomeStats extends React.Component {
                 ]
               }}
               options={{
-                maintainAspectRatio: true,
+                maintainAspectRatio: false,
                 responsive: true,
                 legend: {
                   position: "bottom"
@@ -82,7 +86,7 @@ export default class IncomeStats extends React.Component {
                     {
                       scaleLabel: {
                         display: true,
-                        labelString: "Website Clicks",
+                        labelString: "Shop Clicks",
                         fontSize: 16
                       },
                       ticks: {

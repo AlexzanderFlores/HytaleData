@@ -15,12 +15,12 @@ export default class Footer extends React.Component {
     return (
       <footer className="center">
         <div id="footer" className="center">
-          <SmartLink id="footer-home" link="/">
+          <SmartLink id="footer-home" link="">
             <img
               src="https://cdn.hytaledata.com/logo-slim-black.png"
               alt="Hytale Data Logo"
             />
-            Hytale Data
+            HYTALE DATA
           </SmartLink>
 
           <ul>
@@ -28,19 +28,16 @@ export default class Footer extends React.Component {
             <li>
               <SmartLink
                 display="Terms of Service"
-                link="/legal#terms-of-service"
+                link="legal#terms-of-service"
               />
             </li>
 
             <li>
-              <SmartLink
-                display="Privacy Policy"
-                link="/legal#privacy-policy"
-              />
+              <SmartLink display="Privacy Policy" link="legal#privacy-policy" />
             </li>
 
             <li>
-              <SmartLink display="Refund Policy" link="/legal#refund-policy" />
+              <SmartLink display="Refund Policy" link="legal#refund-policy" />
             </li>
           </ul>
 

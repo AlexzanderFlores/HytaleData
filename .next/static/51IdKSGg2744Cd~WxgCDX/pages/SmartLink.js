@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{612:function(n,o,p){__NEXT_REGISTER_PAGE("/SmartLink",function(){return n.exports=p(4),{page:n.exports.default}})}},[[612,0,1]]]);

@@ -34,3 +34,15 @@
   margin-left: 3px;
   width: 30px;
 }
+
+@media screen and (max-width: 540px) {
+  .solution {
+    height: 280px;
+    width: calc(100% - 10px);
+    margin: 30px 5px;
+  }
+
+  .solution-description {
+    padding-top: 40px;
+  }
+}

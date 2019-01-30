@@ -8,9 +8,14 @@
   padding: 0 20px;
 }
 
-#beta-testing-title {
-  font-size: 24px;
-  font-weight: bold;
+#beta-testing h2 {
+  text-align: center;
+  font-size: 2.2em;
+}
+
+#optional-survey {
+  overflow-y: hidden;
+  transition-duration: 0.5s;
 }
 
 #features {
@@ -33,14 +38,26 @@
   width: 100%;
 }
 
-#beta-testing form div:not(.checkbox) {
+#password-error {
+  color: #ee4130;
+}
+
+#beta-testing form div:not(.checkbox):not(.optional) {
   width: 100%;
   margin-bottom: 20px;
 }
 
 #beta-testing form div label {
+  display: flex;
   font-weight: bold;
   font-size: 20px;
+}
+
+.optional {
+  align-self: center;
+  margin-left: 5px;
+  font-weight: 300;
+  font-size: 12px;
 }
 
 #beta-testing form .checkbox label {
@@ -86,7 +103,7 @@
   grid-template-columns: 75px auto;
 }
 
-#project-type div {
+#project-type div:not(.optional) {
   margin-top: 10px;
 }
 

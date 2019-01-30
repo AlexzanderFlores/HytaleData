@@ -56,7 +56,7 @@ export default class GameStats extends React.Component {
           <div className="planned-solution-information">
             <h2>Game Statistics</h2>
             <div>
-              Better understand what your players like by tracking{" "}
+              Better understand what your players enjoy by tracking{" "}
               <strong>map votes</strong>, <strong>kits selected</strong>,{" "}
               <strong>map ratings</strong>, and more. Use this data to create
               new content you know your players will love.

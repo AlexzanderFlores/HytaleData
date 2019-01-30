@@ -8,11 +8,11 @@ export default () => (
         <h1>Hytale Server Analytics</h1>
         <h2>The tools &amp; metrics you need to grow your Hytale server.</h2>
         <div id="cta-container">
-          <SmartLink link="/planned-solutions">
+          <SmartLink link="planned-solutions">
             <button>PLANNED SOLUTIONS</button>
           </SmartLink>
-          <SmartLink link="/sm/discord?s=header" newTab>
-            <button>JOIN OUR DISCORD</button>
+          <SmartLink link="sm/discord?s=header" newTab>
+            <button>DISCORD SERVER</button>
           </SmartLink>
         </div>
       </div>

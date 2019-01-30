@@ -14,7 +14,7 @@ export default class SmartLink extends Component {
     } = this.props;
 
     if (!link.startsWith("/")) {
-      link = `/${link}`;
+      link = `https://hytaledata.com/${link}`;
     }
 
     if (underline) {
@@ -38,6 +38,7 @@ export default class SmartLink extends Component {
         id={id}
         className={className}
         style={style}
+        target="_parent"
       >
         {display || this.props.children}
       </a>

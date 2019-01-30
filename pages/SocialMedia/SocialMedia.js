@@ -2,7 +2,7 @@ import SmartLink from "../SmartLink";
 import "./SocialMedia.css";
 
 export default class SocialMedia extends React.Component {
-  platforms = ["discord", "twitter", "instagram", "youtube"];
+  platforms = ["discord", "twitter", "instagram", "youtube", "facebook"];
 
   render() {
     const { only, classes, source } = this.props;
@@ -16,7 +16,7 @@ export default class SocialMedia extends React.Component {
 
           return (
             <li key={platform}>
-              <SmartLink link={`/sm/${platform}?s=${source}`} newTab>
+              <SmartLink link={`sm/${platform}?s=${source}`} newTab>
                 <i className={`fab fa-${platform}`} />
               </SmartLink>
             </li>

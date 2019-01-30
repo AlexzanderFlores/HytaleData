@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://hytaledata.com/</loc>
+    <lastmod>2019-01-29T15:41:45+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://hytaledata.com/planned-solutions</loc>
+    <lastmod>2019-01-29T15:41:45+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://hytaledata.com/beta-testing</loc>
+    <lastmod>2019-01-29T15:41:45+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://hytaledata.com/legal</loc>
+    <lastmod>2019-01-29T15:41:45+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://blog.hytaledata.com/</loc>
+    <lastmod>2019-01-29T15:43:22+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://blog.hytaledata.com/are-hytale-server-list-websites-viable/</loc>
+    <lastmod>2019-01-29T15:43:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://blog.hytaledata.com/author/alexzander/</loc>
+    <lastmod>2019-01-29T15:43:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>

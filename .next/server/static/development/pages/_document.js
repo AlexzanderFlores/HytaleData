@@ -154,7 +154,12 @@ function (_Document) {
   _createClass(MyDocument, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("html", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Head"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("html", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Head"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("base", {
+        target: "_parent"
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+        href: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700",
+        rel: "stylesheet"
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         charSet: "utf-8"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "viewport",
@@ -188,7 +193,7 @@ function (_Document) {
         content: "summary_large_image"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:title",
-        content: "Hytale Data - The tools & metrics you need to grow your Hytale server."
+        content: "Hytale Server Analytics by HytaleData.com"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:description",
         content: "The tools & metrics you need to grow your Hytale server."
@@ -200,13 +205,10 @@ function (_Document) {
         content: "@HytaleData"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "twitter:image",
-        content: "https://cdn.hytaledata.com/how_it_works.png"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        name: "twitter:image:alt",
-        content: "Hytale Data - The tools & metrics you need to grow your Hytale server."
+        content: "https://cdn.hytaledata.com/card.png"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:title",
-        content: "Hytale Data - The tools & metrics you need to grow your Hytale server."
+        content: "Hytale Server Analytics by HytaleData.com"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:url",
         content: "https://hytaledata.com/"
@@ -215,10 +217,10 @@ function (_Document) {
         content: "The tools & metrics you need to grow your Hytale server."
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:image",
-        content: "https://cdn.hytaledata.com/how_it_works.png"
+        content: "https://cdn.hytaledata.com/card.png"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:site_name",
-        content: "Hytale Data - The tools & metrics you need to grow your Hytale server."
+        content: "Hytale Server Analytics by HytaleData.com"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:locale",
         content: "en"
@@ -229,16 +231,20 @@ function (_Document) {
         rel: "canonical",
         href: "https://hytaledata.com/"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+        name: "description",
+        content: "Hytale Server Analytics by HytaleData.com - The tools & metrics you need to grow your Hytale server."
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "google-site-verification",
         content: "37MQXKPWuUlnpWcOO6yh_OMs7ghSyTd2qx-s-lQNAik"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
+        async: true,
         src: "https://www.google.com/recaptcha/api.js?render=6Ld31IkUAAAAAN--L8Z5eYfuQ3vjUZI4DgqSR0dY"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
         async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=UA-128565812-1"
+        src: "https://www.googletagmanager.com/gtag/js?id=UA-132783851-1"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
         dangerouslySetInnerHTML: {
-          __html: "\n                window.dataLayer = window.dataLayer || [];\n                function gtag(){dataLayer.push(arguments)};\n                gtag('js', new Date());\n                gtag('config', 'UA-128565812-1');\n              "
+          __html: "\n                window.dataLayer = window.dataLayer || [];\n                function gtag(){dataLayer.push(arguments)};\n                gtag('js', new Date());\n                gtag('config', 'UA-132783851-1');\n              "
         }
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
         id: "stripe-js",

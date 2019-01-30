@@ -10,6 +10,11 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <base target="_parent" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+            rel="stylesheet"
+          />
           <meta charSet="utf-8" />
           <meta
             name="viewport"
@@ -43,7 +48,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
-            content="Hytale Server Analytics by HytaleData.com - The tools &amp; metrics you need to grow your Hytale server."
+            content="Hytale Server Analytics by HytaleData.com"
           />
           <meta
             name="twitter:description"
@@ -53,17 +58,13 @@ export default class MyDocument extends Document {
           <meta name="twitter:site" content="@HytaleData" />
           <meta
             property="twitter:image"
-            content="https://cdn.hytaledata.com/how_it_works.png"
-          />
-          <meta
-            name="twitter:image:alt"
-            content="Hytale Server Analytics by HytaleData.com - The tools &amp; metrics you need to grow your Hytale server."
+            content="https://cdn.hytaledata.com/card.png"
           />
 
           {/* Facebook */}
           <meta
             property="og:title"
-            content="Hytale Server Analytics by HytaleData.com - The tools &amp; metrics you need to grow your Hytale server."
+            content="Hytale Server Analytics by HytaleData.com"
           />
           <meta property="og:url" content="https://hytaledata.com/" />
           <meta
@@ -72,11 +73,11 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://cdn.hytaledata.com/how_it_works.png"
+            content="https://cdn.hytaledata.com/card.png"
           />
           <meta
             property="og:site_name"
-            content="Hytale Server Analytics by HytaleData.com - The tools &amp; metrics you need to grow your Hytale server."
+            content="Hytale Server Analytics by HytaleData.com"
           />
           <meta property="og:locale" content="en" />
 
@@ -93,10 +94,13 @@ export default class MyDocument extends Document {
             content="37MQXKPWuUlnpWcOO6yh_OMs7ghSyTd2qx-s-lQNAik"
           />
 
-          <script src="https://www.google.com/recaptcha/api.js?render=6Ld31IkUAAAAAN--L8Z5eYfuQ3vjUZI4DgqSR0dY" />
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=UA-128565812-1`}
+            src="https://www.google.com/recaptcha/api.js?render=6Ld31IkUAAAAAN--L8Z5eYfuQ3vjUZI4DgqSR0dY"
+          />
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=UA-132783851-1`}
           />
           <script
             dangerouslySetInnerHTML={{
@@ -104,7 +108,7 @@ export default class MyDocument extends Document {
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments)};
                 gtag('js', new Date());
-                gtag('config', 'UA-128565812-1');
+                gtag('config', 'UA-132783851-1');
               `
             }}
           />

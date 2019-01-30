@@ -1,6 +1,6 @@
 #above-the-fold-container {
   height: 500px;
-  background: url("http://cdn.hytaledata.com/golem.jpg") no-repeat center -200px;
+  background: url("https://cdn.hytaledata.com/golem.jpg") no-repeat center;
 }
 
 #above-the-fold {
@@ -29,26 +29,25 @@
 
 #intro-text h2 {
   font-size: 1.25rem;
+  font-weight: normal;
   color: #fff;
 }
 
 #cta-container {
   margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 20px;
 }
 
 #cta-container button {
+  height: 44px;
   width: 235px;
 }
 
 @media screen and (max-width: 800px) {
   #above-the-fold-container {
     padding: 0;
-  }
-}
-
-@media screen and (min-width: 680px) {
-  #cta-container button {
-    margin-right: 20px;
   }
 }
 
@@ -68,6 +67,7 @@
 
   #cta-container {
     display: grid;
+    grid-template-columns: none;
     grid-row-gap: 10px;
   }
 }

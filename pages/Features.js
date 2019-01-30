@@ -12,7 +12,7 @@ const features = [
   {
     name: "Competitor Tracking & Comparison",
     description:
-      "Track your competitor's player count, recent updates, vote count, package prices, and more. Customizable notifications and tracking will help you stay ontop of your competitor's progress."
+      "Track your competitor's player count, recent updates, package prices, and more. Customizable notifications and tracking will help you stay ontop of your competitor's progress."
   },
   {
     name: "Influencer Management",
@@ -27,7 +27,7 @@ const features = [
   {
     name: "A/B Testing",
     description:
-      "Test out different wordings and colors on alerts, MOTDs, and more. Provide multiple messages to split test and see how players react to them. Use this to continuously optimize the amount of players clicking on Voting or Shop links."
+      "Test out different wordings and colors on alerts, MOTDs, and more. Provide multiple messages to split test and see how players react to them. Use this to continuously optimize the amount of players clicking on Shop links."
   },
   {
     name: "Complete Staffing Solution",

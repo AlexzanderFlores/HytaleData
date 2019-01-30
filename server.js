@@ -1,9 +1,11 @@
 const { parse } = require("url");
+const { join } = require("path");
 const express = require("express");
 const session = require("express-session");
 const bodyParser = require("body-parser");
 const rp = require("request-promise");
 const uuid = require("uuid/v4");
+const compression = require("compression");
 const next = require("next");
 
 const { PORT = 3000, NODE_ENV } = process.env;
@@ -14,13 +16,21 @@ const targets = {
   "/": "/Home/Home",
   "/index": "/Home/Home",
   "/beta-testing": "/BetaTesting/BetaTesting",
+  "/beta-testing-component": "/BetaTesting/BetaTestingComponent",
   "/planned-solutions": "/PlannedSolutions/PlannedSolutions",
-  "/legal": "/Legal/Legal"
+  "/legal": "/Legal/Legal",
+  "/nav": "/Navigation/MainNavigation",
+  "/footer": "/Footer/Footer"
+};
+
+const isLocalHost = req => {
+  const ip = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
+  return ip === "::1" || ip === "::ffff:127.0.0.1";
 };
 
 const getIp = req => {
   let ip = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
-  if (ip === "::1") {
+  if (isLocalHost(req)) {
     ip = "162.202.163.77";
   }
 
@@ -44,6 +54,14 @@ app.prepare().then(() => {
       }
     })
   );
+  server.use(compression());
+
+  server.use((req, res, next) => {
+    if (!isLocalHost(req) && req.protocol === "http") {
+      return res.redirect("https://" + req.get("host") + req.originalUrl);
+    }
+    next();
+  });
 
   server.get("/recaptcha", async (req, res) => {
     const ip = getIp(req);
@@ -63,12 +81,13 @@ app.prepare().then(() => {
   server.post("/email-subscribe", async (req, res) => {
     if (req.session.secure && req.session.action === "beta_signup") {
       const ip = getIp(req);
-      const { email } = req.query;
+      const { email, firstname } = req.query;
       const { body } = req;
 
       let uri =
         "https://vcz8ncghoc.execute-api.us-east-1.amazonaws.com/dev/email-subscribe?";
       uri += `email=${email}`;
+      uri += `&firstname=${firstname}`;
       uri += `&ip=${ip}`;
 
       await rp({
@@ -126,6 +145,13 @@ app.prepare().then(() => {
   server.get("*", (req, res) => {
     const parsedUrl = parse(req.url, true);
     const { pathname, query } = parsedUrl;
+
+    const rootStaticFiles = ["/robots.txt", "/sitemap.xml"];
+    if (rootStaticFiles.indexOf(pathname) > -1) {
+      const path = join(__dirname, "static", pathname);
+      app.serveStatic(req, res, path);
+      return;
+    }
 
     let target = targets[pathname];
     if (!target) {

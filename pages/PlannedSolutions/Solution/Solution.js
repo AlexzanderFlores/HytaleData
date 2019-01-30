@@ -2,21 +2,29 @@ import SocialMedia from "../../SocialMedia/SocialMedia";
 import "./Solution.css";
 
 export default class Solution extends React.Component {
-  state = {
-    selected: false
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      selected: false
+    };
+  }
 
   componentDidMount() {
-    const query = window.location.search;
-    const values = new URLSearchParams(query);
-    const solution = values.get("s");
+    try {
+      const query = window.location.search;
+      const values = new URLSearchParams(query);
+      const solution = values.get("s");
 
-    if (solution && solution === this.props.id) {
-      const element = document.getElementById(`solution-${solution}`);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+      if (solution && solution === this.props.id) {
+        const element = document.getElementById(`solution-${solution}`);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+        this.toggleSelected(() => setTimeout(this.toggleSelected, 1000));
       }
-      this.toggleSelected(() => setTimeout(this.toggleSelected, 1000));
+    } catch (error) {
+      console.error(error);
     }
   }
 

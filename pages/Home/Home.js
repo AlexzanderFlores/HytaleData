@@ -17,10 +17,10 @@ export default () => (
     </Head>
     <div id="content">
       <AboveTheFold />
+      <BetaTesting noNav />
       <IncomeStats />
       <GameStats />
       <ABTesting />
-      <BetaTesting noNav />
     </div>
   </NavFooter>
 );

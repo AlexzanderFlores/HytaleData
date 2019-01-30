@@ -1,5 +1,5 @@
 .social-media {
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   width: 125px;
 }
 
@@ -22,4 +22,8 @@
 
 .fa-youtube:hover {
   color: #f00;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
 }
