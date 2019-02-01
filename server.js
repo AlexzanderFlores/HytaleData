@@ -18,6 +18,7 @@ const targets = {
   "/beta-testing": "/BetaTesting/BetaTesting",
   "/beta-testing-component": "/BetaTesting/BetaTestingComponent",
   "/planned-solutions": "/PlannedSolutions/PlannedSolutions",
+  "/affiliate-program": "/AffiliateProgram/AffiliateProgram",
   "/legal": "/Legal/Legal",
   "/nav": "/Navigation/MainNavigation",
   "/footer": "/Footer/Footer"

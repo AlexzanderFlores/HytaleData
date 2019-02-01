@@ -183,9 +183,6 @@ function (_Document) {
         name: "keywords",
         content: "hytale server analytics, hytale network analytics, hytale server data, hytale network data"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        name: "robots",
-        content: "index, follow"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "author",
         content: "Hytale Data"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {

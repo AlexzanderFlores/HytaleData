@@ -1,9 +1,9 @@
 {
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -45,11 +45,34 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -91,29 +114,6 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Home/LearnMore/LearnMore.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Home/LearnMore/LearnMore.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": [
     {
       "modules": {
@@ -137,11 +137,80 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Home/LearnMore/LearnMore.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/Home/LearnMore/LearnMore.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/AffiliateProgram/AffiliateProgram.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/AffiliateProgram/AffiliateProgram.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -165,6 +234,29 @@
       "modules": {
         "byIdentifier": {
           "node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/PlannedSolutions.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -229,85 +321,16 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "modules": {
     "byIdentifier": {
       "node_modules/react/index.js": 0,
       "node_modules/moment/moment.js": 1,
       "node_modules/core-js/library/modules/_core.js": 2,
       "node_modules/buffer/index.js": 3,
-      "node_modules/chart.js/src/helpers/index.js": 4,
-      "node_modules/core-js/library/modules/_export.js": 5,
-      "node_modules/core-js/library/modules/_global.js": 6,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/SmartLink.js": 7,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/SmartLink.js": 4,
+      "node_modules/chart.js/src/helpers/index.js": 5,
+      "node_modules/core-js/library/modules/_export.js": 6,
+      "node_modules/core-js/library/modules/_global.js": 7,
       "node_modules/core-js/library/modules/_wks.js": 8,
       "node_modules/chart.js/src/core/core.defaults.js": 9,
       "node_modules/core-js/library/modules/_is-object.js": 10,
@@ -323,15 +346,15 @@
       "node_modules/core-js/library/modules/_fails.js": 20,
       "node_modules/core-js/library/modules/_iterators.js": 21,
       "node_modules/core-js/library/modules/_a-function.js": 22,
-      "node_modules/core-js/library/modules/_cof.js": 23,
-      "node_modules/core-js/library/modules/_library.js": 24,
-      "node_modules/core-js/library/modules/_set-to-string-tag.js": 25,
-      "node_modules/core-js/library/modules/_for-of.js": 26,
-      "node_modules/core-js/library/modules/es6.string.iterator.js": 27,
-      "node_modules/core-js/library/modules/_property-desc.js": 28,
-      "node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js": 29,
-      "node_modules/chart.js/src/core/core.element.js": 30,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/SocialMedia/SocialMedia.js": 31,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/SocialMedia/SocialMedia.js": 23,
+      "node_modules/core-js/library/modules/_cof.js": 24,
+      "node_modules/core-js/library/modules/_library.js": 25,
+      "node_modules/core-js/library/modules/_set-to-string-tag.js": 26,
+      "node_modules/core-js/library/modules/_for-of.js": 27,
+      "node_modules/core-js/library/modules/es6.string.iterator.js": 28,
+      "node_modules/core-js/library/modules/_property-desc.js": 29,
+      "node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js": 30,
+      "node_modules/chart.js/src/core/core.element.js": 31,
       "node_modules/core-js/library/modules/_object-create.js": 32,
       "node_modules/core-js/library/modules/_to-object.js": 33,
       "node_modules/core-js/library/modules/web.dom.iterable.js": 34,
@@ -423,80 +446,80 @@
       "node_modules/lodash/isSymbol.js": 120,
       "node_modules/lodash/_toKey.js": 121,
       "node_modules/crypto-js/sha256.js": 122,
-      "node_modules/crypto-js/enc-base64.js": 123,
-      "node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js": 124,
-      "node_modules/core-js/library/modules/es6.symbol.js": 125,
-      "node_modules/regenerator-runtime/runtime-module.js": 126,
-      "node_modules/regenerator-runtime/runtime.js": 127,
-      "node_modules/core-js/library/modules/_invoke.js": 128,
-      "node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js": 129,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Home/LearnMore/LearnMore.js": 130,
-      "node_modules/@babel/runtime-corejs2/core-js/array/is-array.js": 131,
-      "node_modules/core-js/library/modules/_collection-strong.js": 132,
-      "node_modules/core-js/library/modules/_collection.js": 133,
-      "node_modules/core-js/library/modules/_collection-to-json.js": 134,
-      "node_modules/core-js/library/modules/_set-collection-of.js": 135,
-      "node_modules/core-js/library/modules/_set-collection-from.js": 136,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Navigation/MainNavigation.js": 137,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Footer/Footer.js": 138,
-      "node_modules/next/head.js": 139,
-      "node_modules/core-js/library/fn/object/get-own-property-descriptor.js": 140,
-      "node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js": 141,
-      "node_modules/core-js/library/fn/object/define-property.js": 142,
-      "node_modules/core-js/library/modules/es6.object.define-property.js": 143,
-      "node_modules/core-js/library/modules/_enum-keys.js": 144,
-      "node_modules/core-js/library/modules/_array-includes.js": 145,
-      "node_modules/core-js/library/modules/_to-absolute-index.js": 146,
-      "node_modules/core-js/library/modules/_object-dps.js": 147,
-      "node_modules/core-js/library/modules/_object-gopn-ext.js": 148,
-      "node_modules/core-js/library/fn/promise.js": 149,
-      "node_modules/core-js/library/modules/_string-at.js": 150,
-      "node_modules/core-js/library/modules/_iter-create.js": 151,
-      "node_modules/core-js/library/modules/es6.array.iterator.js": 152,
-      "node_modules/core-js/library/modules/_add-to-unscopables.js": 153,
-      "node_modules/core-js/library/modules/es6.promise.js": 154,
-      "node_modules/core-js/library/modules/_microtask.js": 155,
-      "node_modules/core-js/library/modules/_user-agent.js": 156,
-      "node_modules/core-js/library/modules/es7.promise.finally.js": 157,
-      "node_modules/core-js/library/modules/es7.promise.try.js": 158,
-      "node_modules/core-js/library/fn/array/is-array.js": 159,
-      "node_modules/core-js/library/modules/es6.array.is-array.js": 160,
-      "node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js": 161,
-      "node_modules/core-js/library/fn/symbol/iterator.js": 162,
-      "node_modules/@babel/runtime-corejs2/core-js/symbol.js": 163,
-      "node_modules/core-js/library/fn/symbol/index.js": 164,
-      "node_modules/core-js/library/modules/es7.symbol.async-iterator.js": 165,
-      "node_modules/core-js/library/modules/es7.symbol.observable.js": 166,
-      "node_modules/core-js/library/fn/object/set-prototype-of.js": 167,
-      "node_modules/core-js/library/modules/es6.object.set-prototype-of.js": 168,
-      "node_modules/core-js/library/modules/_set-proto.js": 169,
-      "node_modules/core-js/library/fn/set.js": 170,
-      "node_modules/core-js/library/modules/es6.set.js": 171,
-      "node_modules/core-js/library/modules/_array-methods.js": 172,
-      "node_modules/core-js/library/modules/_array-species-create.js": 173,
-      "node_modules/core-js/library/modules/_array-species-constructor.js": 174,
-      "node_modules/core-js/library/modules/es7.set.to-json.js": 175,
-      "node_modules/core-js/library/modules/_array-from-iterable.js": 176,
-      "node_modules/core-js/library/modules/es7.set.of.js": 177,
-      "node_modules/core-js/library/modules/es7.set.from.js": 178,
-      "node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js": 179,
-      "node_modules/core-js/library/fn/object/get-prototype-of.js": 180,
-      "node_modules/core-js/library/modules/es6.object.get-prototype-of.js": 181,
-      "node_modules/@babel/runtime-corejs2/core-js/object/create.js": 182,
-      "node_modules/core-js/library/fn/object/create.js": 183,
-      "node_modules/core-js/library/modules/es6.object.create.js": 184,
-      "node_modules/lodash/_baseIsEqual.js": 185,
-      "node_modules/lodash/_Map.js": 186,
-      "node_modules/lodash/_MapCache.js": 187,
-      "node_modules/lodash/isLength.js": 188,
-      "node_modules/lodash/isArrayLike.js": 189,
-      "node_modules/lodash/_baseIteratee.js": 190,
-      "node_modules/lodash/_isKey.js": 191,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/NavFooter.js": 192,
-      "node_modules/react-chartjs-2/es/index.js": 193,
-      "node_modules/crypto-js/lib-typedarrays.js": 194,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/UserPool.js": 195,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Checkbox/Checkbox.js": 196,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Navigation/MainNavigation.js": 123,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Footer/Footer.js": 124,
+      "node_modules/crypto-js/enc-base64.js": 125,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/NavFooter.js": 126,
+      "node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js": 127,
+      "node_modules/core-js/library/modules/es6.symbol.js": 128,
+      "node_modules/regenerator-runtime/runtime-module.js": 129,
+      "node_modules/regenerator-runtime/runtime.js": 130,
+      "node_modules/core-js/library/modules/_invoke.js": 131,
+      "node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js": 132,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Home/LearnMore/LearnMore.js": 133,
+      "node_modules/@babel/runtime-corejs2/core-js/array/is-array.js": 134,
+      "node_modules/core-js/library/modules/_collection-strong.js": 135,
+      "node_modules/core-js/library/modules/_collection.js": 136,
+      "node_modules/core-js/library/modules/_collection-to-json.js": 137,
+      "node_modules/core-js/library/modules/_set-collection-of.js": 138,
+      "node_modules/core-js/library/modules/_set-collection-from.js": 139,
+      "node_modules/next/head.js": 140,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Checkbox/Checkbox.js": 141,
+      "node_modules/core-js/library/fn/object/get-own-property-descriptor.js": 142,
+      "node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js": 143,
+      "node_modules/core-js/library/fn/object/define-property.js": 144,
+      "node_modules/core-js/library/modules/es6.object.define-property.js": 145,
+      "node_modules/core-js/library/modules/_enum-keys.js": 146,
+      "node_modules/core-js/library/modules/_array-includes.js": 147,
+      "node_modules/core-js/library/modules/_to-absolute-index.js": 148,
+      "node_modules/core-js/library/modules/_object-dps.js": 149,
+      "node_modules/core-js/library/modules/_object-gopn-ext.js": 150,
+      "node_modules/core-js/library/fn/promise.js": 151,
+      "node_modules/core-js/library/modules/_string-at.js": 152,
+      "node_modules/core-js/library/modules/_iter-create.js": 153,
+      "node_modules/core-js/library/modules/es6.array.iterator.js": 154,
+      "node_modules/core-js/library/modules/_add-to-unscopables.js": 155,
+      "node_modules/core-js/library/modules/es6.promise.js": 156,
+      "node_modules/core-js/library/modules/_microtask.js": 157,
+      "node_modules/core-js/library/modules/_user-agent.js": 158,
+      "node_modules/core-js/library/modules/es7.promise.finally.js": 159,
+      "node_modules/core-js/library/modules/es7.promise.try.js": 160,
+      "node_modules/core-js/library/fn/array/is-array.js": 161,
+      "node_modules/core-js/library/modules/es6.array.is-array.js": 162,
+      "node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js": 163,
+      "node_modules/core-js/library/fn/symbol/iterator.js": 164,
+      "node_modules/@babel/runtime-corejs2/core-js/symbol.js": 165,
+      "node_modules/core-js/library/fn/symbol/index.js": 166,
+      "node_modules/core-js/library/modules/es7.symbol.async-iterator.js": 167,
+      "node_modules/core-js/library/modules/es7.symbol.observable.js": 168,
+      "node_modules/core-js/library/fn/object/set-prototype-of.js": 169,
+      "node_modules/core-js/library/modules/es6.object.set-prototype-of.js": 170,
+      "node_modules/core-js/library/modules/_set-proto.js": 171,
+      "node_modules/core-js/library/fn/set.js": 172,
+      "node_modules/core-js/library/modules/es6.set.js": 173,
+      "node_modules/core-js/library/modules/_array-methods.js": 174,
+      "node_modules/core-js/library/modules/_array-species-create.js": 175,
+      "node_modules/core-js/library/modules/_array-species-constructor.js": 176,
+      "node_modules/core-js/library/modules/es7.set.to-json.js": 177,
+      "node_modules/core-js/library/modules/_array-from-iterable.js": 178,
+      "node_modules/core-js/library/modules/es7.set.of.js": 179,
+      "node_modules/core-js/library/modules/es7.set.from.js": 180,
+      "node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js": 181,
+      "node_modules/core-js/library/fn/object/get-prototype-of.js": 182,
+      "node_modules/core-js/library/modules/es6.object.get-prototype-of.js": 183,
+      "node_modules/@babel/runtime-corejs2/core-js/object/create.js": 184,
+      "node_modules/core-js/library/fn/object/create.js": 185,
+      "node_modules/core-js/library/modules/es6.object.create.js": 186,
+      "node_modules/lodash/_baseIsEqual.js": 187,
+      "node_modules/lodash/_Map.js": 188,
+      "node_modules/lodash/_MapCache.js": 189,
+      "node_modules/lodash/isLength.js": 190,
+      "node_modules/lodash/isArrayLike.js": 191,
+      "node_modules/lodash/_baseIteratee.js": 192,
+      "node_modules/lodash/_isKey.js": 193,
+      "node_modules/react-chartjs-2/es/index.js": 194,
+      "node_modules/crypto-js/lib-typedarrays.js": 195,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/UserPool.js": 196,
       "node_modules/next/dist/lib/head.js": 197,
       "node_modules/next/dist/lib/side-effect.js": 198,
       "node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js": 199,
@@ -656,156 +679,156 @@
       "node_modules/lodash/_baseGet.js": 353,
       "node_modules/lodash/_castPath.js": 354,
       "node_modules/lodash/keyBy.js": 355,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Recaptcha/Recaptcha.js": 356,
-      "node_modules/base64-js/index.js": 357,
-      "node_modules/ieee754/index.js": 358,
-      "node_modules/isarray/index.js": 359,
-      "node_modules/crypto-js/hmac.js": 360,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": 361,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": 356,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Recaptcha/Recaptcha.js": 357,
+      "node_modules/base64-js/index.js": 358,
+      "node_modules/ieee754/index.js": 359,
+      "node_modules/isarray/index.js": 360,
+      "node_modules/crypto-js/hmac.js": 361,
       "node_modules/@babel/runtime-corejs2/helpers/objectSpread.js": 362,
-      "node_modules/process/browser.js": 363,
-      "node_modules/chart.js/src/core/core.js": 364,
-      "node_modules/chart.js/src/helpers/helpers.easing.js": 365,
-      "node_modules/chart.js/src/helpers/helpers.canvas.js": 366,
-      "node_modules/chart.js/src/helpers/helpers.options.js": 367,
-      "node_modules/chart.js/src/core/core.helpers.js": 368,
-      "node_modules/chartjs-color/node_modules/color-convert/index.js": 369,
-      "node_modules/chartjs-color/node_modules/color-convert/conversions.js": 370,
-      "node_modules/chartjs-color-string/color-string.js": 371,
-      "node_modules/color-name/index.js": 372,
-      "node_modules/chart.js/src/elements/element.arc.js": 373,
-      "node_modules/chart.js/src/elements/element.line.js": 374,
-      "node_modules/chart.js/src/elements/element.point.js": 375,
-      "node_modules/chart.js/src/elements/element.rectangle.js": 376,
-      "node_modules/chart.js/src/platforms/platform.basic.js": 377,
-      "node_modules/chart.js/src/platforms/platform.dom.js": 378,
-      "node_modules/chart.js/src/core/core.controller.js": 379,
-      "node_modules/chart.js/src/core/core.datasetController.js": 380,
-      "node_modules/chart.js/src/scales/scale.linearbase.js": 381,
-      "node_modules/chart.js/src/scales/scale.category.js": 382,
-      "node_modules/chart.js/src/scales/scale.linear.js": 383,
-      "node_modules/chart.js/src/scales/scale.logarithmic.js": 384,
-      "node_modules/chart.js/src/scales/scale.radialLinear.js": 385,
-      "node_modules/chart.js/src/scales/scale.time.js": 386,
-      "node_modules/moment/locale sync /^\\.\\/.*$/": 387,
-      "node_modules/chart.js/src/controllers/controller.bar.js": 388,
-      "node_modules/chart.js/src/controllers/controller.bubble.js": 389,
-      "node_modules/chart.js/src/controllers/controller.doughnut.js": 390,
-      "node_modules/chart.js/src/controllers/controller.line.js": 391,
-      "node_modules/chart.js/src/controllers/controller.polarArea.js": 392,
-      "node_modules/chart.js/src/controllers/controller.radar.js": 393,
-      "node_modules/chart.js/src/controllers/controller.scatter.js": 394,
-      "node_modules/chart.js/src/charts/Chart.Bar.js": 395,
-      "node_modules/chart.js/src/charts/Chart.Bubble.js": 396,
-      "node_modules/chart.js/src/charts/Chart.Doughnut.js": 397,
-      "node_modules/chart.js/src/charts/Chart.Line.js": 398,
-      "node_modules/chart.js/src/charts/Chart.PolarArea.js": 399,
-      "node_modules/chart.js/src/charts/Chart.Radar.js": 400,
-      "node_modules/chart.js/src/charts/Chart.Scatter.js": 401,
-      "node_modules/chart.js/src/plugins/index.js": 402,
-      "node_modules/chart.js/src/plugins/plugin.filler.js": 403,
-      "node_modules/chart.js/src/plugins/plugin.legend.js": 404,
-      "node_modules/chart.js/src/plugins/plugin.title.js": 405,
-      "node_modules/lodash/_baseIsEqualDeep.js": 406,
-      "node_modules/lodash/_listCacheClear.js": 407,
-      "node_modules/lodash/_listCacheDelete.js": 408,
-      "node_modules/lodash/_listCacheGet.js": 409,
-      "node_modules/lodash/_listCacheHas.js": 410,
-      "node_modules/lodash/_listCacheSet.js": 411,
-      "node_modules/lodash/_stackClear.js": 412,
-      "node_modules/lodash/_stackDelete.js": 413,
-      "node_modules/lodash/_stackGet.js": 414,
-      "node_modules/lodash/_stackHas.js": 415,
-      "node_modules/lodash/_stackSet.js": 416,
-      "node_modules/lodash/_baseIsNative.js": 417,
-      "node_modules/lodash/_getRawTag.js": 418,
-      "node_modules/lodash/_objectToString.js": 419,
-      "node_modules/lodash/_isMasked.js": 420,
-      "node_modules/lodash/_coreJsData.js": 421,
-      "node_modules/lodash/_getValue.js": 422,
-      "node_modules/lodash/_mapCacheClear.js": 423,
-      "node_modules/lodash/_Hash.js": 424,
-      "node_modules/lodash/_hashClear.js": 425,
-      "node_modules/lodash/_hashDelete.js": 426,
-      "node_modules/lodash/_hashGet.js": 427,
-      "node_modules/lodash/_hashHas.js": 428,
-      "node_modules/lodash/_hashSet.js": 429,
-      "node_modules/lodash/_mapCacheDelete.js": 430,
-      "node_modules/lodash/_isKeyable.js": 431,
-      "node_modules/lodash/_mapCacheGet.js": 432,
-      "node_modules/lodash/_mapCacheHas.js": 433,
-      "node_modules/lodash/_mapCacheSet.js": 434,
-      "node_modules/lodash/_SetCache.js": 435,
-      "node_modules/lodash/_setCacheAdd.js": 436,
-      "node_modules/lodash/_setCacheHas.js": 437,
-      "node_modules/lodash/_arraySome.js": 438,
-      "node_modules/lodash/_cacheHas.js": 439,
-      "node_modules/lodash/_equalByTag.js": 440,
-      "node_modules/lodash/_Uint8Array.js": 441,
-      "node_modules/lodash/_mapToArray.js": 442,
-      "node_modules/lodash/_setToArray.js": 443,
-      "node_modules/lodash/_equalObjects.js": 444,
-      "node_modules/lodash/_getAllKeys.js": 445,
-      "node_modules/lodash/_baseGetAllKeys.js": 446,
-      "node_modules/lodash/_arrayPush.js": 447,
-      "node_modules/lodash/_getSymbols.js": 448,
-      "node_modules/lodash/_arrayFilter.js": 449,
-      "node_modules/lodash/stubArray.js": 450,
-      "node_modules/lodash/_arrayLikeKeys.js": 451,
-      "node_modules/lodash/_baseTimes.js": 452,
-      "node_modules/lodash/_baseIsArguments.js": 453,
-      "node_modules/lodash/stubFalse.js": 454,
-      "node_modules/lodash/_baseIsTypedArray.js": 455,
-      "node_modules/lodash/_baseUnary.js": 456,
-      "node_modules/lodash/_nodeUtil.js": 457,
-      "node_modules/lodash/_baseKeys.js": 458,
-      "node_modules/lodash/_isPrototype.js": 459,
-      "node_modules/lodash/_nativeKeys.js": 460,
-      "node_modules/lodash/_overArg.js": 461,
-      "node_modules/lodash/_getTag.js": 462,
-      "node_modules/lodash/_DataView.js": 463,
-      "node_modules/lodash/_Promise.js": 464,
-      "node_modules/lodash/_Set.js": 465,
-      "node_modules/lodash/_WeakMap.js": 466,
-      "node_modules/lodash/find.js": 467,
-      "node_modules/lodash/_createFind.js": 468,
-      "node_modules/lodash/_baseMatches.js": 469,
-      "node_modules/lodash/_baseIsMatch.js": 470,
-      "node_modules/lodash/_getMatchData.js": 471,
-      "node_modules/lodash/_baseMatchesProperty.js": 472,
-      "node_modules/lodash/get.js": 473,
-      "node_modules/lodash/_stringToPath.js": 474,
-      "node_modules/lodash/_memoizeCapped.js": 475,
-      "node_modules/lodash/memoize.js": 476,
-      "node_modules/lodash/toString.js": 477,
-      "node_modules/lodash/_baseToString.js": 478,
-      "node_modules/lodash/_arrayMap.js": 479,
-      "node_modules/lodash/hasIn.js": 480,
-      "node_modules/lodash/_baseHasIn.js": 481,
-      "node_modules/lodash/_hasPath.js": 482,
-      "node_modules/lodash/identity.js": 483,
-      "node_modules/lodash/property.js": 484,
-      "node_modules/lodash/_baseProperty.js": 485,
-      "node_modules/lodash/_basePropertyDeep.js": 486,
-      "node_modules/lodash/findIndex.js": 487,
-      "node_modules/lodash/_baseFindIndex.js": 488,
-      "node_modules/lodash/toInteger.js": 489,
-      "node_modules/lodash/toFinite.js": 490,
-      "node_modules/lodash/toNumber.js": 491,
-      "node_modules/lodash/_baseAssignValue.js": 492,
-      "node_modules/lodash/_defineProperty.js": 493,
-      "node_modules/lodash/_createAggregator.js": 494,
-      "node_modules/lodash/_arrayAggregator.js": 495,
-      "node_modules/lodash/_baseAggregator.js": 496,
-      "node_modules/lodash/_baseEach.js": 497,
-      "node_modules/lodash/_baseForOwn.js": 498,
-      "node_modules/lodash/_baseFor.js": 499,
-      "node_modules/lodash/_createBaseFor.js": 500,
-      "node_modules/lodash/_createBaseEach.js": 501,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/BetaTesting/BetaTestingComponent.js": 502,
-      "node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js": 503,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": 504,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": 505,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": 363,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": 364,
+      "node_modules/process/browser.js": 365,
+      "node_modules/chart.js/src/core/core.js": 366,
+      "node_modules/chart.js/src/helpers/helpers.easing.js": 367,
+      "node_modules/chart.js/src/helpers/helpers.canvas.js": 368,
+      "node_modules/chart.js/src/helpers/helpers.options.js": 369,
+      "node_modules/chart.js/src/core/core.helpers.js": 370,
+      "node_modules/chartjs-color/node_modules/color-convert/index.js": 371,
+      "node_modules/chartjs-color/node_modules/color-convert/conversions.js": 372,
+      "node_modules/chartjs-color-string/color-string.js": 373,
+      "node_modules/color-name/index.js": 374,
+      "node_modules/chart.js/src/elements/element.arc.js": 375,
+      "node_modules/chart.js/src/elements/element.line.js": 376,
+      "node_modules/chart.js/src/elements/element.point.js": 377,
+      "node_modules/chart.js/src/elements/element.rectangle.js": 378,
+      "node_modules/chart.js/src/platforms/platform.basic.js": 379,
+      "node_modules/chart.js/src/platforms/platform.dom.js": 380,
+      "node_modules/chart.js/src/core/core.controller.js": 381,
+      "node_modules/chart.js/src/core/core.datasetController.js": 382,
+      "node_modules/chart.js/src/scales/scale.linearbase.js": 383,
+      "node_modules/chart.js/src/scales/scale.category.js": 384,
+      "node_modules/chart.js/src/scales/scale.linear.js": 385,
+      "node_modules/chart.js/src/scales/scale.logarithmic.js": 386,
+      "node_modules/chart.js/src/scales/scale.radialLinear.js": 387,
+      "node_modules/chart.js/src/scales/scale.time.js": 388,
+      "node_modules/moment/locale sync /^\\.\\/.*$/": 389,
+      "node_modules/chart.js/src/controllers/controller.bar.js": 390,
+      "node_modules/chart.js/src/controllers/controller.bubble.js": 391,
+      "node_modules/chart.js/src/controllers/controller.doughnut.js": 392,
+      "node_modules/chart.js/src/controllers/controller.line.js": 393,
+      "node_modules/chart.js/src/controllers/controller.polarArea.js": 394,
+      "node_modules/chart.js/src/controllers/controller.radar.js": 395,
+      "node_modules/chart.js/src/controllers/controller.scatter.js": 396,
+      "node_modules/chart.js/src/charts/Chart.Bar.js": 397,
+      "node_modules/chart.js/src/charts/Chart.Bubble.js": 398,
+      "node_modules/chart.js/src/charts/Chart.Doughnut.js": 399,
+      "node_modules/chart.js/src/charts/Chart.Line.js": 400,
+      "node_modules/chart.js/src/charts/Chart.PolarArea.js": 401,
+      "node_modules/chart.js/src/charts/Chart.Radar.js": 402,
+      "node_modules/chart.js/src/charts/Chart.Scatter.js": 403,
+      "node_modules/chart.js/src/plugins/index.js": 404,
+      "node_modules/chart.js/src/plugins/plugin.filler.js": 405,
+      "node_modules/chart.js/src/plugins/plugin.legend.js": 406,
+      "node_modules/chart.js/src/plugins/plugin.title.js": 407,
+      "node_modules/lodash/_baseIsEqualDeep.js": 408,
+      "node_modules/lodash/_listCacheClear.js": 409,
+      "node_modules/lodash/_listCacheDelete.js": 410,
+      "node_modules/lodash/_listCacheGet.js": 411,
+      "node_modules/lodash/_listCacheHas.js": 412,
+      "node_modules/lodash/_listCacheSet.js": 413,
+      "node_modules/lodash/_stackClear.js": 414,
+      "node_modules/lodash/_stackDelete.js": 415,
+      "node_modules/lodash/_stackGet.js": 416,
+      "node_modules/lodash/_stackHas.js": 417,
+      "node_modules/lodash/_stackSet.js": 418,
+      "node_modules/lodash/_baseIsNative.js": 419,
+      "node_modules/lodash/_getRawTag.js": 420,
+      "node_modules/lodash/_objectToString.js": 421,
+      "node_modules/lodash/_isMasked.js": 422,
+      "node_modules/lodash/_coreJsData.js": 423,
+      "node_modules/lodash/_getValue.js": 424,
+      "node_modules/lodash/_mapCacheClear.js": 425,
+      "node_modules/lodash/_Hash.js": 426,
+      "node_modules/lodash/_hashClear.js": 427,
+      "node_modules/lodash/_hashDelete.js": 428,
+      "node_modules/lodash/_hashGet.js": 429,
+      "node_modules/lodash/_hashHas.js": 430,
+      "node_modules/lodash/_hashSet.js": 431,
+      "node_modules/lodash/_mapCacheDelete.js": 432,
+      "node_modules/lodash/_isKeyable.js": 433,
+      "node_modules/lodash/_mapCacheGet.js": 434,
+      "node_modules/lodash/_mapCacheHas.js": 435,
+      "node_modules/lodash/_mapCacheSet.js": 436,
+      "node_modules/lodash/_SetCache.js": 437,
+      "node_modules/lodash/_setCacheAdd.js": 438,
+      "node_modules/lodash/_setCacheHas.js": 439,
+      "node_modules/lodash/_arraySome.js": 440,
+      "node_modules/lodash/_cacheHas.js": 441,
+      "node_modules/lodash/_equalByTag.js": 442,
+      "node_modules/lodash/_Uint8Array.js": 443,
+      "node_modules/lodash/_mapToArray.js": 444,
+      "node_modules/lodash/_setToArray.js": 445,
+      "node_modules/lodash/_equalObjects.js": 446,
+      "node_modules/lodash/_getAllKeys.js": 447,
+      "node_modules/lodash/_baseGetAllKeys.js": 448,
+      "node_modules/lodash/_arrayPush.js": 449,
+      "node_modules/lodash/_getSymbols.js": 450,
+      "node_modules/lodash/_arrayFilter.js": 451,
+      "node_modules/lodash/stubArray.js": 452,
+      "node_modules/lodash/_arrayLikeKeys.js": 453,
+      "node_modules/lodash/_baseTimes.js": 454,
+      "node_modules/lodash/_baseIsArguments.js": 455,
+      "node_modules/lodash/stubFalse.js": 456,
+      "node_modules/lodash/_baseIsTypedArray.js": 457,
+      "node_modules/lodash/_baseUnary.js": 458,
+      "node_modules/lodash/_nodeUtil.js": 459,
+      "node_modules/lodash/_baseKeys.js": 460,
+      "node_modules/lodash/_isPrototype.js": 461,
+      "node_modules/lodash/_nativeKeys.js": 462,
+      "node_modules/lodash/_overArg.js": 463,
+      "node_modules/lodash/_getTag.js": 464,
+      "node_modules/lodash/_DataView.js": 465,
+      "node_modules/lodash/_Promise.js": 466,
+      "node_modules/lodash/_Set.js": 467,
+      "node_modules/lodash/_WeakMap.js": 468,
+      "node_modules/lodash/find.js": 469,
+      "node_modules/lodash/_createFind.js": 470,
+      "node_modules/lodash/_baseMatches.js": 471,
+      "node_modules/lodash/_baseIsMatch.js": 472,
+      "node_modules/lodash/_getMatchData.js": 473,
+      "node_modules/lodash/_baseMatchesProperty.js": 474,
+      "node_modules/lodash/get.js": 475,
+      "node_modules/lodash/_stringToPath.js": 476,
+      "node_modules/lodash/_memoizeCapped.js": 477,
+      "node_modules/lodash/memoize.js": 478,
+      "node_modules/lodash/toString.js": 479,
+      "node_modules/lodash/_baseToString.js": 480,
+      "node_modules/lodash/_arrayMap.js": 481,
+      "node_modules/lodash/hasIn.js": 482,
+      "node_modules/lodash/_baseHasIn.js": 483,
+      "node_modules/lodash/_hasPath.js": 484,
+      "node_modules/lodash/identity.js": 485,
+      "node_modules/lodash/property.js": 486,
+      "node_modules/lodash/_baseProperty.js": 487,
+      "node_modules/lodash/_basePropertyDeep.js": 488,
+      "node_modules/lodash/findIndex.js": 489,
+      "node_modules/lodash/_baseFindIndex.js": 490,
+      "node_modules/lodash/toInteger.js": 491,
+      "node_modules/lodash/toFinite.js": 492,
+      "node_modules/lodash/toNumber.js": 493,
+      "node_modules/lodash/_baseAssignValue.js": 494,
+      "node_modules/lodash/_defineProperty.js": 495,
+      "node_modules/lodash/_createAggregator.js": 496,
+      "node_modules/lodash/_arrayAggregator.js": 497,
+      "node_modules/lodash/_baseAggregator.js": 498,
+      "node_modules/lodash/_baseEach.js": 499,
+      "node_modules/lodash/_baseForOwn.js": 500,
+      "node_modules/lodash/_baseFor.js": 501,
+      "node_modules/lodash/_createBaseFor.js": 502,
+      "node_modules/lodash/_createBaseEach.js": 503,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/BetaTesting/BetaTestingComponent.js": 504,
+      "node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js": 505,
       "node_modules/cookie/index.js": 506,
       "node_modules/next/dist/lib/router/index.js": 507,
       "node_modules/next/dist/lib/EventEmitter.js": 508,
@@ -877,62 +900,66 @@
       "node_modules/core-js/library/modules/es7.map.of.js": 574,
       "node_modules/core-js/library/modules/es7.map.from.js": 575,
       "multi ./pages/Account/Account.js": 576,
-      "multi ./pages/API.js": 577,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/API.js": 578,
-      "multi ./pages/BetaTesting/BetaTesting.js": 579,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css 0": 580,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css 0": 581,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css 0": 582,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css 0": 583,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/Recaptcha/Recaptcha.css 0": 584,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css 0": 585,
-      "multi ./pages/BetaTesting/BetaTestingComponent.js": 586,
-      "multi ./pages/Checkbox/Checkbox.js": 587,
-      "multi ./pages/Features.js": 588,
-      "multi ./pages/Footer/Footer.js": 589,
-      "multi ./pages/Home/AboveTheFold/AboveTheFold.js": 590,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/Home/AboveTheFold/AboveTheFold.css 0": 591,
-      "multi ./pages/Home/Home.js": 592,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Home/Home.js": 593,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/Home/LearnMore/LearnMore.css 0": 594,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Home/Home.css": 595,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/Home/Home.css 0": 596,
-      "multi ./pages/Home/LearnMore/LearnMore.js": 597,
-      "multi ./pages/Home/PlannedSolutions/ABTesting.js": 598,
-      "multi ./pages/Home/PlannedSolutions/GameStats.js": 599,
-      "multi ./pages/Home/PlannedSolutions/IncomeStats.js": 600,
-      "multi ./pages/Legal/Legal.js": 601,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Legal/Legal.js": 602,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": 603,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css 0": 604,
-      "multi ./pages/NavFooter.js": 605,
-      "multi ./pages/Navigation/MainNavigation.js": 606,
-      "multi ./pages/PlannedSolutions/PlannedSolutions.js": 607,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/PlannedSolutions/PlannedSolutions.js": 608,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css 0": 609,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/PlannedSolutions.css": 610,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/PlannedSolutions.css 0": 611,
-      "multi ./pages/PlannedSolutions/Solution/Solution.js": 612,
-      "multi ./pages/Recaptcha/Recaptcha.js": 613,
-      "multi ./pages/ScrollToTop.js": 614,
-      "multi ./pages/SmartLink.js": 615,
-      "multi ./pages/SocialMedia/SocialMedia.js": 616,
-      "multi ./pages/Spinner/Spinner.js": 617,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Spinner/Spinner.js": 618,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Spinner/Spinner.css": 619,
-      "css node_modules/css-loader/index.js??ref--5-1!pages/Spinner/Spinner.css 0": 620,
-      "multi ./pages/UserPool.js": 621,
-      "multi node_modules/next/dist/pages/_app.js": 622,
-      "node_modules/next/dist/pages/_app.js": 623,
-      "node_modules/next/app.js": 624,
-      "node_modules/next/dist/lib/app.js": 625,
-      "node_modules/@babel/runtime-corejs2/helpers/extends.js": 626,
-      "multi node_modules/next/dist/pages/_error.js": 627,
-      "node_modules/next/dist/pages/_error.js": 628,
-      "node_modules/next/error.js": 629,
-      "node_modules/next/dist/lib/error.js": 630,
-      "node_modules/http-status/lib/index.js": 631,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Account/Account.js 30a6672b65ce70ef7c1b9276b1657557": 632
+      "multi ./pages/AffiliateProgram/AffiliateProgram.js": 577,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/AffiliateProgram/AffiliateProgram.js": 578,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css 0": 579,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css 0": 580,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css 0": 581,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/AffiliateProgram/AffiliateProgram.css": 582,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/AffiliateProgram/AffiliateProgram.css 0": 583,
+      "multi ./pages/API.js": 584,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/API.js": 585,
+      "multi ./pages/BetaTesting/BetaTesting.js": 586,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css 0": 587,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/Recaptcha/Recaptcha.css 0": 588,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css 0": 589,
+      "multi ./pages/BetaTesting/BetaTestingComponent.js": 590,
+      "multi ./pages/Checkbox/Checkbox.js": 591,
+      "multi ./pages/Features.js": 592,
+      "multi ./pages/Footer/Footer.js": 593,
+      "multi ./pages/Home/AboveTheFold/AboveTheFold.js": 594,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/Home/AboveTheFold/AboveTheFold.css 0": 595,
+      "multi ./pages/Home/Home.js": 596,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Home/Home.js": 597,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/Home/LearnMore/LearnMore.css 0": 598,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Home/Home.css": 599,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/Home/Home.css 0": 600,
+      "multi ./pages/Home/LearnMore/LearnMore.js": 601,
+      "multi ./pages/Home/PlannedSolutions/ABTesting.js": 602,
+      "multi ./pages/Home/PlannedSolutions/GameStats.js": 603,
+      "multi ./pages/Home/PlannedSolutions/IncomeStats.js": 604,
+      "multi ./pages/Legal/Legal.js": 605,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Legal/Legal.js": 606,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": 607,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css 0": 608,
+      "multi ./pages/NavFooter.js": 609,
+      "multi ./pages/Navigation/MainNavigation.js": 610,
+      "multi ./pages/PlannedSolutions/PlannedSolutions.js": 611,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/PlannedSolutions/PlannedSolutions.js": 612,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css 0": 613,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/PlannedSolutions.css": 614,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/PlannedSolutions.css 0": 615,
+      "multi ./pages/PlannedSolutions/Solution/Solution.js": 616,
+      "multi ./pages/Recaptcha/Recaptcha.js": 617,
+      "multi ./pages/ScrollToTop.js": 618,
+      "multi ./pages/SmartLink.js": 619,
+      "multi ./pages/SocialMedia/SocialMedia.js": 620,
+      "multi ./pages/Spinner/Spinner.js": 621,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Spinner/Spinner.js": 622,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Spinner/Spinner.css": 623,
+      "css node_modules/css-loader/index.js??ref--5-1!pages/Spinner/Spinner.css 0": 624,
+      "multi ./pages/UserPool.js": 625,
+      "multi node_modules/next/dist/pages/_app.js": 626,
+      "node_modules/next/dist/pages/_app.js": 627,
+      "node_modules/next/app.js": 628,
+      "node_modules/next/dist/lib/app.js": 629,
+      "node_modules/@babel/runtime-corejs2/helpers/extends.js": 630,
+      "multi node_modules/next/dist/pages/_error.js": 631,
+      "node_modules/next/dist/pages/_error.js": 632,
+      "node_modules/next/error.js": 633,
+      "node_modules/next/dist/lib/error.js": 634,
+      "node_modules/http-status/lib/index.js": 635,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Account/Account.js 30a6672b65ce70ef7c1b9276b1657557": 636
     },
     "usedIds": {
       "0": 0,
@@ -1567,7 +1594,11 @@
       "629": 629,
       "630": 630,
       "631": 631,
-      "632": 632
+      "632": 632,
+      "633": 633,
+      "634": 634,
+      "635": 635,
+      "636": 636
     }
   },
   "chunks": {
@@ -1576,32 +1607,33 @@
       "commons": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Account\\Account.js": 4,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\API.js": 5,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\BetaTesting\\BetaTesting.js": 6,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\BetaTesting\\BetaTestingComponent.js": 7,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Checkbox\\Checkbox.js": 8,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Features.js": 9,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Footer\\Footer.js": 10,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Home\\AboveTheFold\\AboveTheFold.js": 11,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Home\\Home.js": 12,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Home\\LearnMore\\LearnMore.js": 13,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Home\\PlannedSolutions\\ABTesting.js": 14,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Home\\PlannedSolutions\\GameStats.js": 15,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Home\\PlannedSolutions\\IncomeStats.js": 16,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Legal\\Legal.js": 17,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\NavFooter.js": 18,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Navigation\\MainNavigation.js": 19,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\PlannedSolutions\\PlannedSolutions.js": 20,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\PlannedSolutions\\Solution\\Solution.js": 21,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Recaptcha\\Recaptcha.js": 22,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\ScrollToTop.js": 23,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\SmartLink.js": 24,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\SocialMedia\\SocialMedia.js": 25,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\Spinner\\Spinner.js": 26,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\UserPool.js": 27,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\_app.js": 28,
-      "static\\HPkWOJmxvdF07K~4P4YZ0\\pages\\_error.js": 29
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Account\\Account.js": 4,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\AffiliateProgram\\AffiliateProgram.js": 5,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\API.js": 6,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\BetaTesting\\BetaTesting.js": 7,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\BetaTesting\\BetaTestingComponent.js": 8,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Checkbox\\Checkbox.js": 9,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Features.js": 10,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Footer\\Footer.js": 11,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Home\\AboveTheFold\\AboveTheFold.js": 12,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Home\\Home.js": 13,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Home\\LearnMore\\LearnMore.js": 14,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Home\\PlannedSolutions\\ABTesting.js": 15,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Home\\PlannedSolutions\\GameStats.js": 16,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Home\\PlannedSolutions\\IncomeStats.js": 17,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Legal\\Legal.js": 18,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\NavFooter.js": 19,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Navigation\\MainNavigation.js": 20,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\PlannedSolutions\\PlannedSolutions.js": 21,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\PlannedSolutions\\Solution\\Solution.js": 22,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Recaptcha\\Recaptcha.js": 23,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\ScrollToTop.js": 24,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\SmartLink.js": 25,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\SocialMedia\\SocialMedia.js": 26,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\Spinner\\Spinner.js": 27,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\UserPool.js": 28,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\_app.js": 29,
+      "static\\jrbSXkFhbOMPLNnGuhjyK\\pages\\_error.js": 30
     },
     "bySource": {},
     "usedIds": [
@@ -1629,6 +1661,7 @@
       28,
       29,
       3,
+      30,
       4,
       5,
       6,

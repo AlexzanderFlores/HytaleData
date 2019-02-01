@@ -41,7 +41,6 @@ export default class MyDocument extends Document {
             name="keywords"
             content="hytale server analytics, hytale network analytics, hytale server data, hytale network data"
           />
-          <meta name="robots" content="index, follow" />
           <meta name="author" content="Hytale Data" />
 
           {/* Twitter & Discord */}

@@ -39,9 +39,9 @@ export default class BetaTesting extends React.Component {
       firstname: "",
       password: "",
       passwordError: "",
-      projectSet: false,
       projectOther: false,
       projectOtherDescription: "",
+      affiliateProgram: false,
       showSurvey: true,
       surveyHeight: "0"
     };
@@ -99,17 +99,11 @@ export default class BetaTesting extends React.Component {
   };
 
   formCheck = () => {
-    const {
-      email,
-      firstname,
-      password,
-      passwordError,
-      projectSet
-    } = this.state;
+    const { email, firstname, password, passwordError } = this.state;
     let surveyHeight = "0";
 
     if (email && firstname && password && !passwordError) {
-      surveyHeight = "250px";
+      surveyHeight = "325px";
     }
 
     this.setState({ surveyHeight });
@@ -135,12 +129,15 @@ export default class BetaTesting extends React.Component {
     const { email, firstname, password } = this.state;
     const uri = `/email-subscribe?email=${email}&firstname=${firstname}`;
 
+    console.log(uri);
+
     delete params.email;
     delete params.firstname;
     delete params.password;
     delete params.passwordError;
     delete params.result;
     delete params.surveyHeight;
+    delete params.showSurvey;
 
     fetch(uri, {
       method: "POST",
@@ -290,6 +287,25 @@ export default class BetaTesting extends React.Component {
                         onChange={this.onChange}
                         placeholder="Description (Optional)"
                       />
+                    </div>
+
+                    <div id="affiliate-program">
+                      <Checkbox
+                        key="affiliateProgram"
+                        id="affiliateProgram"
+                        handler={this.onToggle}
+                        checked={this.state.affiliateProgram}
+                      >
+                        {/* Are you interested in our{"  "}
+                        <SmartLink
+                          display="Affiliate Program"
+                          newTab={true}
+                          underline
+                          style={{ marginLeft: "5px" }}
+                        />
+                        ? */}
+                        Are you interested in our Affiliate Program?
+                      </Checkbox>
                     </div>
                   </div>
                 </div>

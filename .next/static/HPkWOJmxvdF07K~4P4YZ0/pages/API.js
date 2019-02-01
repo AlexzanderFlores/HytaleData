@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{577:function(t,n,o){__NEXT_REGISTER_PAGE("/API",function(){return t.exports=o(578),{page:t.exports.default}})},578:function(t,n){t.exports="https://api.hytaledata.com/dev/"}},[[577,0]]]);
