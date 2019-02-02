@@ -12,6 +12,9 @@ const { PORT = 3000, NODE_ENV } = process.env;
 const dev = NODE_ENV !== "production";
 const app = next({ dev });
 
+const swaggerUi = require("swagger-ui-express");
+const fs = require('fs');
+
 const targets = {
   "/": "/Home/Home",
   "/index": "/Home/Home",
@@ -38,7 +41,7 @@ const getIp = req => {
   return ip;
 };
 
-app.prepare().then(() => {
+app.prepare().then(async () => {
   const server = express();
   server.set("trust proxy", 1);
   server.use(bodyParser.urlencoded({ extended: false }));
@@ -57,6 +60,7 @@ app.prepare().then(() => {
   );
   server.use(compression());
 
+  // Force HTTPS
   server.use((req, res, next) => {
     if (!isLocalHost(req) && req.protocol === "http") {
       return res.redirect("https://" + req.get("host") + req.originalUrl);
@@ -64,10 +68,45 @@ app.prepare().then(() => {
     next();
   });
 
+  // Load swagger CSS
+  let css = '';
+  try {
+    await new Promise((resolve, reject) => {
+      fs.readFile('./static/swagger.css', 'utf8', (err, contents) => {
+        if(err) {
+          reject(err);
+        } else {
+          resolve(contents);
+        }
+      });
+    }).then(contents => css = contents);
+  } catch(e) {
+    console.error(e);
+  }
+
+  // Load swagger API JSON
+  let json = '';
+  await rp({
+    uri: 'https://cdn.hytaledata.com/api.json',
+    json: true
+  }).then(api => json = api);
+
+  // Serve swagger UI on GET /api
+  server.use("/api",
+            swaggerUi.serve,
+            swaggerUi.setup(json,
+                            false,
+                            {},
+                            css,
+                            'https://cdn.hytaledata.com/favicon.ico',
+                            '',
+                            'Hytale Data - API'
+            ));
+
   server.get("/recaptcha", async (req, res) => {
     const ip = getIp(req);
 
-    let uri = `https://www.google.com/recaptcha/api/siteverify`;
+    let uri = "https://www.google.com/recaptcha/api/siteverify";
     uri += "?secret=6Ld31IkUAAAAALhC46_yGSsydLWnppsvUPtJNt9g";
     uri += `&response=${req.query.response}`;
     uri += `&remoteip=${ip}`;

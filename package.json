@@ -19,6 +19,7 @@
     "daterangepicker": "^3.0.3",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
     "isomorphic-fetch": "^2.2.1",
     "next": "^7.0.2",
     "next-compose": "0.0.2",
@@ -30,6 +31,7 @@
     "react-stripe-elements": "^2.0.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
+    "swagger-ui-express": "^4.0.2",
     "universal-cookie": "^3.0.7",
     "uuid": "^3.3.2"
   }
