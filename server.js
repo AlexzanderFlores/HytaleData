@@ -13,7 +13,7 @@ const dev = NODE_ENV !== "production";
 const app = next({ dev });
 
 const swaggerUi = require("swagger-ui-express");
-const fs = require('fs');
+const fs = require("fs");
 
 const targets = {
   "/": "/Home/Home",
@@ -69,39 +69,42 @@ app.prepare().then(async () => {
   });
 
   // Load swagger CSS
-  let css = '';
-  try {
-    await new Promise((resolve, reject) => {
-      fs.readFile('./static/swagger.css', 'utf8', (err, contents) => {
-        if(err) {
-          reject(err);
-        } else {
-          resolve(contents);
-        }
-      });
-    }).then(contents => css = contents);
-  } catch(e) {
-    console.error(e);
-  }
+  let css = "";
+  await new Promise((resolve, reject) => {
+    fs.readFile("./static/swagger.css", "utf8", (err, contents) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(contents);
+      }
+    });
+  })
+    .then(contents => (css = contents))
+    .catch(console.error);
 
   // Load swagger API JSON
-  let json = '';
-  await rp({
-    uri: 'https://cdn.hytaledata.com/api.json',
-    json: true
-  }).then(api => json = api);
+  let json = "";
+
+  const loadApiData = async () => {
+    await rp({
+      uri: "https://cdn.hytaledata.com/api.json",
+      json: true
+    }).then(api => (json = api));
+
+    setTimeout(loadApiData, 1000 * 60);
+  };
+
+  await loadApiData();
+
+  const options = {
+    customfavIcon: "https://cdn.hytaledata.com/favicon.ico",
+    customSiteTitle: "Hytale Data - API",
+    customCss: css,
+    customJs: "/swagger.js"
+  };
 
   // Serve swagger UI on GET /api
-  server.use("/api",
-            swaggerUi.serve,
-            swaggerUi.setup(json,
-                            false,
-                            {},
-                            css,
-                            'https://cdn.hytaledata.com/favicon.ico',
-                            '',
-                            'Hytale Data - API'
-            ));
+  server.use("/api", swaggerUi.serve, swaggerUi.setup(json, options));
 
   server.get("/recaptcha", async (req, res) => {
     const ip = getIp(req);
@@ -186,7 +189,7 @@ app.prepare().then(async () => {
     const parsedUrl = parse(req.url, true);
     const { pathname, query } = parsedUrl;
 
-    const rootStaticFiles = ["/robots.txt", "/sitemap.xml"];
+    const rootStaticFiles = ["/robots.txt", "/sitemap.xml", "/swagger.js"];
     if (rootStaticFiles.indexOf(pathname) > -1) {
       const path = join(__dirname, "static", pathname);
       app.serveStatic(req, res, path);

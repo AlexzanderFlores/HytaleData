@@ -1,2 +1,7 @@
-.swagger-ui .topbar { display: none; }
-.opblock-options { display: none; }
+.swagger-ui .topbar {
+  display: none;
+}
+
+.opblock-options {
+  display: none;
+}
