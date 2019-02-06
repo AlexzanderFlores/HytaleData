@@ -169,7 +169,7 @@ function (_Document) {
         href: "https://cdn.hytaledata.com/favicon.ico"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "stylesheet",
-        href: "/static/common.css"
+        href: "/static/main.css"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://use.fontawesome.com/releases/v5.1.0/css/all.css"
