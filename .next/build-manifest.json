@@ -1,5 +1,11 @@
 {
+<<<<<<< HEAD
   "devFiles": [],
+=======
+  "devFiles": [
+    "static/development/dll/dll_43a044928b2ed320053d.js"
+  ],
+>>>>>>> 057a488f7046fa02cef03c8b79f6cc46abf6fedf
   "pages": {
     "/About/About": [
       "static/runtime/webpack-80dd23e3eafca5314609.js",
@@ -244,9 +250,20 @@
       "static/runtime/main-3ac50748981d2474ddfc.js"
     ],
     "/_error": [
+<<<<<<< HEAD
       "static/runtime/webpack-80dd23e3eafca5314609.js",
       "static/chunks/commons.f5a7b3df368b6dae223d.js",
       "static/runtime/main-3ac50748981d2474ddfc.js"
+=======
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Home/Home": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+>>>>>>> 057a488f7046fa02cef03c8b79f6cc46abf6fedf
     ]
   }
 }

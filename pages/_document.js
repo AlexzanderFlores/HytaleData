@@ -28,7 +28,7 @@ export default class MyDocument extends Document {
             rel="shortcut icon"
             href="https://cdn.hytaledata.com/favicon.ico"
           />
-          <link rel="stylesheet" href="/static/common.css" />
+          <link rel="stylesheet" href="/static/main.css" />
           <link
             rel="stylesheet"
             href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
