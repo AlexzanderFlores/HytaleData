@@ -159,6 +159,9 @@ function (_Document) {
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
         href: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700",
         rel: "stylesheet"
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
+        href: "https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css",
+        rel: "stylesheet"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         charSet: "utf-8"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
@@ -181,7 +184,7 @@ function (_Document) {
         href: "https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "keywords",
-        content: "hytale server analytics, hytale network analytics, hytale server data, hytale network data"
+        content: "hytale server analytics, hytale network analytics, hytale server data, hytale network data, hytale plugins, hytale server tutorial"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "author",
         content: "Hytale Data"
@@ -193,7 +196,7 @@ function (_Document) {
         content: "Hytale Server Analytics by HytaleData.com"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:description",
-        content: "The tools & metrics you need to grow your Hytale server."
+        content: "The plugins & metrics you need to grow your Hytale server."
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "twitter:url",
         content: "//hytaledata.com/"
@@ -211,7 +214,7 @@ function (_Document) {
         content: "https://hytaledata.com/"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:description",
-        content: "The tools & metrics you need to grow your Hytale server."
+        content: "The plugins & metrics you need to grow your Hytale server."
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         property: "og:image",
         content: "https://cdn.hytaledata.com/card.png"
@@ -229,7 +232,7 @@ function (_Document) {
         href: "https://hytaledata.com/"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "description",
-        content: "Hytale Server Analytics by HytaleData.com - The tools & metrics you need to grow your Hytale server."
+        content: "Hytale Server Analytics by HytaleData.com - The plugins & metrics you need to grow your Hytale server."
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "google-site-verification",
         content: "37MQXKPWuUlnpWcOO6yh_OMs7ghSyTd2qx-s-lQNAik"

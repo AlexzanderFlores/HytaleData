@@ -1,0 +1,18 @@
+#versions {
+  margin: 0 auto;
+}
+
+#versions h1 {
+  margin-bottom: 15px;
+}
+
+#versions > *:not(h2) {
+  max-height: 500px;
+  height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  #versions > *:not(h2) {
+    max-height: 325px;
+  }
+}

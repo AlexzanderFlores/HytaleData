@@ -153,6 +153,12 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  #beta-testing-modal .modal {
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 370px) {
   #beta-testing label {
     font-size: 12px !important;

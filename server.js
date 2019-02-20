@@ -23,8 +23,10 @@ const targets = {
   "/planned-solutions": "/PlannedSolutions/PlannedSolutions",
   "/affiliate-program": "/AffiliateProgram/AffiliateProgram",
   "/legal": "/Legal/Legal",
+  "/contact": "/Contact/Contact",
   "/nav": "/Navigation/MainNavigation",
-  "/footer": "/Footer/Footer"
+  "/footer": "/Footer/Footer",
+  "/minecraft-java-health": "/Minecraft/MinecraftJavaHealth/MinecraftJavaHealth"
 };
 
 const isLocalHost = req => {
@@ -127,8 +129,7 @@ app.prepare().then(async () => {
       const { email, firstname } = req.query;
       const { body } = req;
 
-      let uri =
-        "https://vcz8ncghoc.execute-api.us-east-1.amazonaws.com/dev/email-subscribe?";
+      let uri = "https://api.hytaledata.com/dev/email-subscribe?";
       uri += `email=${email}`;
       uri += `&firstname=${firstname}`;
       uri += `&ip=${ip}`;
@@ -169,8 +170,7 @@ app.prepare().then(async () => {
 
     if (platform && validPlatforms.includes(platform) && source) {
       source = `-${source.toLowerCase()}`;
-      let uri =
-        "https://vcz8ncghoc.execute-api.us-east-1.amazonaws.com/dev/social-media-track?";
+      let uri = "https://api.hytaledata.com/dev/social-media-track?";
       uri += `platform=${platform}${source}`;
       rp.post(uri);
     }
@@ -183,6 +183,98 @@ app.prepare().then(async () => {
     }
 
     res.redirect(url);
+  });
+
+  const emailRateLimit = [];
+
+  server.post("/send-email", async (req, res) => {
+    if (req.session.secure && req.session.action === "contact") {
+      const ip = getIp(req);
+
+      if (emailRateLimit.indexOf(ip) >= 0) {
+        res.send({ rateLimit: true });
+        return;
+      }
+
+      emailRateLimit.push(ip);
+      setTimeout(
+        () => emailRateLimit.filter(limited => limited !== ip),
+        1000 * 60 * 5
+      );
+
+      let { email, subject, message } = req.body;
+      if (!subject) {
+        subject = "";
+      }
+      subject = `Contact Form: ${subject}`;
+
+      let uri = `https://api.hytaledata.com/dev/send-email?address=alex@hytaledata.com&subject=${subject}`;
+      message += `\n\nfrom ${email}`;
+      console.log(uri);
+      console.log(message);
+
+      const emailToUs = await rp
+        .post(uri, {
+          body: JSON.stringify({ message }),
+          json: true
+        })
+        .then(() => true)
+        .catch(() => false);
+      console.log(emailToUs);
+
+      uri = `https://api.hytaledata.com/dev/send-email?address=${email}&subject=${encodeURI(
+        "Hytale Data Contact"
+      )}`;
+
+      console.log(uri);
+
+      const emailToThem = await rp
+        .post(uri, {
+          body: JSON.stringify({
+            message:
+              "Thank you for reaching out to Hytale Data! We will be sure to get back to you within 24 hours."
+          }),
+          json: true
+        })
+        .then(() => true)
+        .catch(() => false);
+      console.log(emailToThem);
+
+      res.send({ success: emailToUs && emailToThem });
+    } else {
+      res.send({ secure: false });
+    }
+  });
+
+  const addServerRateLimited = [];
+
+  server.post("/add-server", async (req, res) => {
+    const ip = getIp(req);
+    if (addServerRateLimited.indexOf(ip) >= 0) {
+      res.send({ rateLimit: true });
+      return;
+    }
+
+    addServerRateLimited.push(ip);
+    setTimeout(
+      () => addServerRateLimited.filter(limited => limited !== ip),
+      1000 * 60 * 2
+    );
+
+    const { ip: address, name } = req.query;
+
+    const uri = `https://api.hytaledata.com/dev/minecraft/servers?ip=${address}&name=${name}`;
+
+    const data = JSON.parse(await rp.post(uri));
+
+    if (data.errorMessage) {
+      res.send({
+        failedToPing: true
+      });
+      return;
+    }
+
+    res.send(data);
   });
 
   server.get("*", (req, res) => {

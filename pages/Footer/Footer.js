@@ -24,6 +24,23 @@ export default class Footer extends React.Component {
           </SmartLink>
 
           <ul>
+            <li className="footer-title">PRODUCTS</li>
+            <li>
+              <SmartLink display="Planned Solutions" />
+            </li>
+            <li>
+              <SmartLink display="Minecraft Java Health" />
+            </li>
+          </ul>
+
+          <ul>
+            <li className="footer-title">COMPANY</li>
+            <li>
+              <SmartLink display="Contact" />
+            </li>
+          </ul>
+
+          <ul>
             <li className="footer-title">LEGAL</li>
             <li>
               <SmartLink

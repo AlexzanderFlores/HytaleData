@@ -1,0 +1,26 @@
+#minecraft-stats-container {
+  margin-top: 25px;
+  height: 725px;
+}
+
+#minecraft-stats {
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+#record-player-count {
+  border-bottom: 1px dotted #000;
+}
+
+#minecraft-stats-controls {
+  margin-bottom: 29px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+#minecraft-stats-chart {
+  max-height: 600px;
+  height: 100%;
+}

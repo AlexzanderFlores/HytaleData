@@ -1,6 +1,5 @@
 import { Bar } from "react-chartjs-2";
 import LearnMore from "../LearnMore/LearnMore";
-import SmartLink from "../../SmartLink";
 
 export default class IncomeStats extends React.Component {
   state = {
@@ -18,7 +17,7 @@ export default class IncomeStats extends React.Component {
         A: this.getRandomData(4, 100, 1000),
         B: this.getRandomData(4, 100, 1000)
       },
-      () => setTimeout(this.setNewData, 10000)
+      () => setTimeout(this.setNewData, 5000)
     );
   };
 

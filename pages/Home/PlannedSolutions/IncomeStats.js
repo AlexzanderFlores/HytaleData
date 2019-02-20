@@ -15,7 +15,7 @@ export default class IncomeStats extends React.Component {
       {
         data: [this.getRandomData(3, 0.5, 6), this.getRandomData(3, 0.5, 6)]
       },
-      () => setTimeout(this.setNewData, 10000)
+      () => setTimeout(this.setNewData, 5000)
     );
   };
 

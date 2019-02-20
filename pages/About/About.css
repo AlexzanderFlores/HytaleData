@@ -1,0 +1,20 @@
+#company-description-container {
+  width: 100%;
+  margin: 100px 0;
+}
+
+#company-description {
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+#company-description h2 {
+  text-align: center;
+  font-size: 2.2em;
+}
+
+#company-description p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+}

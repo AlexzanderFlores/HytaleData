@@ -1,0 +1,48 @@
+#add-server {
+  margin: 0 auto;
+}
+
+#add-server form {
+  display: grid;
+  grid-row-gap: 10px;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  #add-server-form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  #add-server-form {
+    width: 400px;
+  }
+}
+
+#add-server-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 10px;
+}
+
+#add-server-inputs > * {
+  width: 100%;
+}
+
+#add-server form > * {
+  height: 40px;
+}
+
+#add-server-result {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 15px;
+}
+
+#added-server {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 400px;
+  justify-self: left;
+}

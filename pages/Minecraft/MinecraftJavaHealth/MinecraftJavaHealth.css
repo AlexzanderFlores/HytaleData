@@ -1,0 +1,64 @@
+#minecraft-java-health-container {
+  margin: 100px 0;
+}
+
+#server-middle {
+  max-width: 1400px;
+  margin: 50px auto;
+  padding: 0 5px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#server-middle > * {
+  height: 575px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1175px) {
+  #server-middle {
+    grid-template-columns: none;
+  }
+
+  #add-server {
+    height: auto;
+  }
+}
+
+#popup {
+  position: fixed;
+  height: 125px;
+  bottom: 100px;
+  text-align: center;
+  border: 2px solid #dce0e6;
+  border-radius: 2px;
+  background-color: #fff;
+  transition-duration: 0.5s;
+}
+
+#popup-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#popup p {
+  display: grid;
+  align-items: center;
+  transition-duration: 0.5s;
+  font-weight: 700;
+  padding: 0 10px;
+  margin-top: 25px;
+}
+
+#popup button {
+  padding: 3px 15px;
+}
+
+@media screen and (max-width: 450px) {
+  #popup {
+    bottom: 0;
+  }
+}

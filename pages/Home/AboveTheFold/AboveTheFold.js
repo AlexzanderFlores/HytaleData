@@ -6,7 +6,7 @@ export default () => (
     <div id="above-the-fold" className="center-v">
       <div id="intro-text" className="center">
         <h1>Hytale Server Analytics</h1>
-        <h2>The tools &amp; metrics you need to grow your Hytale server.</h2>
+        <h2>The plugins &amp; metrics you need to grow your Hytale server.</h2>
         <div id="cta-container">
           <SmartLink link="planned-solutions">
             <button>PLANNED SOLUTIONS</button>

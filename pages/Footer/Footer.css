@@ -7,7 +7,7 @@ footer {
 #footer {
   max-width: 1400px;
   width: 100%;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 
 #footer > * {
@@ -52,13 +52,13 @@ footer {
 
 @media screen and (max-width: 750px) {
   footer {
-    height: 450px;
+    height: 650px;
     padding: 0 10px;
   }
 
   #footer {
     grid-template-columns: none;
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(5, auto);
     grid-row-gap: 30px;
   }
 

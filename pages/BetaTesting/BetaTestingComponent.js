@@ -4,6 +4,8 @@ import Checkbox from "../Checkbox/Checkbox";
 import UserPool from "../UserPool";
 import SmartLink from "../SmartLink";
 import Recaptcha from "../Recaptcha/Recaptcha";
+import Modal from "../Modal/Modal";
+import SocialMedia from "../SocialMedia/SocialMedia";
 import "./BetaTesting.css";
 
 export default class BetaTesting extends React.Component {
@@ -43,7 +45,8 @@ export default class BetaTesting extends React.Component {
       projectOtherDescription: "",
       affiliateProgram: false,
       showSurvey: true,
-      surveyHeight: "0"
+      surveyHeight: "0",
+      thankYou: ""
     };
     this.projects.forEach(project => (defaultState[project.name] = false));
     this.state = defaultState;
@@ -169,8 +172,17 @@ export default class BetaTesting extends React.Component {
         this.setState({ result: err.message });
       } else {
         this.setState({
-          result:
-            "Account Created! Check your email to confirm your account. You will be notified when beta testing is live. Follow our social media below for frequent updates or to get in contact!"
+          thankYou: (
+            <Modal onClose={() => this.setState({ thankYou: "" })}>
+              <div style={{ height: "150px" }} className="center">
+                <p>
+                  Thank you for signing up! Please confirm your email address
+                </p>
+                <p>Connect with us on Discord or Social Media:</p>
+                <SocialMedia source="signup-thank-you" />
+              </div>
+            </Modal>
+          )
         });
       }
     });
@@ -188,23 +200,29 @@ export default class BetaTesting extends React.Component {
       result
     } = this.state;
 
+    const required = (
+      <span className="required" title="Required">
+        *
+      </span>
+    );
+
     return (
       <>
         <Head>
           <title>
-            Hytale Data - The tools &amp; metrics you need to grow your Hytale
+            Hytale Data - The plugins &amp; metrics you need to grow your Hytale
             server.
           </title>
         </Head>
+
+        <div id="beta-testing-modal">{this.state.thankYou}</div>
 
         <div id="beta-testing-container" className="center">
           <div id="beta-testing">
             <h2>Signup for Free Beta Testing</h2>
             <form onSubmit={this.onSubmit} className="center">
               <div className="center-v">
-                <label htmlFor="email">
-                  Email Address<span className="required">*</span>
-                </label>
+                <label htmlFor="email">Email Address{required}</label>
                 <input
                   type="email"
                   id="email"
@@ -217,9 +235,7 @@ export default class BetaTesting extends React.Component {
               </div>
 
               <div className="center-v">
-                <label htmlFor="name">
-                  First Name<span className="required">*</span>
-                </label>
+                <label htmlFor="name">First Name{required}</label>
                 <input
                   type="firstname"
                   id="firstname"
@@ -232,9 +248,7 @@ export default class BetaTesting extends React.Component {
               </div>
 
               <div className="center-v">
-                <label htmlFor="password">
-                  Password<span className="required">*</span>
-                </label>
+                <label htmlFor="password">Password{required}</label>
                 <input
                   type="password"
                   id="password"

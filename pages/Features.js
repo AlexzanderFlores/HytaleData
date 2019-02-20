@@ -1,5 +1,10 @@
 const features = [
   {
+    name: "Player Sessions",
+    description:
+      "Keep detailed logs for each player. Track playtime, punishments, chat logs, duration of each play session, alt accounts, and more. Access this data through our dashboard, API, or Discord bot."
+  },
+  {
     name: "Income Data",
     description:
       "Understanding your conversion rate, average income per player, cost to acquire a player, and other similar stats is critical to making your server more profitable. Our solution helps you track and manage your revenue in a single dashboard."
@@ -32,22 +37,22 @@ const features = [
   {
     name: "Complete Staffing Solution",
     description:
-      "Keep your staff members connected through chat and ticketing systems over your website, Discord server, and your Hytale server. Staff logs can be viewed in the dashboard."
+      "Keep your staff members connected through chat and ticketing systems over your Discord and Hytale servers. Manage chat filters, staff permissions, and staff logs in the dashboard."
   },
   {
-    name: "Discord & Social Media Integrations",
+    name: "Leaderboards & Stats Solution",
     description:
-      'Manage and post from your Discord, Twitter, and Instagram all in one dashboard. Use our "Team Member" feature to give admins limited access to these accounts without sharing any passwords.'
+      "Easily and quickly get stats setup in your games. This will give players more of a reason to keep playing to try and make it to the top ranks. Host stats on your own database or in our cloud."
   },
   {
-    name: "Embeddable Graphs & Charts",
+    name: "Discord Bot",
     description:
-      "Embed charts of player and vote counts on your website. Vote counts will be across all server listing websites. Partnered server listing websites will gain access to graphs that only show their website's vote count."
+      "Host referral contests, sync ranks between your Discord and Hytale servers, moderate chat, view server statistics, and more with the Hytale Data Discord bot."
   },
   {
     name: "Team Members / Sub Accounts",
     description:
-      "Give your admins access to your Hytale Data account without sharing any passwords. You have full control over what features they can access."
+      "Give your admins limit access to your Hytale Data account without sharing any passwords. You have full control over what features they can access."
   },
   {
     name: "Developer's API",
@@ -57,7 +62,7 @@ const features = [
   {
     name: "Affiliate / Referral Program",
     description:
-      "Earn monthly commissions for each server owner you send to Hytale Data. Great to increase the lifetime value of your customers if you own a server list, hosting company, or any other similar website who's customer is a server owner."
+      "Earn monthly commissions for each server owner you send to Hytale Data. Great to increase the lifetime value of your customers if you own a marketplace, hosting company, or another similar website who has server owners as customers."
   }
 ];
 

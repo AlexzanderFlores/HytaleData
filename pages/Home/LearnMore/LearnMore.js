@@ -7,10 +7,11 @@ export default class LearnMore extends React.Component {
   };
 
   render() {
+    const { solution: s, text } = this.props;
     return (
       <div className="learn-more">
-        <SmartLink link={`planned-solutions?s=${this.props.solution}`} newTab>
-          <button>LEARN MORE</button>
+        <SmartLink link={`planned-solutions${s ? `?s=${s}` : ""}`} newTab>
+          <button>{text || "LEARN MORE"}</button>
         </SmartLink>
       </div>
     );

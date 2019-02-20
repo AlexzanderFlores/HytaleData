@@ -15,6 +15,10 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
             rel="stylesheet"
           />
+          <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css"
+            rel="stylesheet"
+          />
           <meta charSet="utf-8" />
           <meta
             name="viewport"
@@ -39,7 +43,7 @@ export default class MyDocument extends Document {
           />
           <meta
             name="keywords"
-            content="hytale server analytics, hytale network analytics, hytale server data, hytale network data"
+            content="hytale server analytics, hytale network analytics, hytale server data, hytale network data, hytale plugins, hytale server tutorial"
           />
           <meta name="author" content="Hytale Data" />
 
@@ -51,7 +55,7 @@ export default class MyDocument extends Document {
           />
           <meta
             name="twitter:description"
-            content="The tools &amp; metrics you need to grow your Hytale server."
+            content="The plugins &amp; metrics you need to grow your Hytale server."
           />
           <meta name="twitter:url" content="//hytaledata.com/" />
           <meta name="twitter:site" content="@HytaleData" />
@@ -68,7 +72,7 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://hytaledata.com/" />
           <meta
             property="og:description"
-            content="The tools &amp; metrics you need to grow your Hytale server."
+            content="The plugins &amp; metrics you need to grow your Hytale server."
           />
           <meta
             property="og:image"
@@ -85,7 +89,7 @@ export default class MyDocument extends Document {
 
           <meta
             name="description"
-            content="Hytale Server Analytics by HytaleData.com - The tools &amp; metrics you need to grow your Hytale server."
+            content="Hytale Server Analytics by HytaleData.com - The plugins &amp; metrics you need to grow your Hytale server."
           />
 
           <meta

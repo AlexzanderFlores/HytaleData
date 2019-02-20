@@ -1,0 +1,66 @@
+.server {
+  grid-template-columns: 80px 175px 115px 150px;
+}
+
+.server,
+.server > * {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.server > * {
+  height: 100%;
+  width: 100%;
+}
+
+.server-favicon {
+  height: 64px;
+  width: 64px;
+}
+
+.server-favicon:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 64px;
+  width: 64px;
+  background-image: url(https://cdn.hytaledata.com/default.png);
+}
+
+.server-region-version {
+  display: flex;
+}
+
+.server-version {
+  margin-right: 10px;
+}
+
+.flag-icon {
+  max-width: 50px;
+}
+
+.server-name,
+.server-players {
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 1201px) {
+  .server-name {
+    justify-items: left;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .server-name {
+    justify-items: left;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .server {
+    grid-template-columns: 125px auto;
+    grid-template-rows: 64px 50px;
+    width: 100%;
+  }
+}

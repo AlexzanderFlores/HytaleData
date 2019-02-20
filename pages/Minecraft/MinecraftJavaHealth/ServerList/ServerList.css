@@ -1,0 +1,25 @@
+#servers-container {
+  margin: 100px 0;
+}
+
+#servers {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+#load-more-container,
+#server-spinner-container {
+  text-align: center;
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  #servers {
+    grid-template-columns: none;
+  }
+}

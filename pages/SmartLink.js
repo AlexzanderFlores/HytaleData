@@ -10,7 +10,8 @@ export default class SmartLink extends Component {
       id = "",
       className = "",
       underline,
-      style = {}
+      style = {},
+      target = "_self"
     } = this.props;
 
     if (!link.startsWith("/")) {
@@ -33,12 +34,11 @@ export default class SmartLink extends Component {
             }
           }
         }}
-        target={newTab ? "_blank" : "_self"}
+        target={newTab ? "_blank" : target}
         rel={newTab ? "noopener noreferrer" : ""}
         id={id}
         className={className}
         style={style}
-        target="_parent"
       >
         {display || this.props.children}
       </a>

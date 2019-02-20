@@ -16,7 +16,7 @@ export default class GameStats extends React.Component {
       {
         data: this.getRandomData(3, 2500, 7500)
       },
-      () => setTimeout(this.setNewData, 10000)
+      () => setTimeout(this.setNewData, 5000)
     );
   };
 
