@@ -24,7 +24,7 @@ export default class ServerList extends React.Component {
       await this.renderServers();
     }
 
-    this.setState({ loaded: true }, this.props.onLoaded);
+    this.setState({ loaded: true });
   };
 
   renderServers = async () => {

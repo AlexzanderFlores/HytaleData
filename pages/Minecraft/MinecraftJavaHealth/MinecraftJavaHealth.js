@@ -9,7 +9,6 @@ import "./MinecraftJavaHealth.css";
 
 export default class MinecraftJavaHealth extends React.Component {
   state = {
-    loaded: false,
     left: "-350px",
     width: "350px",
     opacity: 1,
@@ -87,23 +86,21 @@ export default class MinecraftJavaHealth extends React.Component {
     });
   };
 
-  onLoaded = () => this.setState({ loaded: true });
-
   render() {
     return (
-      <NavFooter noNav={!this.state.loaded}>
+      <NavFooter>
         <Head>
           <title>Minecraft Java Health - Hytale Data</title>
         </Head>
 
-        <ServerStats onLoaded={this.onLoaded} />
+        <ServerStats />
 
         <div id="server-middle" className="center">
-          <AddServer loaded={this.state.loaded} />
-          <ServerVersions loaded={this.state.loaded} />
+          <AddServer />
+          <ServerVersions />
         </div>
 
-        <ServerList onLoaded={this.onLoaded} />
+        <ServerList />
 
         <div
           id="popup"

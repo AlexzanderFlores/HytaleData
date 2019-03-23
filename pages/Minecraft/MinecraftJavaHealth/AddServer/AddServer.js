@@ -84,37 +84,35 @@ export default class AddServer extends React.Component {
 
   render() {
     return (
-      this.props.loaded && (
-        <div id="add-server" className="center">
-          <form onSubmit={this.onSubmit}>
-            <h2>Are we Missing a Server?</h2>
+      <div id="add-server" className="center">
+        <form onSubmit={this.onSubmit}>
+          <h2>Are we Missing a Server?</h2>
 
-            <div id="add-server-inputs">
-              <input
-                name="ip"
-                placeholder="Server IP"
-                value={this.state.ip}
-                onChange={this.onChange}
-                required
-              />
+          <div id="add-server-inputs">
+            <input
+              name="ip"
+              placeholder="Server IP"
+              value={this.state.ip}
+              onChange={this.onChange}
+              required
+            />
 
-              <input
-                name="name"
-                placeholder="Server Name"
-                value={this.state.name}
-                onChange={this.onChange}
-                required
-              />
-            </div>
+            <input
+              name="name"
+              placeholder="Server Name"
+              value={this.state.name}
+              onChange={this.onChange}
+              required
+            />
+          </div>
 
-            <button type="submit">Add Server</button>
+          <button type="submit">Add Server</button>
 
-            <div id="add-server-result" className="center">
-              {this.state.result}
-            </div>
-          </form>
-        </div>
-      )
+          <div id="add-server-result" className="center">
+            {this.state.result}
+          </div>
+        </form>
+      </div>
     );
   }
 }

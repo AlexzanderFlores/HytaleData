@@ -24,3 +24,7 @@
   max-height: 600px;
   height: 100%;
 }
+
+#server-stats-spinner-container {
+  height: 100%;
+}

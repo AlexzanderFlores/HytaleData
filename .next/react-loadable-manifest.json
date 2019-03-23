@@ -57,468 +57,340 @@
   ],
   "./SocialMedia.css": [
     {
-      "id": 356,
+      "id": 357,
       "name": "./pages/SocialMedia/SocialMedia.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./MainNavigation.css": [
     {
       "id": 500,
       "name": "./pages/Navigation/MainNavigation.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./Footer.css": [
     {
       "id": 501,
       "name": "./pages/Footer/Footer.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./LearnMore.css": [
     {
       "id": 511,
       "name": "./pages/Home/LearnMore/LearnMore.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./Recaptcha.css": [
     {
       "id": 516,
       "name": "./pages/Recaptcha/Recaptcha.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
-    }
-  ],
-  "./Checkbox.css": [
-    {
-      "id": 519,
-      "name": "./pages/Checkbox/Checkbox.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
-    }
-  ],
-  "./Modal.css": [
-    {
-      "id": 520,
-      "name": "./pages/Modal/Modal.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
-    }
-  ],
-  "./Server.css": [
-    {
-      "id": 521,
-      "name": "./pages/Minecraft/MinecraftJavaHealth/ServerList/Server/Server.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./Spinner.css": [
     {
-      "id": 522,
+      "id": 517,
       "name": "./pages/Spinner/Spinner.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
+    }
+  ],
+  "./Checkbox.css": [
+    {
+      "id": 520,
+      "name": "./pages/Checkbox/Checkbox.css",
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
+    }
+  ],
+  "./Modal.css": [
+    {
+      "id": 521,
+      "name": "./pages/Modal/Modal.css",
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
+    }
+  ],
+  "./Server.css": [
+    {
+      "id": 522,
+      "name": "./pages/Minecraft/MinecraftJavaHealth/ServerList/Server/Server.css",
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./About.css": [
     {
       "id": 564,
       "name": "./pages/About/About.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./BetaTesting.css": [
     {
       "id": 565,
       "name": "./pages/BetaTesting/BetaTesting.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./AboveTheFold.css": [
     {
       "id": 567,
       "name": "./pages/Home/AboveTheFold/AboveTheFold.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./AddServer.css": [
     {
       "id": 568,
       "name": "./pages/Minecraft/MinecraftJavaHealth/AddServer/AddServer.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./ServerStats.css": [
     {
       "id": 569,
       "name": "./pages/Minecraft/MinecraftJavaHealth/ServerStats/ServerStats.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./ServerList.css": [
     {
       "id": 570,
       "name": "./pages/Minecraft/MinecraftJavaHealth/ServerList/ServerList.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./ServerVersions.css": [
     {
       "id": 571,
       "name": "./pages/Minecraft/MinecraftJavaHealth/ServerVersions/ServerVersions.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./Solution.css": [
     {
       "id": 572,
       "name": "./pages/PlannedSolutions/Solution/Solution.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "undefined": [
     {
       "id": 594,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 598,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 599,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 600,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 602,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 606,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 607,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 608,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 609,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 615,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 619,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 623,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 626,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 628,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 637,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 639,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 640,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 641,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 644,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 645,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 646,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 648,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 658,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     },
     {
       "id": 660,
       "name": null,
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./AffiliateProgram.css": [
     {
       "id": 601,
       "name": "./pages/AffiliateProgram/AffiliateProgram.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./Contact.css": [
     {
       "id": 614,
       "name": "./pages/Contact/Contact.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./Error.css": [
     {
       "id": 618,
       "name": "./pages/Error/Error.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./Home.css": [
     {
       "id": 627,
       "name": "./pages/Home/Home.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./Legal.css": [
     {
       "id": 636,
       "name": "./pages/Legal/Legal.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./MinecraftJavaHealth.css": [
     {
       "id": 647,
       "name": "./pages/Minecraft/MinecraftJavaHealth/MinecraftJavaHealth.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ],
   "./PlannedSolutions.css": [
     {
       "id": 659,
       "name": "./pages/PlannedSolutions/PlannedSolutions.css",
-      "file": "static/chunks/styles.d1e55ca58aeadef63996.js",
-      "publicPath": "static/chunks/styles.d1e55ca58aeadef63996.js"
-    }
-  ],
-  "./SocialMedia.css": [
-    {
-      "id": "./pages/SocialMedia/SocialMedia.css",
-      "name": "./pages/SocialMedia/SocialMedia.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "undefined": [
-    {
-      "id": 4,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 5,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 6,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 7,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 8,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 9,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 10,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 11,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 12,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./MainNavigation.css": [
-    {
-      "id": "./pages/Navigation/MainNavigation.css",
-      "name": "./pages/Navigation/MainNavigation.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./Footer.css": [
-    {
-      "id": "./pages/Footer/Footer.css",
-      "name": "./pages/Footer/Footer.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./AboveTheFold.css": [
-    {
-      "id": "./pages/Home/AboveTheFold/AboveTheFold.css",
-      "name": "./pages/Home/AboveTheFold/AboveTheFold.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./LearnMore.css": [
-    {
-      "id": "./pages/Home/LearnMore/LearnMore.css",
-      "name": "./pages/Home/LearnMore/LearnMore.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./Checkbox.css": [
-    {
-      "id": "./pages/Checkbox/Checkbox.css",
-      "name": "./pages/Checkbox/Checkbox.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./Recaptcha.css": [
-    {
-      "id": "./pages/Recaptcha/Recaptcha.css",
-      "name": "./pages/Recaptcha/Recaptcha.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./BetaTesting.css": [
-    {
-      "id": "./pages/BetaTesting/BetaTesting.css",
-      "name": "./pages/BetaTesting/BetaTesting.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./Home.css": [
-    {
-      "id": "./pages/Home/Home.css",
-      "name": "./pages/Home/Home.css",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "file": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js",
+      "publicPath": "static/chunks/styles.2ff1fcc29dd8f2f3b034.js"
     }
   ]
 }

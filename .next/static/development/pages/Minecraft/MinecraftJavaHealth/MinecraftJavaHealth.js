@@ -44308,7 +44308,7 @@ function (_React$Component) {
   _createClass(AddServer, [{
     key: "render",
     value: function render() {
-      return this.props.loaded && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "add-server",
         className: "center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -44434,7 +44434,6 @@ function (_React$Component) {
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(MinecraftJavaHealth)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
-      loaded: false,
       left: "-350px",
       width: "350px",
       opacity: 1,
@@ -44489,12 +44488,6 @@ function (_React$Component) {
       });
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onLoaded", function () {
-      return _this.setState({
-        loaded: true
-      });
-    });
-
     return _this;
   }
 
@@ -44527,20 +44520,10 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavFooter__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        noNav: !this.state.loaded
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Minecraft Java Health - Hytale Data")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ServerStats_ServerStats__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        onLoaded: this.onLoaded
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavFooter__WEBPACK_IMPORTED_MODULE_2__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "Minecraft Java Health - Hytale Data")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ServerStats_ServerStats__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "server-middle",
         className: "center"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AddServer_AddServer__WEBPACK_IMPORTED_MODULE_5__["default"], {
-        loaded: this.state.loaded
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ServerVersions_ServerVersions__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        loaded: this.state.loaded
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ServerList_ServerList__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        onLoaded: this.onLoaded
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_AddServer_AddServer__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ServerVersions_ServerVersions__WEBPACK_IMPORTED_MODULE_6__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ServerList_ServerList__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "popup",
         className: "center",
         style: {
@@ -44795,7 +44778,7 @@ function (_React$Component) {
             case 7:
               _this.setState({
                 loaded: true
-              }, _this.props.onLoaded);
+              });
 
             case 8:
             case "end":
@@ -44993,8 +44976,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_chartjs_2__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-chartjs-2 */ "./node_modules/react-chartjs-2/es/index.js");
-/* harmony import */ var _ServerStats_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ServerStats.css */ "./pages/Minecraft/MinecraftJavaHealth/ServerStats/ServerStats.css");
-/* harmony import */ var _ServerStats_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_ServerStats_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Spinner_Spinner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../Spinner/Spinner */ "./pages/Spinner/Spinner.js");
+/* harmony import */ var _ServerStats_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ServerStats.css */ "./pages/Minecraft/MinecraftJavaHealth/ServerStats/ServerStats.css");
+/* harmony import */ var _ServerStats_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_ServerStats_css__WEBPACK_IMPORTED_MODULE_3__);
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -45016,6 +45000,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -45089,15 +45074,15 @@ function (_React$Component) {
         }
 
         _this2.setState({
+          loaded: true,
           timestamps: timestamps,
           hourDistance: hourDistance,
           totalPlayers: totalPlayers,
           currentPlayers: currentPlayers,
           totalServers: totalServers,
           recordPlayers: recordPlayers,
-          recordTimestamp: recordTimestamp,
-          loaded: true
-        }, _this2.props.onLoaded);
+          recordTimestamp: recordTimestamp
+        });
       }).catch(console.error);
     }
   }, {
@@ -45116,7 +45101,7 @@ function (_React$Component) {
         id: "minecraft-stats-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "minecraft-stats"
-      }, loaded && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, loaded ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "minecraft-stats-controls"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "minecraft-stats-global"
@@ -45169,7 +45154,12 @@ function (_React$Component) {
             }]
           }
         }
-      })))));
+      }))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "server-stats-spinner-container",
+        className: "center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Spinner_Spinner__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        display: true
+      }))));
     }
   }]);
 
@@ -45298,7 +45288,7 @@ function (_React$Component) {
     value: function render() {
       var _this3 = this;
 
-      return this.props.loaded && this.state.labels.length && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return this.state.labels.length && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "versions",
         className: "center"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Server Version Stats"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Click Key to Toggle Versions"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_chartjs_2__WEBPACK_IMPORTED_MODULE_1__["Doughnut"], {
@@ -45982,7 +45972,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 15:
+/***/ 3:
 /*!**************************************************************************!*\
   !*** multi ./pages/Minecraft/MinecraftJavaHealth/MinecraftJavaHealth.js ***!
   \**************************************************************************/
@@ -46007,5 +45997,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[15,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=MinecraftJavaHealth.js.map

@@ -63,12 +63,12 @@ app.prepare().then(async () => {
   server.use(compression());
 
   // Force HTTPS
-  server.use((req, res, next) => {
-    if (!isLocalHost(req) && req.protocol === "http") {
-      return res.redirect("https://" + req.get("host") + req.originalUrl);
-    }
-    next();
-  });
+  // server.use((req, res, next) => {
+  //   if (!isLocalHost(req) && req.protocol === "http") {
+  //     return res.redirect("https://" + req.get("host") + req.originalUrl);
+  //   }
+  //   next();
+  // });
 
   // Load swagger CSS
   let css = "";
@@ -279,7 +279,11 @@ app.prepare().then(async () => {
 
   server.get("*", (req, res) => {
     const parsedUrl = parse(req.url, true);
-    const { pathname, query } = parsedUrl;
+    let { pathname, query } = parsedUrl;
+
+    if (pathname !== "/" && pathname.endsWith("/")) {
+      pathname = pathname.substr(0, pathname.length - 1);
+    }
 
     const rootStaticFiles = ["/robots.txt", "/sitemap.xml", "/swagger.js"];
     if (rootStaticFiles.indexOf(pathname) > -1) {

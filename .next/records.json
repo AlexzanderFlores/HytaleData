@@ -1,147 +1,9 @@
 {
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/AffiliateProgram/AffiliateProgram.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/About/About.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/AffiliateProgram/AffiliateProgram.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Home/LearnMore/LearnMore.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Home/LearnMore/LearnMore.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Error/Error.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Error/Error.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Contact/Contact.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Contact/Contact.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/MinecraftJavaHealth.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/MinecraftJavaHealth.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Home/AboveTheFold/AboveTheFold.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Home/AboveTheFold/AboveTheFold.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/About/About.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -183,6 +45,75 @@
       }
     }
   ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Error/Error.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/Error/Error.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/AffiliateProgram/AffiliateProgram.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/AffiliateProgram/AffiliateProgram.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/BetaTesting/BetaTesting.css": [
     {
       "modules": {
@@ -206,34 +137,11 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/About/About.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/AddServer/AddServer.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/About/About.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/ServerList/ServerList.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/ServerList/ServerList.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/AddServer/AddServer.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -298,11 +206,11 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/ServerList/Server/Server.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/ServerList/ServerList.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/ServerList/Server/Server.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/ServerList/ServerList.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -321,11 +229,11 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/MinecraftJavaHealth.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/MinecraftJavaHealth.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -344,34 +252,11 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": 0,
-          "node_modules/css-loader/lib/css-base.js": 1
-        },
-        "usedIds": {
-          "0": 0,
-          "1": 1
-        }
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Modal/Modal.css": [
-    {
-      "modules": {
-        "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Modal/Modal.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -413,11 +298,11 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Home/AboveTheFold/AboveTheFold.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/Home/AboveTheFold/AboveTheFold.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -441,6 +326,98 @@
       "modules": {
         "byIdentifier": {
           "node_modules/css-loader/index.js??ref--5-1!pages/Spinner/Spinner.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/ServerList/Server/Server.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/ServerList/Server/Server.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/Legal/Legal.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -505,11 +482,11 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Modal/Modal.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/PlannedSolutions/Solution/Solution.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/Modal/Modal.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -528,11 +505,34 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/AddServer/AddServer.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Contact/Contact.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/AddServer/AddServer.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!pages/Contact/Contact.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!pages/Home/LearnMore/LearnMore.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!pages/Home/LearnMore/LearnMore.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -894,165 +894,165 @@
       "node_modules/crypto-js/sha256.js": 338,
       "node_modules/crypto-js/enc-base64.js": 339,
       "node_modules/@babel/runtime/regenerator/index.js": 340,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Checkbox/Checkbox.js": 341,
-      "node_modules/next/dist/lib/head.js": 342,
-      "node_modules/next/dist/lib/side-effect.js": 343,
-      "node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js": 344,
-      "node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js": 345,
-      "node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js": 346,
-      "node_modules/@babel/runtime-corejs2/core-js/array/from.js": 347,
-      "node_modules/core-js/library/fn/array/from.js": 348,
-      "node_modules/core-js/library/modules/es6.array.from.js": 349,
-      "node_modules/core-js/library/modules/_create-property.js": 350,
-      "node_modules/@babel/runtime-corejs2/core-js/is-iterable.js": 351,
-      "node_modules/core-js/library/fn/is-iterable.js": 352,
-      "node_modules/core-js/library/modules/core.is-iterable.js": 353,
-      "node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js": 354,
-      "node_modules/crypto-js/lib-typedarrays.js": 355,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": 356,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/UserPool.js": 357,
-      "node_modules/process/browser.js": 358,
-      "node_modules/chart.js/src/core/core.js": 359,
-      "node_modules/chart.js/src/helpers/helpers.easing.js": 360,
-      "node_modules/chart.js/src/helpers/helpers.canvas.js": 361,
-      "node_modules/chart.js/src/helpers/helpers.options.js": 362,
-      "node_modules/chart.js/src/core/core.helpers.js": 363,
-      "node_modules/chartjs-color/node_modules/color-convert/index.js": 364,
-      "node_modules/chartjs-color/node_modules/color-convert/conversions.js": 365,
-      "node_modules/chartjs-color-string/color-string.js": 366,
-      "node_modules/color-name/index.js": 367,
-      "node_modules/chart.js/src/elements/element.arc.js": 368,
-      "node_modules/chart.js/src/elements/element.line.js": 369,
-      "node_modules/chart.js/src/elements/element.point.js": 370,
-      "node_modules/chart.js/src/elements/element.rectangle.js": 371,
-      "node_modules/chart.js/src/platforms/platform.basic.js": 372,
-      "node_modules/chart.js/src/platforms/platform.dom.js": 373,
-      "node_modules/chart.js/src/core/core.controller.js": 374,
-      "node_modules/chart.js/src/core/core.datasetController.js": 375,
-      "node_modules/chart.js/src/scales/scale.linearbase.js": 376,
-      "node_modules/chart.js/src/scales/scale.category.js": 377,
-      "node_modules/chart.js/src/scales/scale.linear.js": 378,
-      "node_modules/chart.js/src/scales/scale.logarithmic.js": 379,
-      "node_modules/chart.js/src/scales/scale.radialLinear.js": 380,
-      "node_modules/chart.js/src/scales/scale.time.js": 381,
-      "node_modules/moment/locale sync /^\\.\\/.*$/": 382,
-      "node_modules/chart.js/src/controllers/controller.bar.js": 383,
-      "node_modules/chart.js/src/controllers/controller.bubble.js": 384,
-      "node_modules/chart.js/src/controllers/controller.doughnut.js": 385,
-      "node_modules/chart.js/src/controllers/controller.line.js": 386,
-      "node_modules/chart.js/src/controllers/controller.polarArea.js": 387,
-      "node_modules/chart.js/src/controllers/controller.radar.js": 388,
-      "node_modules/chart.js/src/controllers/controller.scatter.js": 389,
-      "node_modules/chart.js/src/charts/Chart.Bar.js": 390,
-      "node_modules/chart.js/src/charts/Chart.Bubble.js": 391,
-      "node_modules/chart.js/src/charts/Chart.Doughnut.js": 392,
-      "node_modules/chart.js/src/charts/Chart.Line.js": 393,
-      "node_modules/chart.js/src/charts/Chart.PolarArea.js": 394,
-      "node_modules/chart.js/src/charts/Chart.Radar.js": 395,
-      "node_modules/chart.js/src/charts/Chart.Scatter.js": 396,
-      "node_modules/chart.js/src/plugins/index.js": 397,
-      "node_modules/chart.js/src/plugins/plugin.filler.js": 398,
-      "node_modules/chart.js/src/plugins/plugin.legend.js": 399,
-      "node_modules/chart.js/src/plugins/plugin.title.js": 400,
-      "node_modules/lodash/_baseIsEqualDeep.js": 401,
-      "node_modules/lodash/_listCacheClear.js": 402,
-      "node_modules/lodash/_listCacheDelete.js": 403,
-      "node_modules/lodash/_listCacheGet.js": 404,
-      "node_modules/lodash/_listCacheHas.js": 405,
-      "node_modules/lodash/_listCacheSet.js": 406,
-      "node_modules/lodash/_stackClear.js": 407,
-      "node_modules/lodash/_stackDelete.js": 408,
-      "node_modules/lodash/_stackGet.js": 409,
-      "node_modules/lodash/_stackHas.js": 410,
-      "node_modules/lodash/_stackSet.js": 411,
-      "node_modules/lodash/_baseIsNative.js": 412,
-      "node_modules/lodash/_getRawTag.js": 413,
-      "node_modules/lodash/_objectToString.js": 414,
-      "node_modules/lodash/_isMasked.js": 415,
-      "node_modules/lodash/_coreJsData.js": 416,
-      "node_modules/lodash/_getValue.js": 417,
-      "node_modules/lodash/_mapCacheClear.js": 418,
-      "node_modules/lodash/_Hash.js": 419,
-      "node_modules/lodash/_hashClear.js": 420,
-      "node_modules/lodash/_hashDelete.js": 421,
-      "node_modules/lodash/_hashGet.js": 422,
-      "node_modules/lodash/_hashHas.js": 423,
-      "node_modules/lodash/_hashSet.js": 424,
-      "node_modules/lodash/_mapCacheDelete.js": 425,
-      "node_modules/lodash/_isKeyable.js": 426,
-      "node_modules/lodash/_mapCacheGet.js": 427,
-      "node_modules/lodash/_mapCacheHas.js": 428,
-      "node_modules/lodash/_mapCacheSet.js": 429,
-      "node_modules/lodash/_SetCache.js": 430,
-      "node_modules/lodash/_setCacheAdd.js": 431,
-      "node_modules/lodash/_setCacheHas.js": 432,
-      "node_modules/lodash/_arraySome.js": 433,
-      "node_modules/lodash/_cacheHas.js": 434,
-      "node_modules/lodash/_equalByTag.js": 435,
-      "node_modules/lodash/_Uint8Array.js": 436,
-      "node_modules/lodash/_mapToArray.js": 437,
-      "node_modules/lodash/_setToArray.js": 438,
-      "node_modules/lodash/_equalObjects.js": 439,
-      "node_modules/lodash/_getAllKeys.js": 440,
-      "node_modules/lodash/_baseGetAllKeys.js": 441,
-      "node_modules/lodash/_arrayPush.js": 442,
-      "node_modules/lodash/_getSymbols.js": 443,
-      "node_modules/lodash/_arrayFilter.js": 444,
-      "node_modules/lodash/stubArray.js": 445,
-      "node_modules/lodash/_arrayLikeKeys.js": 446,
-      "node_modules/lodash/_baseTimes.js": 447,
-      "node_modules/lodash/_baseIsArguments.js": 448,
-      "node_modules/lodash/stubFalse.js": 449,
-      "node_modules/lodash/_baseIsTypedArray.js": 450,
-      "node_modules/lodash/_baseUnary.js": 451,
-      "node_modules/lodash/_nodeUtil.js": 452,
-      "node_modules/lodash/_baseKeys.js": 453,
-      "node_modules/lodash/_isPrototype.js": 454,
-      "node_modules/lodash/_nativeKeys.js": 455,
-      "node_modules/lodash/_overArg.js": 456,
-      "node_modules/lodash/_getTag.js": 457,
-      "node_modules/lodash/_DataView.js": 458,
-      "node_modules/lodash/_Promise.js": 459,
-      "node_modules/lodash/_Set.js": 460,
-      "node_modules/lodash/_WeakMap.js": 461,
-      "node_modules/lodash/find.js": 462,
-      "node_modules/lodash/_createFind.js": 463,
-      "node_modules/lodash/_baseMatches.js": 464,
-      "node_modules/lodash/_baseIsMatch.js": 465,
-      "node_modules/lodash/_getMatchData.js": 466,
-      "node_modules/lodash/_baseMatchesProperty.js": 467,
-      "node_modules/lodash/get.js": 468,
-      "node_modules/lodash/_stringToPath.js": 469,
-      "node_modules/lodash/_memoizeCapped.js": 470,
-      "node_modules/lodash/memoize.js": 471,
-      "node_modules/lodash/toString.js": 472,
-      "node_modules/lodash/_baseToString.js": 473,
-      "node_modules/lodash/_arrayMap.js": 474,
-      "node_modules/lodash/hasIn.js": 475,
-      "node_modules/lodash/_baseHasIn.js": 476,
-      "node_modules/lodash/_hasPath.js": 477,
-      "node_modules/lodash/identity.js": 478,
-      "node_modules/lodash/property.js": 479,
-      "node_modules/lodash/_baseProperty.js": 480,
-      "node_modules/lodash/_basePropertyDeep.js": 481,
-      "node_modules/lodash/findIndex.js": 482,
-      "node_modules/lodash/_baseFindIndex.js": 483,
-      "node_modules/lodash/toInteger.js": 484,
-      "node_modules/lodash/toFinite.js": 485,
-      "node_modules/lodash/toNumber.js": 486,
-      "node_modules/lodash/_baseAssignValue.js": 487,
-      "node_modules/lodash/_defineProperty.js": 488,
-      "node_modules/lodash/_createAggregator.js": 489,
-      "node_modules/lodash/_arrayAggregator.js": 490,
-      "node_modules/lodash/_baseAggregator.js": 491,
-      "node_modules/lodash/_baseEach.js": 492,
-      "node_modules/lodash/_baseForOwn.js": 493,
-      "node_modules/lodash/_baseFor.js": 494,
-      "node_modules/lodash/_createBaseFor.js": 495,
-      "node_modules/lodash/_createBaseEach.js": 496,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Recaptcha/Recaptcha.js": 497,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Minecraft/MinecraftJavaHealth/ServerList/Server/Server.js": 498,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Spinner/Spinner.js": 499,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Spinner/Spinner.js": 341,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Checkbox/Checkbox.js": 342,
+      "node_modules/next/dist/lib/head.js": 343,
+      "node_modules/next/dist/lib/side-effect.js": 344,
+      "node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js": 345,
+      "node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js": 346,
+      "node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js": 347,
+      "node_modules/@babel/runtime-corejs2/core-js/array/from.js": 348,
+      "node_modules/core-js/library/fn/array/from.js": 349,
+      "node_modules/core-js/library/modules/es6.array.from.js": 350,
+      "node_modules/core-js/library/modules/_create-property.js": 351,
+      "node_modules/@babel/runtime-corejs2/core-js/is-iterable.js": 352,
+      "node_modules/core-js/library/fn/is-iterable.js": 353,
+      "node_modules/core-js/library/modules/core.is-iterable.js": 354,
+      "node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js": 355,
+      "node_modules/crypto-js/lib-typedarrays.js": 356,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/SocialMedia/SocialMedia.css": 357,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/UserPool.js": 358,
+      "node_modules/process/browser.js": 359,
+      "node_modules/chart.js/src/core/core.js": 360,
+      "node_modules/chart.js/src/helpers/helpers.easing.js": 361,
+      "node_modules/chart.js/src/helpers/helpers.canvas.js": 362,
+      "node_modules/chart.js/src/helpers/helpers.options.js": 363,
+      "node_modules/chart.js/src/core/core.helpers.js": 364,
+      "node_modules/chartjs-color/node_modules/color-convert/index.js": 365,
+      "node_modules/chartjs-color/node_modules/color-convert/conversions.js": 366,
+      "node_modules/chartjs-color-string/color-string.js": 367,
+      "node_modules/color-name/index.js": 368,
+      "node_modules/chart.js/src/elements/element.arc.js": 369,
+      "node_modules/chart.js/src/elements/element.line.js": 370,
+      "node_modules/chart.js/src/elements/element.point.js": 371,
+      "node_modules/chart.js/src/elements/element.rectangle.js": 372,
+      "node_modules/chart.js/src/platforms/platform.basic.js": 373,
+      "node_modules/chart.js/src/platforms/platform.dom.js": 374,
+      "node_modules/chart.js/src/core/core.controller.js": 375,
+      "node_modules/chart.js/src/core/core.datasetController.js": 376,
+      "node_modules/chart.js/src/scales/scale.linearbase.js": 377,
+      "node_modules/chart.js/src/scales/scale.category.js": 378,
+      "node_modules/chart.js/src/scales/scale.linear.js": 379,
+      "node_modules/chart.js/src/scales/scale.logarithmic.js": 380,
+      "node_modules/chart.js/src/scales/scale.radialLinear.js": 381,
+      "node_modules/chart.js/src/scales/scale.time.js": 382,
+      "node_modules/moment/locale sync /^\\.\\/.*$/": 383,
+      "node_modules/chart.js/src/controllers/controller.bar.js": 384,
+      "node_modules/chart.js/src/controllers/controller.bubble.js": 385,
+      "node_modules/chart.js/src/controllers/controller.doughnut.js": 386,
+      "node_modules/chart.js/src/controllers/controller.line.js": 387,
+      "node_modules/chart.js/src/controllers/controller.polarArea.js": 388,
+      "node_modules/chart.js/src/controllers/controller.radar.js": 389,
+      "node_modules/chart.js/src/controllers/controller.scatter.js": 390,
+      "node_modules/chart.js/src/charts/Chart.Bar.js": 391,
+      "node_modules/chart.js/src/charts/Chart.Bubble.js": 392,
+      "node_modules/chart.js/src/charts/Chart.Doughnut.js": 393,
+      "node_modules/chart.js/src/charts/Chart.Line.js": 394,
+      "node_modules/chart.js/src/charts/Chart.PolarArea.js": 395,
+      "node_modules/chart.js/src/charts/Chart.Radar.js": 396,
+      "node_modules/chart.js/src/charts/Chart.Scatter.js": 397,
+      "node_modules/chart.js/src/plugins/index.js": 398,
+      "node_modules/chart.js/src/plugins/plugin.filler.js": 399,
+      "node_modules/chart.js/src/plugins/plugin.legend.js": 400,
+      "node_modules/chart.js/src/plugins/plugin.title.js": 401,
+      "node_modules/lodash/_baseIsEqualDeep.js": 402,
+      "node_modules/lodash/_listCacheClear.js": 403,
+      "node_modules/lodash/_listCacheDelete.js": 404,
+      "node_modules/lodash/_listCacheGet.js": 405,
+      "node_modules/lodash/_listCacheHas.js": 406,
+      "node_modules/lodash/_listCacheSet.js": 407,
+      "node_modules/lodash/_stackClear.js": 408,
+      "node_modules/lodash/_stackDelete.js": 409,
+      "node_modules/lodash/_stackGet.js": 410,
+      "node_modules/lodash/_stackHas.js": 411,
+      "node_modules/lodash/_stackSet.js": 412,
+      "node_modules/lodash/_baseIsNative.js": 413,
+      "node_modules/lodash/_getRawTag.js": 414,
+      "node_modules/lodash/_objectToString.js": 415,
+      "node_modules/lodash/_isMasked.js": 416,
+      "node_modules/lodash/_coreJsData.js": 417,
+      "node_modules/lodash/_getValue.js": 418,
+      "node_modules/lodash/_mapCacheClear.js": 419,
+      "node_modules/lodash/_Hash.js": 420,
+      "node_modules/lodash/_hashClear.js": 421,
+      "node_modules/lodash/_hashDelete.js": 422,
+      "node_modules/lodash/_hashGet.js": 423,
+      "node_modules/lodash/_hashHas.js": 424,
+      "node_modules/lodash/_hashSet.js": 425,
+      "node_modules/lodash/_mapCacheDelete.js": 426,
+      "node_modules/lodash/_isKeyable.js": 427,
+      "node_modules/lodash/_mapCacheGet.js": 428,
+      "node_modules/lodash/_mapCacheHas.js": 429,
+      "node_modules/lodash/_mapCacheSet.js": 430,
+      "node_modules/lodash/_SetCache.js": 431,
+      "node_modules/lodash/_setCacheAdd.js": 432,
+      "node_modules/lodash/_setCacheHas.js": 433,
+      "node_modules/lodash/_arraySome.js": 434,
+      "node_modules/lodash/_cacheHas.js": 435,
+      "node_modules/lodash/_equalByTag.js": 436,
+      "node_modules/lodash/_Uint8Array.js": 437,
+      "node_modules/lodash/_mapToArray.js": 438,
+      "node_modules/lodash/_setToArray.js": 439,
+      "node_modules/lodash/_equalObjects.js": 440,
+      "node_modules/lodash/_getAllKeys.js": 441,
+      "node_modules/lodash/_baseGetAllKeys.js": 442,
+      "node_modules/lodash/_arrayPush.js": 443,
+      "node_modules/lodash/_getSymbols.js": 444,
+      "node_modules/lodash/_arrayFilter.js": 445,
+      "node_modules/lodash/stubArray.js": 446,
+      "node_modules/lodash/_arrayLikeKeys.js": 447,
+      "node_modules/lodash/_baseTimes.js": 448,
+      "node_modules/lodash/_baseIsArguments.js": 449,
+      "node_modules/lodash/stubFalse.js": 450,
+      "node_modules/lodash/_baseIsTypedArray.js": 451,
+      "node_modules/lodash/_baseUnary.js": 452,
+      "node_modules/lodash/_nodeUtil.js": 453,
+      "node_modules/lodash/_baseKeys.js": 454,
+      "node_modules/lodash/_isPrototype.js": 455,
+      "node_modules/lodash/_nativeKeys.js": 456,
+      "node_modules/lodash/_overArg.js": 457,
+      "node_modules/lodash/_getTag.js": 458,
+      "node_modules/lodash/_DataView.js": 459,
+      "node_modules/lodash/_Promise.js": 460,
+      "node_modules/lodash/_Set.js": 461,
+      "node_modules/lodash/_WeakMap.js": 462,
+      "node_modules/lodash/find.js": 463,
+      "node_modules/lodash/_createFind.js": 464,
+      "node_modules/lodash/_baseMatches.js": 465,
+      "node_modules/lodash/_baseIsMatch.js": 466,
+      "node_modules/lodash/_getMatchData.js": 467,
+      "node_modules/lodash/_baseMatchesProperty.js": 468,
+      "node_modules/lodash/get.js": 469,
+      "node_modules/lodash/_stringToPath.js": 470,
+      "node_modules/lodash/_memoizeCapped.js": 471,
+      "node_modules/lodash/memoize.js": 472,
+      "node_modules/lodash/toString.js": 473,
+      "node_modules/lodash/_baseToString.js": 474,
+      "node_modules/lodash/_arrayMap.js": 475,
+      "node_modules/lodash/hasIn.js": 476,
+      "node_modules/lodash/_baseHasIn.js": 477,
+      "node_modules/lodash/_hasPath.js": 478,
+      "node_modules/lodash/identity.js": 479,
+      "node_modules/lodash/property.js": 480,
+      "node_modules/lodash/_baseProperty.js": 481,
+      "node_modules/lodash/_basePropertyDeep.js": 482,
+      "node_modules/lodash/findIndex.js": 483,
+      "node_modules/lodash/_baseFindIndex.js": 484,
+      "node_modules/lodash/toInteger.js": 485,
+      "node_modules/lodash/toFinite.js": 486,
+      "node_modules/lodash/toNumber.js": 487,
+      "node_modules/lodash/_baseAssignValue.js": 488,
+      "node_modules/lodash/_defineProperty.js": 489,
+      "node_modules/lodash/_createAggregator.js": 490,
+      "node_modules/lodash/_arrayAggregator.js": 491,
+      "node_modules/lodash/_baseAggregator.js": 492,
+      "node_modules/lodash/_baseEach.js": 493,
+      "node_modules/lodash/_baseForOwn.js": 494,
+      "node_modules/lodash/_baseFor.js": 495,
+      "node_modules/lodash/_createBaseFor.js": 496,
+      "node_modules/lodash/_createBaseEach.js": 497,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Recaptcha/Recaptcha.js": 498,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Minecraft/MinecraftJavaHealth/ServerList/Server/Server.js": 499,
       "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Navigation/MainNavigation.css": 500,
       "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Footer/Footer.css": 501,
       "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Modal/Modal.js": 502,
@@ -1070,12 +1070,12 @@
       "node_modules/next/dist/lib/EventEmitter.js": 514,
       "node_modules/@babel/runtime-corejs2/core-js/object/assign.js": 515,
       "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Recaptcha/Recaptcha.css": 516,
-      "node_modules/@babel/runtime-corejs2/core-js/object/keys.js": 517,
-      "node_modules/@babel/runtime-corejs2/core-js/get-iterator.js": 518,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css": 519,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Modal/Modal.css": 520,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/ServerList/Server/Server.css": 521,
-      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Spinner/Spinner.css": 522,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Spinner/Spinner.css": 517,
+      "node_modules/@babel/runtime-corejs2/core-js/object/keys.js": 518,
+      "node_modules/@babel/runtime-corejs2/core-js/get-iterator.js": 519,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Checkbox/Checkbox.css": 520,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Modal/Modal.css": 521,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!pages/Minecraft/MinecraftJavaHealth/ServerList/Server/Server.css": 522,
       "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/BetaTesting/BetaTesting.js": 523,
       "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Features.js": 524,
       "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/Home/AboveTheFold/AboveTheFold.js": 525,
@@ -1921,44 +1921,44 @@
       "commons": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\About\\About.js": 4,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Account\\Account.js": 5,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\AffiliateProgram\\AffiliateProgram.js": 6,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\API.js": 7,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\BetaTesting\\BetaTesting.js": 8,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\BetaTesting\\BetaTestingComponent.js": 9,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Checkbox\\Checkbox.js": 10,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Contact\\Contact.js": 11,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Error\\Error.js": 12,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Features.js": 13,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Footer\\Footer.js": 14,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Home\\AboveTheFold\\AboveTheFold.js": 15,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Home\\Home.js": 16,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Home\\LearnMore\\LearnMore.js": 17,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Home\\PlannedSolutions\\ABTesting.js": 18,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Home\\PlannedSolutions\\GameStats.js": 19,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Home\\PlannedSolutions\\IncomeStats.js": 20,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Home\\PlannedSolutions\\MoreSolutions.js": 21,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Legal\\Legal.js": 22,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Minecraft\\MinecraftJavaHealth\\AddServer\\AddServer.js": 23,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Minecraft\\MinecraftJavaHealth\\MinecraftJavaHealth.js": 24,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Minecraft\\MinecraftJavaHealth\\ServerList\\Server\\Server.js": 25,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Minecraft\\MinecraftJavaHealth\\ServerList\\ServerList.js": 26,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Minecraft\\MinecraftJavaHealth\\ServerStats\\ServerStats.js": 27,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Minecraft\\MinecraftJavaHealth\\ServerVersions\\ServerVersions.js": 28,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Modal\\Modal.js": 29,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\NavFooter.js": 30,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Navigation\\MainNavigation.js": 31,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\PlannedSolutions\\PlannedSolutions.js": 32,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\PlannedSolutions\\Solution\\Solution.js": 33,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Recaptcha\\Recaptcha.js": 34,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\ScrollToTop.js": 35,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\SmartLink.js": 36,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\SocialMedia\\SocialMedia.js": 37,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\Spinner\\Spinner.js": 38,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\UserPool.js": 39,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\_app.js": 40,
-      "static\\m7Bo7oLdGGP42YkyLAvYB\\pages\\_error.js": 41
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\About\\About.js": 4,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Account\\Account.js": 5,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\AffiliateProgram\\AffiliateProgram.js": 6,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\API.js": 7,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\BetaTesting\\BetaTesting.js": 8,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\BetaTesting\\BetaTestingComponent.js": 9,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Checkbox\\Checkbox.js": 10,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Contact\\Contact.js": 11,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Error\\Error.js": 12,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Features.js": 13,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Footer\\Footer.js": 14,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Home\\AboveTheFold\\AboveTheFold.js": 15,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Home\\Home.js": 16,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Home\\LearnMore\\LearnMore.js": 17,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Home\\PlannedSolutions\\ABTesting.js": 18,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Home\\PlannedSolutions\\GameStats.js": 19,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Home\\PlannedSolutions\\IncomeStats.js": 20,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Home\\PlannedSolutions\\MoreSolutions.js": 21,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Legal\\Legal.js": 22,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Minecraft\\MinecraftJavaHealth\\AddServer\\AddServer.js": 23,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Minecraft\\MinecraftJavaHealth\\MinecraftJavaHealth.js": 24,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Minecraft\\MinecraftJavaHealth\\ServerList\\Server\\Server.js": 25,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Minecraft\\MinecraftJavaHealth\\ServerList\\ServerList.js": 26,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Minecraft\\MinecraftJavaHealth\\ServerStats\\ServerStats.js": 27,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Minecraft\\MinecraftJavaHealth\\ServerVersions\\ServerVersions.js": 28,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Modal\\Modal.js": 29,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\NavFooter.js": 30,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Navigation\\MainNavigation.js": 31,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\PlannedSolutions\\PlannedSolutions.js": 32,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\PlannedSolutions\\Solution\\Solution.js": 33,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Recaptcha\\Recaptcha.js": 34,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\ScrollToTop.js": 35,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\SmartLink.js": 36,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\SocialMedia\\SocialMedia.js": 37,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\Spinner\\Spinner.js": 38,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\UserPool.js": 39,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\_app.js": 40,
+      "static\\id~53x2vDgNgOCa79p78R\\pages\\_error.js": 41
     },
     "bySource": {},
     "usedIds": [

@@ -1,4 +1,5 @@
 import { Line } from "react-chartjs-2";
+import Spinner from "../../../Spinner/Spinner";
 import "./ServerStats.css";
 
 export default class ServerStats extends React.Component {
@@ -41,19 +42,16 @@ export default class ServerStats extends React.Component {
           totalServers = stats[keys[a]].totalServers;
         }
 
-        this.setState(
-          {
-            timestamps,
-            hourDistance,
-            totalPlayers,
-            currentPlayers,
-            totalServers,
-            recordPlayers,
-            recordTimestamp,
-            loaded: true
-          },
-          this.props.onLoaded
-        );
+        this.setState({
+          loaded: true,
+          timestamps,
+          hourDistance,
+          totalPlayers,
+          currentPlayers,
+          totalServers,
+          recordPlayers,
+          recordTimestamp
+        });
       })
       .catch(console.error);
   }
@@ -79,7 +77,7 @@ export default class ServerStats extends React.Component {
     return (
       <div id="minecraft-stats-container">
         <div id="minecraft-stats">
-          {loaded && (
+          {loaded ? (
             <>
               <div id="minecraft-stats-controls">
                 <div id="minecraft-stats-global">
@@ -149,6 +147,10 @@ export default class ServerStats extends React.Component {
                 />
               </div>
             </>
+          ) : (
+            <div id="server-stats-spinner-container" className="center">
+              <Spinner display={true} />
+            </div>
           )}
         </div>
       </div>

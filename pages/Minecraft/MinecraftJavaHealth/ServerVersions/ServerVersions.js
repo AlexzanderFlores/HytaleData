@@ -31,8 +31,7 @@ export default class ServerVersions extends React.Component {
 
   render() {
     return (
-      this.props.loaded &&
-      (this.state.labels.length && (
+      this.state.labels.length && (
         <div id="versions" className="center">
           <h2>Server Version Stats</h2>
           <strong>Click Key to Toggle Versions</strong>
@@ -81,7 +80,7 @@ export default class ServerVersions extends React.Component {
             height={275}
           />
         </div>
-      ))
+      )
     );
   }
 }
